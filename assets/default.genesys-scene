@@ -574,6 +574,18 @@
                 {
                   "uuid": "c4ac63ee-2bdc-4aef-8de7-bcf95d7c78bb",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "4cebf243-35ab-442e-97aa-685e93b0aba2",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "7c5c047a-3922-43da-9758-cae452d66d7a",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "abd3f682-207e-4b94-8834-c8f4e9377cd3",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 28.1,
@@ -588,8 +600,8 @@
               "name": "SpotLightComponent",
               "position": {
                 "_": [
-                  -9.084163,
-                  -2,
+                  -8.902727,
+                  -1.623276,
                   -2.8
                 ],
                 "$bc": "v3"
@@ -681,6 +693,18 @@
                 },
                 {
                   "uuid": "c904f90f-f497-43c4-b973-978f261d6e56",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "cee85123-e047-4749-b446-2148b6055aa3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2e627697-fe3c-4651-9dac-44cd167edd72",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "290562e9-fd03-4dc8-aab2-524a7215aa6b",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -1059,7 +1083,229 @@
         "name": "Actor_416",
         "$bc": "ENGINE.Actor"
       },
-      "$length": 25
+      "25": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 10
+                },
+                {
+                  "uuid": "db93e09e-e0d6-4935-bd53-35b80bb5364d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "eca17f46-6048-47b4-b273-30875196e879",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "89aedd00-4e18-434a-a7ee-007e6b373da5",
+                  "$bc": "THREE.Object3D"
+                }
+              ],
+              "intensity": 23,
+              "light": {
+                "$ref": 10
+              },
+              "uuid": "664ec5d969b6f5e4",
+              "name": "SpotLightComponent",
+              "position": {
+                "_": [
+                  -8.270951,
+                  -2.621447,
+                  -3.049632
+                ],
+                "$bc": "v3"
+              },
+              "rotation": {
+                "_": [
+                  0,
+                  0,
+                  -0.436332
+                ],
+                "$bc": "e"
+              },
+              "$bc": "ENGINE.SpotLightComponent"
+            },
+            {
+              "children": [
+                {
+                  "$ref": 11
+                },
+                {
+                  "uuid": "e7f6348ca58e5f4b",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "83e41996-32af-4759-a55b-d8b4253d42ee",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "ad6cd33f-b670-43ba-bee7-b05a678ec6f4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1d37bdd7-bca8-4453-a565-552f9d29e59a",
+                  "$bc": "THREE.Object3D"
+                }
+              ],
+              "intensity": 23,
+              "light": {
+                "$ref": 11
+              },
+              "uuid": "f33f9c59b497d46e",
+              "name": "SpotLightComponent_02",
+              "position": {
+                "_": [
+                  -8.270951,
+                  -2.621447,
+                  2.21137
+                ],
+                "$bc": "v3"
+              },
+              "rotation": {
+                "_": [
+                  0,
+                  0,
+                  -0.436332
+                ],
+                "$bc": "e"
+              },
+              "$bc": "ENGINE.SpotLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/car 2.glb",
+          "uuid": "1de6ec2f-a6ca-48da-8df8-7c4566f8aa9e",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -0.56824,
+              0.279418,
+              -9.184645
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              0.25,
+              0.25,
+              0.25
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "680085baa5e88aaf",
+        "name": "GLTFMeshActor_290",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "26": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Hedge.glb",
+          "uuid": "95c70690dd67a8c9",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              4.867622,
+              -0.884932,
+              -17.342079
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.342331,
+              0.272241,
+              0.075321
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "c671382434e6e337",
+        "name": "GLTFMeshActor_299",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "27": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Hedge.glb",
+          "uuid": "a7db2153d2228152",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -8.320137,
+              -0.884932,
+              -25.489639
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.342331,
+              0.272241,
+              0.075321
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "246e4591a306b39c",
+        "name": "GLTFMeshActor_300",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "28": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Hedge.glb",
+          "uuid": "6d9222ad0e5930bb",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -8.320137,
+              -0.884932,
+              -17.055371
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.342331,
+              0.272241,
+              0.075321
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "bce9a240f07270b3",
+        "name": "GLTFMeshActor_301",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "$length": 29
     },
     "resources": null,
     "editorData": {
@@ -1163,6 +1409,22 @@
           },
           {
             "id": "592a560fb1a8e2b3",
+            "nodeType": "actor"
+          },
+          {
+            "id": "680085baa5e88aaf",
+            "nodeType": "actor"
+          },
+          {
+            "id": "c671382434e6e337",
+            "nodeType": "actor"
+          },
+          {
+            "id": "246e4591a306b39c",
+            "nodeType": "actor"
+          },
+          {
+            "id": "bce9a240f07270b3",
             "nodeType": "actor"
           }
         ]
@@ -1401,6 +1663,48 @@
             "$bc": "c"
           },
           28.1,
+          0,
+          1.047198,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.SpotLight"
+    },
+    {
+      "$id": 10,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              1
+            ],
+            "$bc": "c"
+          },
+          23,
+          0,
+          1.047198,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.SpotLight"
+    },
+    {
+      "$id": 11,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              1
+            ],
+            "$bc": "c"
+          },
+          23,
           0,
           1.047198,
           0,
