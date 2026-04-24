@@ -14,6 +14,13 @@ export function registerMetadata(): void {
         "max": 80,
         "step": 1,
         "category": "Camera"
+      },
+      "visualGroundClearance": {
+        "type": "number",
+        "min": -1,
+        "max": 2,
+        "step": 0.001,
+        "category": "Visual"
       }
     });
 

@@ -6,8 +6,7 @@
  *   └─ cameraPivot  ← fixed isometric angle baked in at setup
  *      └─ springArm
  *         └─ camera
- *   └─ animationComponent
- *   └─ visualMesh   ← rotation.y updated each frame to face movement
+ *   └─ visualMesh (Grim.glb) ← rotation.y + gentle vertical bob; no skeletal animation
  *   └─ movementComponent (IsometricMovementComponent)
  */
 import * as THREE from 'three';
@@ -22,9 +21,30 @@ import { ISO_YAW, IsometricMovementComponent } from '../components/movement/Isom
 const ISO_PITCH = -Math.atan(1 / Math.sqrt(2));
 const ROTATE_SPEED  = 20;                             // rad/s – visual mesh facing
 
+const GRIM_MODEL_URL = `${ENGINE.PROJECT_PATH_PREFIX}/assets/models/Grim.glb` as ENGINE.ModelPath;
+
+/** Same scale as editor Grim in `default.genesys-scene` actor `62` (no extra size multiplier). */
+const GRIM_VISUAL_SCALE = new THREE.Vector3(1.384186, 1.398043, 1);
+
+/** Editor-placed Grim prop to remove at runtime (same mesh + scale now lives on the pawn). */
+const SCENE_PLACEHOLDER_GRIM_ACTOR_UUID = '8c22bf6ad6ba2932';
+
+/** Eye point lights — local space under the Grim mesh (from scene actor `62`). */
+const GRIM_EYE_COLOR = new THREE.Color(0.234551, 0.665387, 0.03434);
+const GRIM_EYE_INTENSITY = 2.5;
+const GRIM_EYE_LEFT_POS = new THREE.Vector3(-0.087567, 0.570423, 0.437998);
+const GRIM_EYE_RIGHT_POS = new THREE.Vector3(0.062339, 0.570423, 0.437998);
+const GRIM_EYE_LIGHT_SCALE = new THREE.Vector3(1, 1, 0.184712);
+
+/** World units – peak vertical offset for idle float (sine amplitude). */
+const FLOAT_BOB_AMPLITUDE = 0.07;
+/** Bob angular speed (rad/s). */
+const FLOAT_BOB_SPEED = 2.2;
+
 /** Spawn options for {@link IsometricPlayerPawn.create} (used by `pawnFactory` in `game.ts`). */
 export type IsometricPlayerPawnOptions = ENGINE.CharacterPawnOptions & {
   cameraDistance?: number;
+  visualGroundClearance?: number;
 };
 
 @ENGINE.GameClass()
@@ -37,18 +57,80 @@ export class IsometricPlayerPawn extends ENGINE.CharacterPawn {
   @ENGINE.property({ type: 'number', min: 5, max: 80, step: 1, category: 'Camera' })
   public cameraDistance: number = 35 * 1.15;
 
+  /**
+   * Direct local Y of the Grim mesh relative to the capsule root.
+   * 0.292 = editor-tuned value where the mesh sits cleanly above the ground.
+   * Does not affect physics/capsule.
+   */
+  @ENGINE.property({ type: 'number', min: -1, max: 2, step: 0.001, category: 'Visual' })
+  public visualGroundClearance: number = 0.292;
+
   public override initialize(options?: IsometricPlayerPawnOptions): void {
     if (options?.cameraDistance != null) {
       this.cameraDistance = options.cameraDistance;
     }
+    if (options?.visualGroundClearance != null) {
+      this.visualGroundClearance = options.visualGroundClearance;
+    }
     super.initialize(options);
+  }
+
+  /** Direct local Y of the visual root before the float bob offset is applied. */
+  private getVisualMeshBaseLocalY(): number {
+    return this.visualGroundClearance;
   }
 
   // ── Internal state ────────────────────────────────────────────────────────
 
   private _facingYaw: number = Math.PI; // start facing engine forward (-Z)
 
+  private _floatPhase: number = 0;
+
+  private _sceneGrimPlaceholderRemoved: boolean = false;
+
   // ── Component factory overrides ───────────────────────────────────────────
+
+  /** Grim has no rigged locomotion clips — skip the mannequin state machine. */
+  protected override setupAnimationComponent(): ENGINE.AnimationStateMachineComponent | null {
+    return null;
+  }
+
+  /**
+   * Grim mesh at the same scale as the editor-placed reference in `default.genesys-scene`,
+   * plus matching eye point lights as child components.
+   */
+  protected override setupVisualComponent(): ENGINE.SceneComponent | null {
+    const meshComponent = ENGINE.GLTFMeshComponent.create({
+      modelUrl: GRIM_MODEL_URL,
+      scale: GRIM_VISUAL_SCALE.clone(),
+      rotation: new THREE.Euler(0, Math.PI, 0),
+      position: new THREE.Vector3(0, this.getVisualMeshBaseLocalY(), 0),
+      physicsOptions: { enabled: false },
+      castShadow: true,
+    });
+
+    const eyeOpts = {
+      color: GRIM_EYE_COLOR,
+      intensity: GRIM_EYE_INTENSITY,
+      scale: GRIM_EYE_LIGHT_SCALE.clone(),
+      castShadow: false,
+      bakeLightmaps: false,
+    } as const;
+
+    const eyeLeft = ENGINE.PointLightComponent.create({
+      ...eyeOpts,
+      position: GRIM_EYE_LEFT_POS.clone(),
+    });
+    const eyeRight = ENGINE.PointLightComponent.create({
+      ...eyeOpts,
+      position: GRIM_EYE_RIGHT_POS.clone(),
+    });
+    meshComponent.add(eyeLeft);
+    meshComponent.add(eyeRight);
+
+    this.rootComponent.add(meshComponent);
+    return meshComponent;
+  }
 
   protected override createMovementComponent(): ENGINE.BasePawnMovementComponent {
     const mc = IsometricMovementComponent.create();
@@ -99,8 +181,11 @@ export class IsometricPlayerPawn extends ENGINE.CharacterPawn {
       this.springArm.armLength = this.cameraDistance;
     }
 
+    this._removeSceneGrimPlaceholderOnce();
+
     super.tickPrePhysics(deltaTime); // handles animation parameters
     this._updateVisualFacing(deltaTime);
+    this._updateFloatingBob(deltaTime);
   }
 
   // ── Visual facing ─────────────────────────────────────────────────────────
@@ -121,6 +206,28 @@ export class IsometricPlayerPawn extends ENGINE.CharacterPawn {
     this._facingYaw += Math.sign(diff) * Math.min(Math.abs(diff), ROTATE_SPEED * deltaTime);
 
     this.visualComponent.rotation.y = this._facingYaw;
+  }
+
+  /** Drop the level-authoring Grim instance so only the pawn copy exists at runtime. */
+  private _removeSceneGrimPlaceholderOnce(): void {
+    if (this._sceneGrimPlaceholderRemoved) return;
+    const world = this.getWorld();
+    if (!world) return;
+    for (const actor of world.getActors()) {
+      if (actor.uuid === SCENE_PLACEHOLDER_GRIM_ACTOR_UUID) {
+        actor.destroy();
+        this._sceneGrimPlaceholderRemoved = true;
+        return;
+      }
+    }
+  }
+
+  private _updateFloatingBob(deltaTime: number): void {
+    const vis = this.visualComponent;
+    if (!vis) return;
+    this._floatPhase += deltaTime * FLOAT_BOB_SPEED;
+    const baseY = this.getVisualMeshBaseLocalY();
+    vis.position.y = baseY + Math.sin(this._floatPhase) * FLOAT_BOB_AMPLITUDE;
   }
 
   // ── Animation parameters ─────────────────────────────────────────────────

@@ -7,6 +7,7 @@
     "postinstall": "pnpm exec tsx ./scripts/genesys/post-install.ts && pnpm rebuild @gnsx/genesys.harness",
     "lint": "eslint . --fix --ext .ts,.tsx",
     "remove-engine-comments": "pnpm exec tsx ./scripts/genesys/remove-engine-comments.ts",
+    "sync-assets": "pnpm exec tsx ./scripts/genesys/sync-project-assets-to-dist.ts",
     "dev": "pnpm exec tsx ./scripts/genesys/dev/generate-manifest.ts && vite",
     "validate-prefabs": "pnpm exec tsx ./scripts/genesys/validate-prefabs.ts",
     "install-developer-skills": "pnpm exec tsx ./scripts/genesys/install-developer-skills.ts"

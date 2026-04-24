@@ -1,0 +1,18 @@
+{
+  "externalAnimationSources": [],
+  "parameters": {
+    "param_0": 0
+  },
+  "states": {
+    "Shouting_Angrily": {
+      "transitions": [],
+      "clip": "Shouting_Angrily",
+      "clipOptions": {}
+    }
+  },
+  "initialState": "Shouting_Angrily",
+  "oneShotClips": [
+    "Shouting_Angrily"
+  ],
+  "clipOptions": {}
+}
