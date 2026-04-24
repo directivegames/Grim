@@ -12,8 +12,8 @@ importers:
         specifier: latest
         version: 0.0.6
       '@gnsx/genesys.js':
-        specifier: 10.1.2
-        version: 10.1.2(@gltf-transform/core@4.3.0)(@gltf-transform/extensions@4.3.0)(@gltf-transform/functions@4.3.0)(@types/three@0.184.0)
+        specifier: 10.1.4
+        version: 10.1.4(@gltf-transform/core@4.3.0)(@gltf-transform/extensions@4.3.0)(@gltf-transform/functions@4.3.0)(@types/three@0.184.0)
       three:
         specifier: 0.184.0
         version: 0.184.0
@@ -58,8 +58,8 @@ importers:
         specifier: 26.1.0
         version: 26.1.0(canvas@3.1.0)
       nanoid:
-        specifier: 5.1.7
-        version: 5.1.7
+        specifier: 5.1.9
+        version: 5.1.9
       ts-morph:
         specifier: 26.0.0
         version: 26.0.0
@@ -343,8 +343,8 @@ packages:
   '@gnsx/genesys.harness@0.0.6':
     resolution: {integrity: sha512-Y2+3BL8AR0xDVp1oZ0M7hZACJ69t5Ncel5P5EwYGrZcvxDPDqnEbjgDyrssHQKYmp5J6osy+8dWlIALV1LoZhA==}
 
-  '@gnsx/genesys.js@10.1.2':
-    resolution: {integrity: sha512-AWrVSxaxpcf+zpOQEnWskur7z55orWCuZEeCP+gpbndVFxFDU3fQXJNDHLR3wkkdBQbfIUJnP+q4CSN/aMtnkQ==}
+  '@gnsx/genesys.js@10.1.4':
+    resolution: {integrity: sha512-BGR0GE4gauzbUX2pDBZjBALbbhvH2w+fkvIxCaah2gjdiC20CWsWxPT2pBnhTlXGGMgupsZJ5t4qgYUpe0wq7Q==}
 
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
@@ -1663,8 +1663,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@5.1.7:
-    resolution: {integrity: sha512-ua3NDgISf6jdwezAheMOk4mbE1LXjm1DfMUDMuJf4AqxLFK3ccGpgWizwa5YV7Yz9EpXwEaWoRXSb/BnV0t5dQ==}
+  nanoid@5.1.9:
+    resolution: {integrity: sha512-ZUvP7KeBLe3OZ1ypw6dI/TzYJuvHP77IM4Ry73waSQTLn8/g8rpdjfyVAh7t1/+FjBtG4lCP42MEbDxOsRpBMw==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -2564,7 +2564,7 @@ snapshots:
 
   '@gnsx/genesys.harness@0.0.6': {}
 
-  '@gnsx/genesys.js@10.1.2(@gltf-transform/core@4.3.0)(@gltf-transform/extensions@4.3.0)(@gltf-transform/functions@4.3.0)(@types/three@0.184.0)':
+  '@gnsx/genesys.js@10.1.4(@gltf-transform/core@4.3.0)(@gltf-transform/extensions@4.3.0)(@gltf-transform/functions@4.3.0)(@types/three@0.184.0)':
     dependencies:
       '@dimforge/rapier3d-compat': 0.18.2
       '@recast-navigation/three': 0.39.0(@types/three@0.184.0)(three@0.184.0)
@@ -2573,7 +2573,7 @@ snapshots:
       esbuild-wasm: 0.25.12
       jiti: 2.6.1
       manifold-3d: 3.4.1(@gltf-transform/core@4.3.0)(@gltf-transform/extensions@4.3.0)(@gltf-transform/functions@4.3.0)(esbuild-wasm@0.25.12)
-      nanoid: 5.1.7
+      nanoid: 5.1.9
       nipplejs: 0.10.2
       postprocessing: 6.39.1(three@0.184.0)
       recast-navigation: 0.39.0
@@ -3987,7 +3987,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  nanoid@5.1.7: {}
+  nanoid@5.1.9: {}
 
   napi-build-utils@2.0.0: {}
 

@@ -14,7 +14,7 @@
   "packageManager": "pnpm@10.25.0",
   "type": "module",
   "dependencies": {
-    "@gnsx/genesys.js": "10.1.2",
+    "@gnsx/genesys.js": "10.1.4",
     "three": "0.184.0",
     "@gnsx/genesys.harness": "latest"
   },
@@ -37,7 +37,7 @@
     "eslint": "9.24.0",
     "get-port": "7.1.0",
     "jsdom": "26.1.0",
-    "nanoid": "5.1.7",
+    "nanoid": "5.1.9",
     "ts-morph": "26.0.0",
     "tsx": "4.20.3",
     "turbo": "2.8.11",

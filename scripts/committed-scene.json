@@ -53,8 +53,6 @@
             ],
             "$bc": "v3"
           },
-          "castShadow": true,
-          "receiveShadow": true,
           "$bc": "ENGINE.SceneComponent"
         },
         "uuid": "5131461049bd365a",
@@ -209,14 +207,14 @@
             "_": [
               -1.7,
               3.8,
-              -26.713425
+              -20.1
             ],
             "$bc": "v3"
           },
           "$bc": "ENGINE.GLTFMeshComponent"
         },
         "uuid": "e68eba66977ac36b",
-        "name": "2 Stoery house",
+        "name": "GLTFMeshActor_31",
         "$bc": "ENGINE.GLTFMeshActor"
       },
       "8": {
@@ -244,7 +242,7 @@
             "_": [
               -1.9,
               0.8,
-              -24.484831
+              -18.25
             ],
             "$bc": "v3"
           },
@@ -279,14 +277,14 @@
             "_": [
               -2.8,
               4.1,
-              -25.113425
+              -18.5
             ],
             "$bc": "v3"
           },
           "$bc": "ENGINE.PointLightComponent"
         },
         "uuid": "f3b6edce5a651ad2",
-        "name": "Actor_29",
+        "name": "Actor_22",
         "$bc": "ENGINE.Actor"
       },
       "10": {
@@ -618,39 +616,13 @@
                 {
                   "uuid": "06f8e64f-2120-4509-b6fb-cebc99bd7280",
                   "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "5aecd742-0c59-403c-a9e2-e06ebdc31a11",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "ff3c55cb-27ca-4b4e-8f1c-6a7bcff11b55",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "8d816737-1a03-4a26-bbb1-41adc5fb485d",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "187e902d-4243-4fcd-aba1-572584673618",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "5242199a-6b25-4393-928b-72c349d44f15",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "1320b903-2d94-4ad8-a794-8b7bb7ce3e3f",
-                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 28.1,
               "shadowMapSize": 1080,
-              "shadowBias": 7,
-              "shadowNormalBias": 4.2,
-              "shadowNear": 39.5,
-              "shadowFar": 34,
-              "shadowRadius": 4.7,
+              "shadowNear": 3,
+              "shadowFar": 5.4,
+              "shadowRadius": 2.8,
               "light": {
                 "$ref": 8
               },
@@ -673,6 +645,7 @@
                 "$bc": "e"
               },
               "castShadow": true,
+              "receiveShadow": true,
               "$bc": "ENGINE.SpotLightComponent"
             },
             {
@@ -822,30 +795,6 @@
                 },
                 {
                   "uuid": "91978184-971e-413c-a1d4-29df12b0418d",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "b5f9d3a4-bf5f-4b21-a10e-8d9d00e6e674",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "aff44715-5b4c-4ac7-afff-458a409491e3",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "47415b7f-eb9d-4bcf-ae93-7297b186dd3e",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "74bd1063-6c0c-4acf-b788-3832fc779760",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "3529b29e-78c1-4c17-a47c-6d064c98efdc",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "77c3171e-57fb-4620-a29d-0ed0de49889f",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -1306,30 +1255,6 @@
                 {
                   "uuid": "1a11b8ce-543a-4995-a6f8-4c533a544cdb",
                   "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "023b1648-edee-4748-9fe2-c570b16e3caf",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "bc380f76-d40f-421e-b2b4-7022c64275e0",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "826cdb6d-c900-440a-805a-473e75b9a8ec",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "2d335ed9-d10f-4c36-b6d2-ebb8f55b8e75",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "b803c26b-9043-44b6-9eb9-7ebb832589c6",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "9124e96d-1ecf-46da-b3f6-1836b0f2b393",
-                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 23,
@@ -1439,30 +1364,6 @@
                 {
                   "uuid": "e879217b-f8f7-4bf0-9c65-37a8f1583e2f",
                   "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "872683fd-03b3-47cd-8f4a-2e3b68f9fd29",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "c74b828e-dac0-4559-be64-139a1d3ec72d",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "c4eb04e1-c120-4054-bd48-f61b36d96b64",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "ee7fb516-52ae-491e-a516-3833b8a02630",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "b341f50b-62e0-4205-8db3-3a40309e2723",
-                  "$bc": "THREE.Object3D"
-                },
-                {
-                  "uuid": "1c80820b-0e30-4bea-863b-07b67408f404",
-                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 23,
@@ -1523,6 +1424,111 @@
       },
       "25": {
         "rootComponent": {
+          "modelUrl": "@project/assets/models/Hedge.glb",
+          "uuid": "95c70690dd67a8c9",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              4.867622,
+              -0.884932,
+              -17.342079
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.342331,
+              0.272241,
+              0.075321
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "c671382434e6e337",
+        "name": "Bush",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "26": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Hedge.glb",
+          "uuid": "a7db2153d2228152",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -8.320137,
+              -0.884932,
+              -25.489639
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.342331,
+              0.272241,
+              0.075321
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "246e4591a306b39c",
+        "name": "Bush_02",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "27": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Hedge.glb",
+          "uuid": "6d9222ad0e5930bb",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -8.320137,
+              -0.884932,
+              -17.055371
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.342331,
+              0.272241,
+              0.075321
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "bce9a240f07270b3",
+        "name": "Bush ",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "28": {
+        "rootComponent": {
           "modelUrl": "@project/assets/models/Bin.glb",
           "uuid": "2e2342c9-1586-466d-91ab-7e8cf2872239",
           "name": "GLTFMeshComponent",
@@ -1548,7 +1554,7 @@
         "name": "GLTFMeshActor_343",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "26": {
+      "29": {
         "rootComponent": {
           "physicsOptions": {
             "collisionMeshType": "boundingBox"
@@ -1586,385 +1592,42 @@
         "name": "Car type 2",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "27": {
-        "rootComponent": {
-          "children": [
-            {
-              "children": [
-                {
-                  "$ref": 12
-                }
-              ],
-              "color": {
-                "_": [
-                  1,
-                  0,
-                  0
-                ],
-                "$bc": "c"
-              },
-              "intensity": 49.1,
-              "light": {
-                "$ref": 12
-              },
-              "uuid": "3b078663f0d85090",
-              "name": "Point Light",
-              "position": {
-                "_": [
-                  0,
-                  0,
-                  1.3
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.PointLightComponent"
-            }
-          ],
-          "modelUrl": "@project/assets/models/Spooky house.glb",
-          "uuid": "6fee71aa-cfe7-4a59-aabe-eb2cc1315fb2",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              29.5,
-              3.9,
-              -26
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "234c95274d7441f3",
-        "name": "Spooky house",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
-      "28": {
-        "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "8b9a4fc0-1e38-49d0-ab6f-a539b9d5543c",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              23.982287,
-              -0.1,
-              -16.3
-            ],
-            "$bc": "v3"
-          },
-          "rotation": {
-            "_": [
-              0,
-              1.570796,
-              0
-            ],
-            "$bc": "e"
-          },
-          "scale": {
-            "_": [
-              0.19,
-              0.17,
-              0.153899
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "4800108f410ed648",
-        "name": "New hedge",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
-      "29": {
-        "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "654eef4cf4fd9ffa",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              23.982287,
-              -0.1,
-              -25.4
-            ],
-            "$bc": "v3"
-          },
-          "rotation": {
-            "_": [
-              0,
-              1.570796,
-              0
-            ],
-            "$bc": "e"
-          },
-          "scale": {
-            "_": [
-              0.19,
-              0.17,
-              0.153899
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "4c4bd6f575c25098",
-        "name": "New hedge_02",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
       "30": {
         "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "b34dea6694f0d41b",
+          "modelUrl": "@project/assets/models/Bin.glb",
+          "uuid": "a9c35868b5bff126",
           "name": "GLTFMeshComponent",
           "position": {
             "_": [
-              35.949547,
-              -0.1,
-              -25.4
+              8.189708,
+              -0.557035,
+              -10.873028
             ],
             "$bc": "v3"
           },
           "rotation": {
             "_": [
               0,
-              1.570796,
+              -0.820305,
               0
             ],
             "$bc": "e"
           },
           "scale": {
             "_": [
-              0.19,
-              0.17,
-              0.153899
+              3,
+              3,
+              3
             ],
             "$bc": "v3"
           },
           "$bc": "ENGINE.GLTFMeshComponent"
         },
-        "uuid": "e5c4855f016f44e3",
-        "name": "New hedge_03",
+        "uuid": "90a48f52a80f3fe7",
+        "name": "GLTFMeshActor_344",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "31": {
-        "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "637fec8ca6de1784",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              35.949547,
-              -0.1,
-              -17
-            ],
-            "$bc": "v3"
-          },
-          "rotation": {
-            "_": [
-              0,
-              1.570796,
-              0
-            ],
-            "$bc": "e"
-          },
-          "scale": {
-            "_": [
-              0.19,
-              0.17,
-              0.153899
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "b378b9c84ae69a1d",
-        "name": "New hedge_04",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
-      "32": {
-        "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "6c8bbc276fb14968",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              34.480507,
-              -0.1,
-              -12.7
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              0.07695,
-              0.17,
-              0.22
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "df04037945d026a5",
-        "name": "New hedge_05",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
-      "33": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "d5b9efe7150d4e5c",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              28.9,
-              -1.025948,
-              -15.2
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "1fa4e258a48edd4f",
-        "name": "Actor_418",
-        "$bc": "ENGINE.Actor"
-      },
-      "34": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "896f93a254cb8800",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              28.9,
-              -1.025948,
-              -25.208088
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "0b699474b671f2c4",
-        "name": "Actor_419",
-        "$bc": "ENGINE.Actor"
-      },
-      "35": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "d4faf792d50dc6f5",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              18.974672,
-              -1.025948,
-              -25.208088
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "3e023cb92ac4b3ef",
-        "name": "Actor_420",
-        "$bc": "ENGINE.Actor"
-      },
-      "36": {
-        "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "6c81b06f5c818aa2",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              -8.197144,
-              -0.1,
-              -25.4
-            ],
-            "$bc": "v3"
-          },
-          "rotation": {
-            "_": [
-              0,
-              1.570796,
-              0
-            ],
-            "$bc": "e"
-          },
-          "scale": {
-            "_": [
-              0.19,
-              0.17,
-              0.153899
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "b47d8fc873d6b8b3",
-        "name": "New hedge_06",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
-      "37": {
-        "rootComponent": {
-          "modelUrl": "@project/assets/models/New hedge.glb",
-          "uuid": "5452735b1735e67f",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "_": [
-              -8.197144,
-              -0.1,
-              -16.3
-            ],
-            "$bc": "v3"
-          },
-          "rotation": {
-            "_": [
-              0,
-              1.570796,
-              0
-            ],
-            "$bc": "e"
-          },
-          "scale": {
-            "_": [
-              0.19,
-              0.17,
-              0.153899
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.GLTFMeshComponent"
-        },
-        "uuid": "4d786f09f69cc85f",
-        "name": "New hedge_07",
-        "$bc": "ENGINE.GLTFMeshActor"
-      },
-      "$length": 38
+      "$length": 31
     },
     "resources": null,
     "editorData": {
@@ -2009,22 +1672,54 @@
             "nodeType": "actor"
           },
           {
+            "id": "599e2bc3b0373cb9",
+            "nodeType": "actor"
+          },
+          {
             "id": "e68eba66977ac36b",
-            "nodeType": "actor",
-            "children": [
-              {
-                "id": "f3b6edce5a651ad2",
-                "nodeType": "actor"
-              },
-              {
-                "id": "599e2bc3b0373cb9",
-                "nodeType": "actor"
-              }
-            ]
+            "nodeType": "actor"
+          },
+          {
+            "id": "f3b6edce5a651ad2",
+            "nodeType": "actor"
           },
           {
             "id": "0c63e77bead2b021",
             "nodeType": "actor"
+          },
+          {
+            "id": "d4ddfb0baedffbe6",
+            "nodeType": "actor",
+            "children": [
+              {
+                "id": "95a301c8ebd47f19",
+                "nodeType": "actor"
+              },
+              {
+                "id": "15a4d88030636805",
+                "nodeType": "actor"
+              },
+              {
+                "id": "e24f1a11281bcd91",
+                "nodeType": "actor"
+              },
+              {
+                "id": "1708772f0a71b3ad",
+                "nodeType": "actor"
+              },
+              {
+                "id": "0c19b883d62b9695",
+                "nodeType": "actor"
+              },
+              {
+                "id": "c56f99d78a9e9e4a",
+                "nodeType": "actor"
+              },
+              {
+                "id": "7a644d73e9847ccf",
+                "nodeType": "actor"
+              }
+            ]
           },
           {
             "id": "03b5bc1f4a7e5823",
@@ -2039,6 +1734,18 @@
             "nodeType": "actor"
           },
           {
+            "id": "c671382434e6e337",
+            "nodeType": "actor"
+          },
+          {
+            "id": "246e4591a306b39c",
+            "nodeType": "actor"
+          },
+          {
+            "id": "bce9a240f07270b3",
+            "nodeType": "actor"
+          },
+          {
             "id": "12505b59544a5722",
             "nodeType": "actor"
           },
@@ -2047,96 +1754,8 @@
             "nodeType": "actor"
           },
           {
-            "id": "234c95274d7441f3",
+            "id": "90a48f52a80f3fe7",
             "nodeType": "actor"
-          },
-          {
-            "id": "folder-c67027202785607a",
-            "name": "Grass",
-            "nodeType": "folder",
-            "children": [
-              {
-                "id": "d4ddfb0baedffbe6",
-                "nodeType": "actor",
-                "children": [
-                  {
-                    "id": "95a301c8ebd47f19",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "15a4d88030636805",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "e24f1a11281bcd91",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "1fa4e258a48edd4f",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "0b699474b671f2c4",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "3e023cb92ac4b3ef",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "1708772f0a71b3ad",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "0c19b883d62b9695",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "c56f99d78a9e9e4a",
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "7a644d73e9847ccf",
-                    "nodeType": "actor"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "folder-45880722cb5f7258",
-            "name": "Hedge",
-            "nodeType": "folder",
-            "children": [
-              {
-                "id": "4c4bd6f575c25098",
-                "nodeType": "actor"
-              },
-              {
-                "id": "e5c4855f016f44e3",
-                "nodeType": "actor"
-              },
-              {
-                "id": "4800108f410ed648",
-                "nodeType": "actor"
-              },
-              {
-                "id": "b47d8fc873d6b8b3",
-                "nodeType": "actor"
-              },
-              {
-                "id": "4d786f09f69cc85f",
-                "nodeType": "actor"
-              },
-              {
-                "id": "b378b9c84ae69a1d",
-                "nodeType": "actor"
-              },
-              {
-                "id": "df04037945d026a5",
-                "nodeType": "actor"
-              }
-            ]
           }
         ]
       }
@@ -2436,25 +2055,6 @@
         ]
       },
       "$bc": "THREE.SpotLight"
-    },
-    {
-      "$id": 12,
-      "$value": {
-        "_": [
-          {
-            "_": [
-              1,
-              0,
-              0
-            ],
-            "$bc": "c"
-          },
-          49.1,
-          0,
-          2
-        ]
-      },
-      "$bc": "THREE.PointLight"
     }
   ]
 }
