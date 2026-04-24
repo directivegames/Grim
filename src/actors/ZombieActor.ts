@@ -4,9 +4,9 @@
  * Behaviour:
  *  1. Wanders in a small radius when the player is out of aggro range.
  *  2. Once the player enters aggroRadius the zombie locks on and ALWAYS chases
- *     (sticky aggro — never drops), walk animation the whole chase.
- *  3. Contact damage: when horizontally close enough to the player, applies damage
- *    on attackCooldown (no separate attack animation).
+ *     (sticky aggro — never drops).
+ *  3. When within attackRange (tight, “on top” of player), melee attack + attack anim;
+ *    damage comes from MeleeAttackAction only.
  *  4. On death: stops, plays death clip, gets launched, destroyed after 3 s.
  */
 import * as THREE from 'three';
@@ -25,6 +25,8 @@ const ZOMBIE_ANIM_URL =
 
 const CAPSULE_RADIUS = 0.35;
 const CAPSULE_HEIGHT = 1.75;
+/** Chase / follow stop: ~player + zombie capsule radii so kinematic bodies don’t shove the player. */
+const ZOMBIE_FOLLOW_HOLD_DISTANCE = 0.82;
 
 /** How long (seconds) to hold the hit-reaction anim before locomotion takes back over. */
 const HIT_REACTION_HOLD_SEC = 0.95;
@@ -86,15 +88,15 @@ export class ZombieActor extends ENGINE.Actor {
   @ENGINE.property({ type: 'number', min: 1, max: 100, step: 0.5, category: 'Zombie' })
   public aggroRadius: number = 15;
 
-  /** Horizontal root distance treated as “touching” for contact damage. */
-  @ENGINE.property({ type: 'number', min: 0.3, max: 5, step: 0.05, category: 'Zombie' })
-  public attackRange: number = 1.0;
+  /** 3D root distance at which chase becomes melee (must exceed follow stop so attacks still trigger). */
+  @ENGINE.property({ type: 'number', min: 0.35, max: 5, step: 0.05, category: 'Zombie' })
+  public attackRange: number = 1.05;
 
   @ENGINE.property({ type: 'number', min: 0, max: 500, step: 1, category: 'Zombie' })
   public attackDamage: number = 10;
 
-  @ENGINE.property({ type: 'number', min: 0.1, max: 10, step: 0.1, category: 'Zombie' })
-  public attackCooldown: number = 1.5;
+  @ENGINE.property({ type: 'number', min: 0.1, max: 10, step: 0.05, category: 'Zombie' })
+  public attackCooldown: number = 0.65;
 
   @ENGINE.property({ type: 'number', min: 0, max: 30, step: 0.5, category: 'Zombie' })
   public deathLaunchForce: number = 8;
@@ -117,11 +119,9 @@ export class ZombieActor extends ENGINE.Actor {
   private _hasAggro = false;
   private _deathSequenceStarted = false;
   private _btBusy = false;
-  private _btBranch: 'wander' | 'chase' = 'wander';
+  private _btBranch: 'wander' | 'chase' | 'attack' = 'wander';
   private _hitAnimEndTime = -Infinity;
   private _lastTrackedHealth = 0;
-  /** World time when we last applied contact damage to the player. */
-  private _lastContactDamageGameTime = -Infinity;
 
   // ── Damage → hit-reaction ──────────────────────────────────────────────────
 
@@ -176,9 +176,9 @@ export class ZombieActor extends ENGINE.Actor {
     });
 
     const npc = ENGINE.NpcMovementComponent.create({
-      pathFollowingAccuracy: 0.3,
-      actorFollowingDistance: 0.5,
-      stopDistance: 0.5,
+      pathFollowingAccuracy: 0.28,
+      actorFollowingDistance: ZOMBIE_FOLLOW_HOLD_DISTANCE,
+      stopDistance: ZOMBIE_FOLLOW_HOLD_DISTANCE,
       movementSpeed: this.moveSpeed,
       useNavigationServer: true,
     });
@@ -235,8 +235,6 @@ export class ZombieActor extends ENGINE.Actor {
     } else if (this._hasAggro && this.blackboard) {
       this.blackboard.setValue('HasAggro', true);
     }
-
-    this.applyContactDamageToPlayer();
 
     void this.tickBehaviorTreeAsync(deltaTime);
     this.syncAnimationState();
@@ -299,14 +297,26 @@ export class ZombieActor extends ENGINE.Actor {
   }
 
   private buildBehaviorTree(): void {
-    // Chase branch — active once spotted, NEVER drops (StickyChaseCondition)
+    const attackSequence = new ENGINE.SequenceNode({
+      name: 'AttackBranch',
+      conditions: [new ENGINE.IsPlayerNearCondition({ range: this.attackRange })],
+      children: [
+        new ENGINE.MeleeAttackAction({
+          attackRange: this.attackRange,
+          damage: this.attackDamage,
+          attackCooldown: this.attackCooldown,
+          attackDuration: 0.45,
+        }),
+      ],
+    });
+
     const chaseSequence = new ENGINE.SequenceNode({
       name: 'ChaseBranch',
       conditions: [new StickyChaseCondition(this.aggroRadius)],
       children: [
         new ENGINE.FollowActorAction({
           targetActorKey: 'PlayerActor',
-          stopDistance: 0.5,
+          stopDistance: ZOMBIE_FOLLOW_HOLD_DISTANCE,
           continueAfterReached: true,
         }),
       ],
@@ -320,16 +330,20 @@ export class ZombieActor extends ENGINE.Actor {
 
     this.behaviorRoot = new ENGINE.SelectorNode({
       name: 'ZombieRoot',
-      children: [chaseSequence, wander],
+      children: [attackSequence, chaseSequence, wander],
     });
   }
 
   private async tickBehaviorTreeAsync(deltaTime: number): Promise<void> {
     if (!this.behaviorRoot || !this.blackboard || this._btBusy) return;
 
-    const desired: 'wander' | 'chase' = this._hasAggro ? 'chase' : 'wander';
+    const dist = this.blackboard.getValue<number>('DistanceToPlayer') ?? Infinity;
+    let desired: 'wander' | 'chase' | 'attack';
+    if (dist <= this.attackRange) desired = 'attack';
+    else if (this._hasAggro) desired = 'chase';
+    else desired = 'wander';
 
-    // When wander ↔ chase changes, reset so the SelectorNode re-evaluates from child 0.
+    // When priority branch changes, reset so the SelectorNode re-evaluates from child 0.
     if (desired !== this._btBranch) {
       this.behaviorRoot.reset();
       this._btBranch = desired;
@@ -340,7 +354,12 @@ export class ZombieActor extends ENGINE.Actor {
       const status = await this.behaviorRoot.execute(this.blackboard, deltaTime);
       if (status !== ENGINE.BehaviorStatus.Running) {
         this.behaviorRoot.reset();
-        this._btBranch = 'wander';
+        // Do not force `wander` after a finished attack — that caused a full-tree reset
+        // every tick while still in range and broke repeat melee. Match real priority.
+        const d = this.blackboard.getValue<number>('DistanceToPlayer') ?? Infinity;
+        if (d <= this.attackRange) this._btBranch = 'attack';
+        else if (this._hasAggro) this._btBranch = 'chase';
+        else this._btBranch = 'wander';
       }
     } catch (e) {
       console.error('[ZombieActor] BT error', e);
@@ -369,38 +388,15 @@ export class ZombieActor extends ENGINE.Actor {
       return;
     }
 
-    const state: 'idle' | 'walk' =
-      this._hasAggro || dist <= this.aggroRadius ? 'walk' : 'idle';
+    let state: 'idle' | 'walk' | 'attack';
+    if (dist <= this.attackRange) {
+      state = 'attack';
+    } else if (this._hasAggro || dist <= this.aggroRadius) {
+      state = 'walk';
+    } else {
+      state = 'idle';
+    }
     anim.setParameter('state', state);
-  }
-
-  /** Damage the player when horizontally within {@link attackRange}, on cooldown. */
-  private applyContactDamageToPlayer(): void {
-    if (!this._hasAggro) return;
-    const world = this.getWorld();
-    const player = world?.getFirstPlayerPawn();
-    if (!world || !player) return;
-
-    const ownerPos = new THREE.Vector3();
-    const pp = new THREE.Vector3();
-    this.rootComponent.getWorldPosition(ownerPos);
-    player.rootComponent.getWorldPosition(pp);
-    const dx = ownerPos.x - pp.x;
-    const dz = ownerPos.z - pp.z;
-    const flatDist = Math.sqrt(dx * dx + dz * dz);
-    if (flatDist > this.attackRange) return;
-
-    const now = world.getGameTime();
-    if (now - this._lastContactDamageGameTime < this.attackCooldown) return;
-
-    const targetStats = player.getComponent(ENGINE.CharacterStatsComponent);
-    if (!targetStats) return;
-
-    const mid = ownerPos.clone().lerp(pp, 0.5);
-    const normal = new THREE.Vector3(dx, 0, dz);
-    if (normal.lengthSq() > 1e-8) normal.normalize();
-    targetStats.takeDamage(this.attackDamage, { hitLocation: mid, hitNormal: normal });
-    this._lastContactDamageGameTime = now;
   }
 
   public override getEditorClassIcon(): string | null {

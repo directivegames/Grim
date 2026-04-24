@@ -72,7 +72,20 @@ export class IsometricPlayerPawn extends ENGINE.CharacterPawn {
     if (options?.visualGroundClearance != null) {
       this.visualGroundClearance = options.visualGroundClearance;
     }
-    super.initialize(options);
+
+    const playerStats = ENGINE.CharacterStatsComponent.create({
+      maxHealth: 100,
+      healthRegen: 0,
+      attackCooldown: 1,
+      attackRange: 2,
+      attackDamage: 0,
+      speed: 5,
+    });
+
+    super.initialize({
+      ...options,
+      sceneComponents: [...(options?.sceneComponents ?? []), playerStats],
+    });
   }
 
   /** Direct local Y of the visual root before the float bob offset is applied. */

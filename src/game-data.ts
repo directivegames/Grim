@@ -49,7 +49,7 @@ export function registerMetadata(): void {
       },
       "attackRange": {
         "type": "number",
-        "min": 0.3,
+        "min": 0.35,
         "max": 5,
         "step": 0.05,
         "category": "Zombie"
@@ -65,7 +65,7 @@ export function registerMetadata(): void {
         "type": "number",
         "min": 0.1,
         "max": 10,
-        "step": 0.1,
+        "step": 0.05,
         "category": "Zombie"
       },
       "deathLaunchForce": {

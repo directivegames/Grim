@@ -32,7 +32,7 @@
       ]
     },
     "walk": {
-      "clip": "Gunshot_Reaction",
+      "clip": "Running",
       "transitions": [
         {
           "to": "idle",
@@ -78,11 +78,6 @@
           "to": "death",
           "condition": { "state": { "equalTo": "death" } },
           "blendDuration": 0.05
-        },
-        {
-          "to": "idle",
-          "condition": { "clipFinished": true },
-          "blendDuration": 0.15
         }
       ]
     },
@@ -129,14 +124,13 @@
       "loop": "LoopRepeat"
     },
     "Climb_Attempt_and_Fall_5": {
-      "loop": "LoopOnce",
-      "clampWhenFinished": true
+      "loop": "LoopRepeat"
     },
     "Climb_Attempt_and_Fall_4": {
       "loop": "LoopOnce",
       "clampWhenFinished": true
     },
-    "Gunshot_Reaction": {
+    "Running": {
       "loop": "LoopRepeat"
     }
   }

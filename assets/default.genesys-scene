@@ -809,6 +809,42 @@
                 {
                   "uuid": "02b6f487-fa84-4454-be06-7c2dae00d61f",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6648ea17-4d08-4033-a15e-938c900f5ba1",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1802fabd-94fd-49ce-9f32-c41f6362369f",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f8bb3922-ae0e-4a51-830c-685132510f85",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "914bbb66-736f-45e1-af7d-2d63730573be",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d9f1e849-d185-4f10-8635-2d4a9be26767",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "56864e9d-7e57-4783-a6cb-10519c0353e0",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "033bbc57-2c25-4d5b-9763-56df1a412af6",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8f84ba9e-0d98-4180-93d9-8837d05a405f",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d7a16f2c-8551-437b-a722-84430e87443f",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 28.1,
@@ -1174,6 +1210,42 @@
                 },
                 {
                   "uuid": "2153b0d7-926e-44dc-926f-89d2e5fb60cd",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "96f4ab12-ff03-44a0-8e20-fe8836b44bbc",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "73b31102-2e6c-4a78-bff3-49b61facb32e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "66a79401-d166-4902-9127-f579e9c75385",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "19e0b358-81bc-47ae-927c-fe8cbdea657d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "283ff232-80d9-49f9-8cd0-902c1a41b7d1",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "c6b2f5b2-cc31-4b4d-b728-101e5c4c349e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e6374712-a92e-4da4-8b8c-ef6bc28956ae",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f3202a15-2be7-4765-8b27-6c35004d584e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "0103b879-138e-41a3-847c-10ef3427dfe4",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -1597,6 +1669,42 @@
                 {
                   "uuid": "3467ebdf-9521-4500-b3c8-61a70afc5fab",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "80df3f60-2a3f-4717-8ebb-d07e7429f3aa",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e3592bc5-b01c-42ec-b8e8-39cb6635a290",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "a52496e0-c559-43c8-a7de-8a231c13bfc4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b457e05f-de17-47b8-9529-322b290f01ee",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e01531a0-f9a2-4b3b-bb65-ef5480c848da",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "0f2bd200-ee77-4455-ab6d-86522d1b25a0",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2c147e8e-9caf-4d18-a139-3519ee1a7277",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "62c096aa-13e4-4027-a101-65d9f79aae35",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "4895d7df-a0f8-4f88-bcb3-bac73024b295",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 23,
@@ -1889,6 +1997,42 @@
                 },
                 {
                   "uuid": "a60cf067-d686-4e42-b04a-640261991b11",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8073480f-15d5-433d-9929-23fdf18552bc",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "56124084-df85-4b5d-9ae5-866cd317d043",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "75df44dd-a9e9-483b-96ee-984a27fcede1",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "97c60211-82f7-42c4-a576-e438f9e5d278",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "0d8d2c83-0ebc-4e77-a5e2-cd218d00b7a2",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "baca6983-f99a-44ad-aa16-1ade21ed0d00",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b63f41a7-e25e-4b25-ab47-b387d9be97f4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "950f0e3f-b0b5-41c8-a9b7-703eabdc30a0",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e0e9ac47-e94d-4998-8dac-87b909c02126",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -2585,6 +2729,42 @@
                 {
                   "uuid": "4b319cca-8380-4a9b-8a5c-c5b60d87fb82",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "881fae55-059a-4d43-abde-d63fc95f6097",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5840bb75-c3f4-4cd6-a7a1-85d5b43b63ab",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f66744d2-43cc-4a5f-8467-bba78c2a866e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f9fcf6c6-52f4-4e35-bc04-4d445c4b51bd",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6b9f5581-687a-4784-ac7c-9d140b99fff0",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "990602e2-0b08-4a78-b5b3-e5d131d9dfcf",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "98770550-0f19-4c06-99a2-1781c83b9596",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5e8fb643-5b4a-4f16-9480-f39de15ac917",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d0b24297-4dd2-481f-ab7f-2e549d05a6c5",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "color": {
@@ -2797,6 +2977,42 @@
                 },
                 {
                   "uuid": "dbf0a731-820b-4851-a889-d213cf89a8fa",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "edcd0d87-a476-4b76-ae8b-b0b7992ca92c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "0846a0c1-03ae-4542-b58d-ea47c02c9da4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5729ba98-4853-4a04-815a-352d6c5b7039",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "cabe475e-8ecd-4190-b0eb-335a037208cc",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "28be6cca-6d92-4b41-a7d3-95022c1c8eaa",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "301d838d-2e1c-4547-b8a7-f16e6cae8ad4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "01b79edf-ec52-4e05-a958-68a31e3a3bcd",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b9cfb12e-bb54-417f-979c-6c242fa270bd",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e3956c28-15a3-4694-8b2f-651610a049aa",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -3950,7 +4166,7 @@
               },
               "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
               "excludeFromNavigation": true,
-              "uuid": "fb47384f3ec92953",
+              "uuid": "6dbe328c68d42fc7",
               "name": "GLTFMeshComponent",
               "rotation": {
                 "_": [
@@ -3965,15 +4181,14 @@
             },
             "2": {
               "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
-              "uuid": "e7152fcd77c20d66",
+              "uuid": "1f1b11bf06c01a42",
               "name": "AnimationStateMachineComponent",
               "$bc": "ENGINE.AnimationStateMachineComponent"
             },
             "3": {
               "healthRegen": 0,
-              "attackCooldown": 1.5,
-              "speed": 3.5,
-              "uuid": "6d9559ef1873485c",
+              "speed": 2.5,
+              "uuid": "88b5d690ad524315",
               "name": "CharacterStatsComponent",
               "$bc": "ENGINE.CharacterStatsComponent"
             },
@@ -3984,7 +4199,7 @@
               "lookRightSpeed": 10,
               "lookUpSpeed": 0,
               "jumpSpeed": 0,
-              "uuid": "993176e8558349f2",
+              "uuid": "1744a99124a475e9",
               "name": "NpcMovementComponent",
               "$bc": "ENGINE.NpcMovementComponent"
             },
@@ -4004,7 +4219,7 @@
             "$bc": "THREE.CapsuleGeometry"
           },
           "material": {
-            "uuid": "fe8810c7746ea6d4",
+            "uuid": "7b38b1dbe0c19bc7",
             "visible": false,
             "color": {
               "_": [
@@ -4016,23 +4231,743 @@
             },
             "$bc": "THREE.MeshStandardMaterial"
           },
-          "uuid": "d06a4f549228ebb4",
+          "uuid": "4e372b90f649091a",
           "name": "MeshComponent",
           "position": {
             "_": [
               -35.619491,
               -0.600507,
-              -10.281725
+              -2.935883
             ],
             "$bc": "v3"
           },
           "$bc": "ENGINE.MeshComponent"
         },
-        "uuid": "e6e1bb834490f815",
+        "uuid": "7d068e35e7be872b",
         "name": "Zombie_05",
         "$bc": "GAME.ZombieActor"
       },
-      "$length": 67
+      "67": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "8ff8a2d5747c79b2",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "3e37e296e1d68db6",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "ee5f88e2162108a5",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "c1590a26d5360f6d",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "74cc337b34c18fb0",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "58fa53e4bbb2bfdb",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -35.619491,
+              -0.600507,
+              -8.224038
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "160d9f12a6716619",
+        "name": "Zombie_06",
+        "$bc": "GAME.ZombieActor"
+      },
+      "68": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "07defd965b1bd2f3",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "3f7fab2ba4836ff9",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "c44ccbc215d1e882",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "8fff2230fd3a940f",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "bac3da308c8c1904",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "717c83540efb5f7d",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -41.000798,
+              -0.600507,
+              -8.224038
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "55345e9ecaf2ac28",
+        "name": "Zombie_07",
+        "$bc": "GAME.ZombieActor"
+      },
+      "69": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "53a731dd6d355aa0",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "785864f995113c99",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "57038d35a8e63b31",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "eac51b59aba39e73",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "155f7cc6a176c83e",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "63ca6780d68a25cc",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -41.000798,
+              -0.600507,
+              -6.018096
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "7e4968f62ff3a341",
+        "name": "Zombie_08",
+        "$bc": "GAME.ZombieActor"
+      },
+      "70": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "466f783903f36e5b",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "c5ea54c880df2811",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "268b63ca39fd61fb",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "a1df161813a15249",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "3c4e1a3410106deb",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "2a3a14bc2d1dccfc",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -39.090077,
+              -0.600507,
+              -3.149203
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "8ca44985f573aa0f",
+        "name": "Zombie_09",
+        "$bc": "GAME.ZombieActor"
+      },
+      "71": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "10d4e727e3834858",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "feef42b9c926e21b",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "366d82587d5a6608",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "2746ccce8cfea202",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "2121342f15680180",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "5b4b20b7da0e101e",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -44.407826,
+              -0.600507,
+              -3.149203
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "9dbd59006522c148",
+        "name": "Zombie_10",
+        "$bc": "GAME.ZombieActor"
+      },
+      "72": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "ad0ca48387e9bb25",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "16cee42517b13d4a",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "fdf4ce09109bb405",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "c1b0e8cd424216f0",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "fbf4dc2389715f09",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "2f3a9834907a16bb",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -44.407826,
+              -0.600507,
+              -13.970699
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "7d1da0b9ba71e3dc",
+        "name": "Zombie_11",
+        "$bc": "GAME.ZombieActor"
+      },
+      "73": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "6c903064d40d1acf",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "f8681314b73e3ac4",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "80371448747dab26",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "eb5c1e05128a3ad5",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "42a0fe6a4711d1da",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "424404b1c6e1faa1",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -30.22005,
+              -0.600507,
+              -13.970699
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "58cd1e4ca40e2dfd",
+        "name": "Zombie_12",
+        "$bc": "GAME.ZombieActor"
+      },
+      "74": {
+        "rootComponent": {
+          "children": {
+            "1": {
+              "physicsOptions": {
+                "enabled": false
+              },
+              "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
+              "excludeFromNavigation": true,
+              "uuid": "9c36b9805568be40",
+              "name": "GLTFMeshComponent",
+              "rotation": {
+                "_": [
+                  0,
+                  3.141593,
+                  0
+                ],
+                "$bc": "e"
+              },
+              "castShadow": true,
+              "$bc": "ENGINE.GLTFMeshComponent"
+            },
+            "2": {
+              "configUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Zombie.anim.json",
+              "uuid": "31c008a16443e8f5",
+              "name": "AnimationStateMachineComponent",
+              "$bc": "ENGINE.AnimationStateMachineComponent"
+            },
+            "3": {
+              "healthRegen": 0,
+              "speed": 2.5,
+              "uuid": "6f7162dffdc299e5",
+              "name": "CharacterStatsComponent",
+              "$bc": "ENGINE.CharacterStatsComponent"
+            },
+            "4": {
+              "maxSpeed": 3.5,
+              "midAirAccelerationLambda": 100,
+              "midAirDecelerationLambda": 10,
+              "lookRightSpeed": 10,
+              "lookUpSpeed": 0,
+              "jumpSpeed": 0,
+              "uuid": "6e66d4a647e9285c",
+              "name": "NpcMovementComponent",
+              "$bc": "ENGINE.NpcMovementComponent"
+            },
+            "$length": 5
+          },
+          "physicsOptions": {
+            "motionType": "kinematicVelocityBased",
+            "collisionProfile": "ZombieNPC"
+          },
+          "geometry": {
+            "_": [
+              0.35,
+              1.05,
+              4,
+              8
+            ],
+            "$bc": "THREE.CapsuleGeometry"
+          },
+          "material": {
+            "uuid": "22df075c0910f36c",
+            "visible": false,
+            "color": {
+              "_": [
+                0.042311,
+                0.042311,
+                0.042311
+              ],
+              "$bc": "c"
+            },
+            "$bc": "THREE.MeshStandardMaterial"
+          },
+          "uuid": "1217b6ec42fe5582",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -36.245729,
+              -0.600507,
+              -15.496786
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "4237409aa40e039e",
+        "name": "Zombie_13",
+        "$bc": "GAME.ZombieActor"
+      },
+      "$length": 75
     },
     "resources": null,
     "editorData": {
@@ -4147,7 +5082,35 @@
             "nodeType": "actor"
           },
           {
-            "id": "e6e1bb834490f815",
+            "id": "7d068e35e7be872b",
+            "nodeType": "actor"
+          },
+          {
+            "id": "160d9f12a6716619",
+            "nodeType": "actor"
+          },
+          {
+            "id": "55345e9ecaf2ac28",
+            "nodeType": "actor"
+          },
+          {
+            "id": "7e4968f62ff3a341",
+            "nodeType": "actor"
+          },
+          {
+            "id": "8ca44985f573aa0f",
+            "nodeType": "actor"
+          },
+          {
+            "id": "9dbd59006522c148",
+            "nodeType": "actor"
+          },
+          {
+            "id": "7d1da0b9ba71e3dc",
+            "nodeType": "actor"
+          },
+          {
+            "id": "58cd1e4ca40e2dfd",
             "nodeType": "actor"
           },
           {
@@ -4322,6 +5285,10 @@
                 "nodeType": "actor"
               }
             ]
+          },
+          {
+            "id": "4237409aa40e039e",
+            "nodeType": "actor"
           }
         ]
       }
