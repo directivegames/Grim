@@ -2,7 +2,6 @@
  * Grim - isometric character game.
  */
 
-import * as THREE from 'three';
 import * as ENGINE from '@gnsx/genesys.js';
 
 import { IsometricPlayerPawn } from './actors/IsometricPlayerPawn.js';
@@ -53,10 +52,6 @@ class MyGame extends ENGINE.BaseGameLoop {
     await super.start();
     if (this.renderer) {
       this.renderer.renderer.setPixelRatio(1);
-      // BasicShadowMap = single depth sample per fragment – fastest shadow mode.
-      // PCFShadowMap (engine default) takes multiple samples for soft edges which
-      // costs GPU time even when shadow maps are small.
-      this.renderer.renderer.shadowMap.type = THREE.BasicShadowMap;
     }
   }
 

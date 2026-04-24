@@ -1,0 +1,17 @@
+{
+  "$version": 2,
+  "$root": {
+    "uuid": "ae6c8eea-dcef-4ffc-b76c-c28da21554a3",
+    "name": "Sidewalk",
+    "userData": {
+      "colorSpaceFixed": true
+    },
+    "map": {
+      "$uuid": "29459c9c-81f5-4680-a9f7-f02e724cd494",
+      "url": "@project/assets/textures/Sidewalk.png",
+      "$bc": "ENGINE.UrlTexture"
+    },
+    "flatShading": true,
+    "$bc": "THREE.MeshStandardMaterial"
+  }
+}

@@ -34,6 +34,9 @@
           "receiveShadow": true,
           "$bc": "ENGINE.MeshComponent"
         },
+        "editorData": {
+          "selectable": false
+        },
         "uuid": "cb5131461049bd36",
         "name": "Ground",
         "$bc": "ENGINE.Actor"
@@ -251,7 +254,7 @@
           "$bc": "ENGINE.PointLightComponent"
         },
         "uuid": "599e2bc3b0373cb9",
-        "name": "Actor_21",
+        "name": "Actor_27",
         "$bc": "ENGINE.Actor"
       },
       "9": {
@@ -642,6 +645,66 @@
                 {
                   "uuid": "1320b903-2d94-4ad8-a794-8b7bb7ce3e3f",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6247cccd-891a-49eb-aab8-aa307035330e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "7d209681-f64d-4426-a454-644e4de81761",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "fb57a8d9-a232-485c-8229-54c9b5ecce3f",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f300f69b-9aac-4a49-949f-13b8547e51b4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "abd2843c-93f6-4d2b-967c-0e122e71f88e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "ee6ddacf-7806-4801-b231-03548693d916",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2aaf575f-2a0f-449f-b26e-4a25410af666",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "7da6b5f1-33a2-4e8d-9cf6-f7cce2173e2c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8bf0c47b-6f92-4277-b3e9-bd31ac8d5852",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b7b25751-6590-49e9-95f2-80ecbcf5b0e3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2f4d8cb9-d160-4143-be45-258a10c2fe4d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d8b51667-134c-4092-a16e-1d1e46099f28",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1090a688-417b-49b8-85a0-4d6bb8a2ac13",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "c20f40b4-622c-43ec-bdf3-50f86267ffc9",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "c1a178d9-71db-4c5c-b848-b70e14dedac9",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 28.1,
@@ -673,6 +736,7 @@
                 "$bc": "e"
               },
               "castShadow": true,
+              "receiveShadow": true,
               "$bc": "ENGINE.SpotLightComponent"
             },
             {
@@ -847,6 +911,66 @@
                 {
                   "uuid": "77c3171e-57fb-4620-a29d-0ed0de49889f",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d8345ea6-c624-48bd-ab8e-c3bc18a6bd6c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "7114fd66-f3bd-426c-882d-3a29dd71f6ad",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "523f24fb-991a-4e4e-8366-f3f0f42a422c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "3eeefb31-3288-4c41-a6bf-8a22bf21c1c1",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e6b280b8-21aa-461a-82d2-96c5d67fa246",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "73d3f1cf-9b1c-4dec-b7dd-9a48784b9310",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "ee41ed84-da82-41d6-b540-006a798bdfc6",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "a20db18f-b53a-4c68-8831-fb4308c5d44e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "18ea81c4-6e15-4373-af88-6867ca3d4fd0",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "72caca3a-1bc9-433c-818b-36284fc2fb93",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1f865d3b-d833-4e54-a63d-ebcb8eefd44f",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2472c0ef-b4f7-4c15-923e-c0307607a75e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "a357d78b-ada1-421c-8d28-ec60ea7c03bb",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "00dddb48-a4c7-4bb7-8902-245770a1a1d5",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f4fcabe8-4d1d-449c-97ac-e55f86f54881",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 28.1,
@@ -925,9 +1049,9 @@
           "name": "MeshComponent",
           "position": {
             "_": [
-              9.2,
+              9.204188,
               -1.025748,
-              -5.1
+              -2.368381
             ],
             "$bc": "v3"
           },
@@ -957,7 +1081,7 @@
             "_": [
               19.022827,
               -1.025748,
-              -5.1
+              -2.378545
             ],
             "$bc": "v3"
           },
@@ -981,154 +1105,13 @@
             "$length": 1
           },
           "material": "@project/assets/textures/Road.material.json",
-          "uuid": "87e88a1188d2db90",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              -10.65,
-              -1.025948,
-              -5.1
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "15a4d88030636805",
-        "name": "Actor_517",
-        "$bc": "ENGINE.Actor"
-      },
-      "20": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "1360a853728883eb",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              -10.75,
-              -1.025948,
-              -15.1
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "e24f1a11281bcd91",
-        "name": "Actor_414",
-        "$bc": "ENGINE.Actor"
-      },
-      "21": {
-        "rootComponent": {
-          "children": {
-            "1": {
-              "children": {
-                "$length": 1
-              },
-              "material": "@project/assets/textures/Road.material.json",
-              "uuid": "dd6887f6d793f885",
-              "name": "MeshComponent",
-              "position": {
-                "_": [
-                  0.03,
-                  0,
-                  1
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.MeshComponent"
-            },
-            "2": {
-              "children": {
-                "$length": 1
-              },
-              "material": "@project/assets/textures/Grass.material.json",
-              "uuid": "20840ae8c6ff1e0a",
-              "name": "MeshComponent",
-              "position": {
-                "_": [
-                  -0.99,
-                  0,
-                  0
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.MeshComponent"
-            },
-            "3": {
-              "children": {
-                "$length": 1
-              },
-              "material": "@project/assets/textures/Road.material.json",
-              "uuid": "b86a4c24f204385b",
-              "name": "MeshComponent",
-              "position": {
-                "_": [
-                  -0.98,
-                  0,
-                  1
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.MeshComponent"
-            },
-            "$length": 4
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "0132e64496751ff7",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              -0.85,
-              -1.027748,
-              -15.1
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "1708772f0a71b3ad",
-        "name": "Actor_415",
-        "$bc": "ENGINE.Actor"
-      },
-      "22": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Road.material.json",
           "uuid": "3d961d8ab8dedd20",
           "name": "MeshComponent",
           "position": {
             "_": [
-              -0.55,
+              -0.546103,
               -1.025748,
-              -5.1
+              -2.376515
             ],
             "$bc": "v3"
           },
@@ -1146,88 +1129,7 @@
         "name": "Actor_518",
         "$bc": "ENGINE.Actor"
       },
-      "23": {
-        "rootComponent": {
-          "children": {
-            "1": {
-              "children": {
-                "$length": 1
-              },
-              "material": "@project/assets/textures/Road.material.json",
-              "uuid": "f1032d77adb0df33",
-              "name": "MeshComponent",
-              "position": {
-                "_": [
-                  0.03,
-                  0,
-                  1
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.MeshComponent"
-            },
-            "2": {
-              "children": {
-                "$length": 1
-              },
-              "material": "@project/assets/textures/Grass.material.json",
-              "uuid": "d5c3635e637a623e",
-              "name": "MeshComponent",
-              "position": {
-                "_": [
-                  -0.99,
-                  0,
-                  0
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.MeshComponent"
-            },
-            "3": {
-              "children": {
-                "$length": 1
-              },
-              "material": "@project/assets/textures/Road.material.json",
-              "uuid": "855b37120ab719c0",
-              "name": "MeshComponent",
-              "position": {
-                "_": [
-                  -0.98,
-                  0,
-                  1
-                ],
-                "$bc": "v3"
-              },
-              "$bc": "ENGINE.MeshComponent"
-            },
-            "$length": 4
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "04970fbadff8135c",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              -20.7,
-              -0.900172,
-              -15.1
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "592a560fb1a8e2b3",
-        "name": "Actor_416",
-        "$bc": "ENGINE.Actor"
-      },
-      "24": {
+      "20": {
         "rootComponent": {
           "children": [
             {
@@ -1329,6 +1231,66 @@
                 },
                 {
                   "uuid": "9124e96d-1ecf-46da-b3f6-1836b0f2b393",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9e26c90e-7858-48e1-9b2b-a0404a68f439",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1d760737-a4aa-43f0-be4b-87b93e32e7e8",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1d67ae09-de57-41fa-a7fe-ffc46482eb17",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "958eba10-430c-4c34-b35e-df657c0149ee",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8ecd0d00-16ed-42c8-b7f1-54cbb036381c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "dab9fce3-eed8-4a79-9ba9-cc26dd1dfe84",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9b7c0562-0069-449d-a089-78ab60c1c1f4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e32af6e0-9069-4265-b4f9-5bc7ee4536f8",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1468ba67-14a7-408c-85f5-dcc7b1104892",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "423b4ee2-4982-412d-8c42-6b72ec97262e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6af61905-5399-4cd4-8e01-8b374f423017",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "ae17d971-421c-4b6b-b066-c18630c67203",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e469e816-5666-4d29-a421-3300775fc61a",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8d7d0e30-8fc2-4388-9842-2c4be11e97f3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5d9e1b6a-9544-4960-9f3d-60078b42a750",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -1463,6 +1425,66 @@
                 {
                   "uuid": "1c80820b-0e30-4bea-863b-07b67408f404",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1f5a3066-9a45-4cda-9e7f-87c35afca03a",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "02c54e03-9494-4640-a5ab-d24c2c8b5c5d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6882dd82-9a96-460c-abce-57a30e8b2a12",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2174864b-2537-41ae-bd02-ace280d1faf4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1d25c3dc-0b9b-4b9a-9662-2646c85c2018",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e42ffad2-3698-4e05-bac7-6f6ee7dcb815",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "fdda3a62-4169-4685-a47e-72ac9786e17a",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b98b78ac-89f2-4bc9-bc49-d51e2c93f4bb",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8da5c061-44e4-4e7c-8584-95bf9dfc9df3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6cae465d-0713-4a5b-809a-4efdaf4ae139",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9a05d548-6448-4495-896f-fdd0baf24900",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "212f5f73-ecac-4797-997e-7795b227b704",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "84783833-084d-4674-a628-ee93656614cd",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "dba13cf8-d3e1-4e86-b8e0-65f1c732b3ff",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "96011a94-0246-4650-9977-1b8e38185721",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 23,
@@ -1502,8 +1524,8 @@
           "position": {
             "_": [
               -0.56824,
-              0.279418,
-              -9.184645
+              0.166451,
+              -6.883585
             ],
             "$bc": "v3"
           },
@@ -1521,18 +1543,26 @@
         "name": "Car type A",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "25": {
+      "21": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/Bin.glb",
           "uuid": "2e2342c9-1586-466d-91ab-7e8cf2872239",
           "name": "GLTFMeshComponent",
           "position": {
             "_": [
-              7.569617,
-              -0.3433,
-              -10.3152
+              8.814797,
+              -0.572307,
+              -15.528043
             ],
             "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.518436,
+              0
+            ],
+            "$bc": "e"
           },
           "scale": {
             "_": [
@@ -1542,13 +1572,15 @@
             ],
             "$bc": "v3"
           },
+          "castShadow": true,
+          "receiveShadow": true,
           "$bc": "ENGINE.GLTFMeshComponent"
         },
         "uuid": "12505b59544a5722",
         "name": "GLTFMeshActor_343",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "26": {
+      "22": {
         "rootComponent": {
           "physicsOptions": {
             "collisionMeshType": "boundingBox"
@@ -1586,7 +1618,7 @@
         "name": "Car type 2",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "27": {
+      "23": {
         "rootComponent": {
           "children": [
             {
@@ -1625,7 +1657,7 @@
           "name": "GLTFMeshComponent",
           "position": {
             "_": [
-              29.5,
+              29.946114,
               3.9,
               -26
             ],
@@ -1637,7 +1669,7 @@
         "name": "Spooky house",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "28": {
+      "24": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "8b9a4fc0-1e38-49d0-ab6f-a539b9d5543c",
@@ -1672,7 +1704,7 @@
         "name": "New hedge",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "29": {
+      "25": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "654eef4cf4fd9ffa",
@@ -1707,7 +1739,7 @@
         "name": "New hedge_02",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "30": {
+      "26": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "b34dea6694f0d41b",
@@ -1742,7 +1774,7 @@
         "name": "New hedge_03",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "31": {
+      "27": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "637fec8ca6de1784",
@@ -1777,7 +1809,7 @@
         "name": "New hedge_04",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "32": {
+      "28": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "6c8bbc276fb14968",
@@ -1804,7 +1836,7 @@
         "name": "New hedge_05",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "33": {
+      "29": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -1834,7 +1866,7 @@
         "name": "Actor_418",
         "$bc": "ENGINE.Actor"
       },
-      "34": {
+      "30": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -1864,7 +1896,7 @@
         "name": "Actor_419",
         "$bc": "ENGINE.Actor"
       },
-      "35": {
+      "31": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -1894,7 +1926,7 @@
         "name": "Actor_420",
         "$bc": "ENGINE.Actor"
       },
-      "36": {
+      "32": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "6c81b06f5c818aa2",
@@ -1929,7 +1961,7 @@
         "name": "New hedge_06",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "37": {
+      "33": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "uuid": "5452735b1735e67f",
@@ -1964,7 +1996,911 @@
         "name": "New hedge_07",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "$length": 38
+      "34": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Bin.glb",
+          "uuid": "a1503b7777b0c8e2",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              7.85046,
+              -0.599501,
+              -15.083127
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              3,
+              3,
+              3
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "dcff4572e6baae55",
+        "name": "GLTFMeshActor_344",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "35": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 13
+                },
+                {
+                  "uuid": "8b599d05-bda0-4523-aefc-f8b5a0e38842",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e50f25d5-78c9-414c-a826-722ae91f67f9",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "46d63bf7-6916-4e34-98fb-8bc8435963e2",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "fa2d5fe1-74fb-401f-80ce-c05c0df6e13b",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2755b376-71ce-4d38-b59e-29a435bbe115",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "95aba844-80d2-47ef-9497-40f43cad0027",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "a8397bd4-3355-4ca3-9ef3-bd1f9f91dbeb",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "dcb41db0-820a-4b75-98c7-ea38be46bce3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "488587e1-c713-4f95-9b68-cee1d02a1fa4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9318f687-85dd-4809-ab22-17ab7144e2ca",
+                  "$bc": "THREE.Object3D"
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.031896
+                ],
+                "$bc": "c"
+              },
+              "intensity": 7.8,
+              "shadowMapSize": 256,
+              "light": {
+                "$ref": 13
+              },
+              "uuid": "c1ec354ed53dab3d",
+              "name": "Spot Light",
+              "position": {
+                "_": [
+                  0,
+                  1.084929,
+                  0
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.SpotLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/Lampost.glb",
+          "uuid": "b3e35494-5d25-4d97-b5b3-f8092f6bb20a",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              15.626089,
+              0.771828,
+              -7.099887
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.4,
+              0.541418,
+              0.4
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "1b06599aea8c7b88",
+        "name": "Lampost",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "36": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 14
+                },
+                {
+                  "uuid": "975cfca2c32182c7",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b553647c-af3c-4970-862c-1dd0f637fa43",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "4a6fdbeb-7352-42ed-8215-192216868d1d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5858c33c-127f-46e7-a64c-4395efc5bd24",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "0845b6d2-798b-41f7-98f0-dc4891a30619",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "7e5c70a7-7540-47f1-8688-cbea5d34fda3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "61b7b73b-ceb0-4443-b9a2-33ed57d1e9d5",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5dac0f89-30b7-4cc3-8507-19d087ba18e8",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "cf825c88-86fc-4c46-906d-90d76130b7c1",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2acae0fc-fba8-4cb2-9678-cee8c2575817",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "90130953-73c2-49de-be01-6ccc901338b4",
+                  "$bc": "THREE.Object3D"
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.051269
+                ],
+                "$bc": "c"
+              },
+              "intensity": 7.8,
+              "shadowMapSize": 256,
+              "light": {
+                "$ref": 14
+              },
+              "uuid": "d4ce7ff7e6847823",
+              "name": "Spot Light",
+              "position": {
+                "_": [
+                  0,
+                  -0.845561,
+                  0
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.SpotLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/Lampost.glb",
+          "uuid": "48c2f8b0b2e3739c",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -13.841526,
+              1.889042,
+              -9.29702
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.4,
+              0.541418,
+              0.4
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "a57991baea144612",
+        "name": "Lampost_02",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "37": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "675f2ff57794f8b0",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              18.826872,
+              -1.025748,
+              -8.78318
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "8c082ee8d415ebc2",
+        "name": "Actor_519",
+        "$bc": "ENGINE.Actor"
+      },
+      "38": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "d9d85970685e7b91",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              9.011434,
+              -1.025748,
+              -8.78318
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "6cd04fa9e9c7ce73",
+        "name": "Actor_520",
+        "$bc": "ENGINE.Actor"
+      },
+      "39": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "6e635f4e02ef9a4a",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -0.810358,
+              -1.025748,
+              -8.78318
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "047020f4040ee99b",
+        "name": "Actor_522",
+        "$bc": "ENGINE.Actor"
+      },
+      "40": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "92981eebe7e7505a",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              28.769175,
+              -1.025748,
+              -8.78318
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10.138393,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "f744702e5d9a38ad",
+        "name": "Actor_523",
+        "$bc": "ENGINE.Actor"
+      },
+      "41": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "b6f9a4c74f3d98d2",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              28.832777,
+              -1.025748,
+              -2.378545
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "34feb06e0edd1601",
+        "name": "Actor_524",
+        "$bc": "ENGINE.Actor"
+      },
+      "42": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "b321a5b08baa97da",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -10.341314,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "c1eabcadb44a3fa8",
+        "name": "Actor_525",
+        "$bc": "ENGINE.Actor"
+      },
+      "43": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "6b787c6a478e08cb",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -10.447697,
+              -1.020893,
+              -8.791454
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "5dd9c62675ee741a",
+        "name": "Actor_526",
+        "$bc": "ENGINE.Actor"
+      },
+      "44": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "8085a2fc4224bb5e",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -10.417294,
+              -1.021093,
+              -15.147265
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "61c9947e5b29803f",
+        "name": "Actor_416",
+        "$bc": "ENGINE.Actor"
+      },
+      "45": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "5085220fe261e11f",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -0.470782,
+              -1.021093,
+              -15.147265
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "1117a3549952fae7",
+        "name": "Actor_417",
+        "$bc": "ENGINE.Actor"
+      },
+      "46": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "6e1974da466cadd4",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -20.25619,
+              -1.021093,
+              -15.147265
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "144b1654c4b65629",
+        "name": "Actor_421",
+        "$bc": "ENGINE.Actor"
+      },
+      "47": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "5cce5c3c56820f7e",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -20.286592,
+              -1.020893,
+              -8.791454
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "dbcf23f9169a88a9",
+        "name": "Actor_527",
+        "$bc": "ENGINE.Actor"
+      },
+      "48": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "a43193ced705fb78",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -20.18021,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "a424b7f071ef60fc",
+        "name": "Actor_528",
+        "$bc": "ENGINE.Actor"
+      },
+      "49": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "2d6c658e66262bf8",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -30.087887,
+              -1.021093,
+              -15.147265
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "6d95b6b1d427ce84",
+        "name": "Actor_422",
+        "$bc": "ENGINE.Actor"
+      },
+      "50": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "e51f1a281f664f24",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -30.118289,
+              -1.020893,
+              -8.791454
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "5458d96323630149",
+        "name": "Actor_529",
+        "$bc": "ENGINE.Actor"
+      },
+      "51": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "e46af1936f1cb85a",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -30.011907,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "b54f41748196cf32",
+        "name": "Actor_530",
+        "$bc": "ENGINE.Actor"
+      },
+      "52": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "0f9e229c3e99bb60",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -39.825025,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "eea5df4a338a12a2",
+        "name": "Actor_531",
+        "$bc": "ENGINE.Actor"
+      },
+      "53": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "09f5391c13085616",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -39.931408,
+              -1.020893,
+              -8.791454
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "4a6835507a55a008",
+        "name": "Actor_532",
+        "$bc": "ENGINE.Actor"
+      },
+      "54": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "b689827af436f826",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -39.901005,
+              -1.021093,
+              -15.147265
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "39ad2df6cf1cb6cb",
+        "name": "Actor_423",
+        "$bc": "ENGINE.Actor"
+      },
+      "55": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "6d0ca326851bbc13",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -49.715415,
+              -1.021093,
+              -15.147265
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "2d253e5a20f36771",
+        "name": "Actor_424",
+        "$bc": "ENGINE.Actor"
+      },
+      "56": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "84e71ee1f7fc08c4",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -49.745817,
+              -1.020893,
+              -8.791454
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "ede83eb826d7fd3d",
+        "name": "Actor_533",
+        "$bc": "ENGINE.Actor"
+      },
+      "57": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "f29d1199ec9b65db",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -49.639435,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "3c8ebe42e8c855a2",
+        "name": "Actor_534",
+        "$bc": "ENGINE.Actor"
+      },
+      "58": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/Store.glb",
+          "uuid": "60704118-50d1-4f09-9bba-34bf5103de86",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -48.433576,
+              -1.264643,
+              -18.354934
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              0.613074,
+              0.5,
+              0.599577
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "869dad8424c6c6bb",
+        "name": "Store",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "$length": 59
     },
     "resources": null,
     "editorData": {
@@ -1974,6 +2910,10 @@
         "children": [
           {
             "id": "cb5131461049bd36",
+            "nodeType": "actor"
+          },
+          {
+            "id": "869dad8424c6c6bb",
             "nodeType": "actor"
           },
           {
@@ -2031,15 +2971,15 @@
             "nodeType": "actor"
           },
           {
-            "id": "592a560fb1a8e2b3",
-            "nodeType": "actor"
-          },
-          {
             "id": "680085baa5e88aaf",
             "nodeType": "actor"
           },
           {
             "id": "12505b59544a5722",
+            "nodeType": "actor"
+          },
+          {
+            "id": "dcff4572e6baae55",
             "nodeType": "actor"
           },
           {
@@ -2064,11 +3004,87 @@
                     "nodeType": "actor"
                   },
                   {
-                    "id": "15a4d88030636805",
+                    "id": "34feb06e0edd1601",
                     "nodeType": "actor"
                   },
                   {
-                    "id": "e24f1a11281bcd91",
+                    "id": "8c082ee8d415ebc2",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "f744702e5d9a38ad",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "047020f4040ee99b",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "6cd04fa9e9c7ce73",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "c1eabcadb44a3fa8",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "144b1654c4b65629",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "dbcf23f9169a88a9",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "a424b7f071ef60fc",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "6d95b6b1d427ce84",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "eea5df4a338a12a2",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "2d253e5a20f36771",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "ede83eb826d7fd3d",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "3c8ebe42e8c855a2",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "4a6835507a55a008",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "39ad2df6cf1cb6cb",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "5458d96323630149",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "b54f41748196cf32",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "5dd9c62675ee741a",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "61c9947e5b29803f",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "1117a3549952fae7",
                     "nodeType": "actor"
                   },
                   {
@@ -2084,15 +3100,19 @@
                     "nodeType": "actor"
                   },
                   {
-                    "id": "1708772f0a71b3ad",
-                    "nodeType": "actor"
-                  },
-                  {
                     "id": "0c19b883d62b9695",
                     "nodeType": "actor"
                   },
                   {
                     "id": "c56f99d78a9e9e4a",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "1b06599aea8c7b88",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "a57991baea144612",
                     "nodeType": "actor"
                   },
                   {
@@ -2107,6 +3127,7 @@
             "id": "folder-45880722cb5f7258",
             "name": "Hedge",
             "nodeType": "folder",
+            "isExpanded": false,
             "children": [
               {
                 "id": "4c4bd6f575c25098",
@@ -2455,6 +3476,48 @@
         ]
       },
       "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 13,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.031896
+            ],
+            "$bc": "c"
+          },
+          7.8,
+          0,
+          1.047198,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.SpotLight"
+    },
+    {
+      "$id": 14,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.051269
+            ],
+            "$bc": "c"
+          },
+          7.8,
+          0,
+          1.047198,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.SpotLight"
     }
   ]
 }
