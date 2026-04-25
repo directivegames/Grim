@@ -1114,6 +1114,30 @@
                 {
                   "uuid": "d11f4a73-d8d7-4892-9e9a-16d01eae9a4d",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "69a60090-6b94-4d6f-8c96-f9b9e6a1da5e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "94e582ca-3e82-4b4a-9a15-8c4dae907c4a",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d81d99a3-4a17-4cad-9dfa-051956d7580e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f7edf7f0-963e-4079-8413-e2c5dc0c1173",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "97a30a25-6286-4aec-8b60-8fcd39eb3b7c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6432e8bb-99ae-48e6-862e-e3095f317a53",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 28.1,
@@ -1783,6 +1807,30 @@
                 },
                 {
                   "uuid": "7fea5caa-0bcc-4993-96b7-7070ad45f1a5",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8679a6c3-7207-46ed-82c3-9a2479d9d17b",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "e4dcd79b-afde-442c-b896-6a2a1578c24a",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "da9a3bcc-16c8-4f84-b8f7-3704529397d5",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "ac6f83c4-8b29-4b3b-baeb-bdd9bbb4777c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8b5369d9-b379-40d5-981d-a14ad19b03fe",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "18491d83-b496-49a3-aaa6-00b3bf8a176f",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -2510,6 +2558,30 @@
                 {
                   "uuid": "60fd1343-c6be-4732-ae9f-a617dabeb597",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2b8eebb7-2567-4ebf-953d-925c2565a916",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "665f8cfa-cbea-43a5-9bd8-4e19b408ae0d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9c067ac0-204b-4397-a3c5-e24437471cc8",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "57438ddf-eb3e-4621-b94c-b25f8b060178",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d7d6dac3-b8ef-4312-99d6-a60b458e921d",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9f8b1a6c-3b9d-4a59-9866-0a9e5152be24",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "intensity": 23,
@@ -3106,6 +3178,30 @@
                 },
                 {
                   "uuid": "7670d2b5-2a06-4a56-8910-706712fd3c9b",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "c3033047-5aa4-40f4-8e50-f2a4c832a5fd",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5998b854-7a6e-4acf-8119-28fa8e2f1b72",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "d3d44822-88ae-41c0-b610-630120e02831",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "52c83c2d-7f70-4e49-ac0e-9c32a1fe25fa",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "4c2a7376-c22d-43de-94a6-7f7a512172f9",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "dcf20cff-7cdd-45fc-966c-dab8cbd49f66",
                   "$bc": "THREE.Object3D"
                 }
               ],
@@ -4106,6 +4202,30 @@
                 {
                   "uuid": "67633adb-d7cf-4ee9-bf13-7fce3aa977cc",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "a7be5bd4-175c-45c2-8b97-6968b556fb49",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "339fbcdd-aca0-41d7-ad08-d8701d823a88",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1557c36f-ae24-44a5-bc72-8693d95debea",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "1f370847-2937-45f5-882e-80d18184c71c",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "5a03d2d2-b88c-48c3-a26c-1a21f4586ce3",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "2c2986f6-eacf-477f-8433-91a60993cdb3",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "color": {
@@ -4623,6 +4743,30 @@
                 {
                   "uuid": "54bd541a-a352-4a8d-b2ce-e0751006efef",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "c2eb2a4d-986e-464b-b59f-f5443ec444d8",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "6ceb2460-ba46-478c-8f9e-a86b69ef8864",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "f5e5d946-8b84-4713-a256-c01b52ccf62e",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "70e5d70d-045a-41fb-9a7a-f9994a8d8831",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "db8129b5-02e1-43b7-9c04-04f1ba335756",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "9c313030-734f-4aef-8aec-4ee3dcb8048b",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "color": {
@@ -4756,7 +4900,7 @@
             "_": [
               -0.812636,
               -1.040393,
-              4.009739
+              3.955125
             ],
             "$bc": "v3"
           },
@@ -4933,36 +5077,6 @@
             "$length": 1
           },
           "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "5085220fe261e11f",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              -0.470782,
-              -1.021093,
-              -15.05647
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "1117a3549952fae7",
-        "name": "Actor_417",
-        "$bc": "ENGINE.Actor"
-      },
-      "46": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
           "uuid": "6e1974da466cadd4",
           "name": "MeshComponent",
           "position": {
@@ -4987,7 +5101,7 @@
         "name": "Actor_421",
         "$bc": "ENGINE.Actor"
       },
-      "47": {
+      "46": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5017,7 +5131,7 @@
         "name": "Actor_527",
         "$bc": "ENGINE.Actor"
       },
-      "48": {
+      "47": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5047,7 +5161,7 @@
         "name": "Actor_528",
         "$bc": "ENGINE.Actor"
       },
-      "49": {
+      "48": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5077,7 +5191,7 @@
         "name": "Actor_422",
         "$bc": "ENGINE.Actor"
       },
-      "50": {
+      "49": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5107,7 +5221,7 @@
         "name": "Actor_529",
         "$bc": "ENGINE.Actor"
       },
-      "51": {
+      "50": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5137,7 +5251,7 @@
         "name": "Actor_530",
         "$bc": "ENGINE.Actor"
       },
-      "52": {
+      "51": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5167,7 +5281,7 @@
         "name": "Actor_531",
         "$bc": "ENGINE.Actor"
       },
-      "53": {
+      "52": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5197,7 +5311,7 @@
         "name": "Actor_532",
         "$bc": "ENGINE.Actor"
       },
-      "54": {
+      "53": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5227,7 +5341,7 @@
         "name": "Actor_423",
         "$bc": "ENGINE.Actor"
       },
-      "55": {
+      "54": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5257,7 +5371,7 @@
         "name": "Actor_533",
         "$bc": "ENGINE.Actor"
       },
-      "56": {
+      "55": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5287,7 +5401,7 @@
         "name": "Actor_534",
         "$bc": "ENGINE.Actor"
       },
-      "57": {
+      "56": {
         "rootComponent": {
           "children": [
             {
@@ -5383,7 +5497,7 @@
         "name": "Store",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "58": {
+      "57": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/Bin.glb",
           "uuid": "4ac59e101af60b95",
@@ -5420,7 +5534,7 @@
         "name": "GLTFMeshActor_345",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "59": {
+      "58": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/Bin.glb",
           "uuid": "9da1ca57b2e9f9d5",
@@ -5457,7 +5571,7 @@
         "name": "GLTFMeshActor_346",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "60": {
+      "59": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/Bin.glb",
           "uuid": "2f60cc63911b3541",
@@ -5494,7 +5608,7 @@
         "name": "GLTFMeshActor_347",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "61": {
+      "60": {
         "rootComponent": {
           "children": [
             {
@@ -5597,7 +5711,7 @@
         "name": "Grim",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "62": {
+      "61": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/Zombie/Meshy_AI_Voxel_Zombie_biped/Meshy_AI_Voxel_Zombie_biped_Meshy_AI_Meshy_Merged_Animations.glb",
           "uuid": "30802b63-64f8-421f-912a-cae412683dbe",
@@ -5616,7 +5730,7 @@
         "name": "Zombie",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "63": {
+      "62": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5646,7 +5760,7 @@
         "name": "Actor_535",
         "$bc": "ENGINE.Actor"
       },
-      "64": {
+      "63": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5676,7 +5790,7 @@
         "name": "Actor_425",
         "$bc": "ENGINE.Actor"
       },
-      "65": {
+      "64": {
         "rootComponent": {
           "children": {
             "1": {
@@ -5754,9 +5868,9 @@
           "name": "MeshComponent",
           "position": {
             "_": [
-              -35.619491,
-              -0.808304,
-              -2.935883
+              22.145986,
+              -1.024754,
+              11.273285
             ],
             "$bc": "v3"
           },
@@ -5766,7 +5880,7 @@
         "name": "Zombie_05",
         "$bc": "GAME.ZombieActor"
       },
-      "66": {
+      "65": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5796,7 +5910,7 @@
         "name": "Actor_424",
         "$bc": "ENGINE.Actor"
       },
-      "67": {
+      "66": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5806,9 +5920,9 @@
           "name": "MeshComponent",
           "position": {
             "_": [
-              -0.470782,
-              -1.021093,
-              -25.116155
+              -0.481198,
+              -1.037168,
+              -25.066962
             ],
             "$bc": "v3"
           },
@@ -5826,7 +5940,7 @@
         "name": "Actor_426",
         "$bc": "ENGINE.Actor"
       },
-      "68": {
+      "67": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5864,7 +5978,7 @@
         "name": "Actor_537",
         "$bc": "ENGINE.Actor"
       },
-      "69": {
+      "68": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -5902,7 +6016,7 @@
         "name": "Actor_538",
         "$bc": "ENGINE.Actor"
       },
-      "70": {
+      "69": {
         "rootComponent": {
           "children": {
             "1": {
@@ -5992,7 +6106,7 @@
         "name": "Zombie_06",
         "$bc": "GAME.ZombieActor"
       },
-      "71": {
+      "70": {
         "rootComponent": {
           "children": {
             "1": {
@@ -6082,7 +6196,7 @@
         "name": "Zombie_07",
         "$bc": "GAME.ZombieActor"
       },
-      "72": {
+      "71": {
         "rootComponent": {
           "children": {
             "1": {
@@ -6172,7 +6286,7 @@
         "name": "Zombie_08",
         "$bc": "GAME.ZombieActor"
       },
-      "73": {
+      "72": {
         "rootComponent": {
           "children": {
             "1": {
@@ -6262,7 +6376,7 @@
         "name": "Zombie_09",
         "$bc": "GAME.ZombieActor"
       },
-      "74": {
+      "73": {
         "rootComponent": {
           "children": {
             "1": {
@@ -6347,13 +6461,21 @@
             ],
             "$bc": "v3"
           },
+          "rotation": {
+            "_": [
+              3.141593,
+              -1.099557,
+              3.141593
+            ],
+            "$bc": "e"
+          },
           "$bc": "ENGINE.MeshComponent"
         },
         "uuid": "788daa03f70d1fdf",
         "name": "Zombie_12",
         "$bc": "GAME.ZombieActor"
       },
-      "75": {
+      "74": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/tree 1.glb",
           "uuid": "acde358b-509b-4f25-9701-313e6d65d1e0",
@@ -6380,7 +6502,7 @@
         "name": "tree 1",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "76": {
+      "75": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/tree 1.glb",
           "uuid": "a23644b706261e53",
@@ -6407,7 +6529,7 @@
         "name": "tree 2",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "77": {
+      "76": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/tree 1.glb",
           "uuid": "df3ee862a80c1435",
@@ -6442,7 +6564,7 @@
         "name": "tree 3",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "78": {
+      "77": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/tree 1.glb",
           "uuid": "7780375db40268e5",
@@ -6477,7 +6599,7 @@
         "name": "tree 4",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "79": {
+      "78": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "excludeFromNavigation": true,
@@ -6513,7 +6635,7 @@
         "name": "New hedge_08",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "80": {
+      "79": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/tree 2.glb",
           "uuid": "e1134278-0ed5-4739-9e23-fa71ba250057",
@@ -6540,7 +6662,7 @@
         "name": "tree 5",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "81": {
+      "80": {
         "rootComponent": {
           "children": [
             {
@@ -6610,37 +6732,7 @@
         "name": "church",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "82": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "ebb22e1449aece41",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              2.400544,
-              -1.021093,
-              10.435163
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "7f762d02d6b7f54d",
-        "name": "Actor_427",
-        "$bc": "ENGINE.Actor"
-      },
-      "83": {
+      "81": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6670,7 +6762,7 @@
         "name": "Actor_536",
         "$bc": "ENGINE.Actor"
       },
-      "84": {
+      "82": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6700,7 +6792,7 @@
         "name": "Actor_521",
         "$bc": "ENGINE.Actor"
       },
-      "85": {
+      "83": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6730,7 +6822,7 @@
         "name": "Actor_539",
         "$bc": "ENGINE.Actor"
       },
-      "86": {
+      "84": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6760,7 +6852,7 @@
         "name": "Actor_540",
         "$bc": "ENGINE.Actor"
       },
-      "87": {
+      "85": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6790,7 +6882,7 @@
         "name": "Actor_541",
         "$bc": "ENGINE.Actor"
       },
-      "88": {
+      "86": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6820,7 +6912,7 @@
         "name": "Actor_542",
         "$bc": "ENGINE.Actor"
       },
-      "89": {
+      "87": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6850,7 +6942,7 @@
         "name": "Actor_543",
         "$bc": "ENGINE.Actor"
       },
-      "90": {
+      "88": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6880,7 +6972,7 @@
         "name": "Actor_544",
         "$bc": "ENGINE.Actor"
       },
-      "91": {
+      "89": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -6910,97 +7002,7 @@
         "name": "Actor_545",
         "$bc": "ENGINE.Actor"
       },
-      "92": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "29065aabc5d9f9ac",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              -7.667791,
-              -1.021093,
-              10.445604
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "089bc62aebbc7969",
-        "name": "Actor_428",
-        "$bc": "ENGINE.Actor"
-      },
-      "93": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "e35585b76a934c21",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              12.380426,
-              -1.021093,
-              10.435163
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "afa732fe75c00a14",
-        "name": "Actor_429",
-        "$bc": "ENGINE.Actor"
-      },
-      "94": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "efc48de57199f314",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              22.356389,
-              -1.021093,
-              10.435163
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "a9111179597f7e83",
-        "name": "Actor_430",
-        "$bc": "ENGINE.Actor"
-      },
-      "95": {
+      "90": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "excludeFromNavigation": true,
@@ -7028,7 +7030,7 @@
         "name": "New hedge_09",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "96": {
+      "91": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "excludeFromNavigation": true,
@@ -7036,7 +7038,7 @@
           "name": "GLTFMeshComponent",
           "position": {
             "_": [
-              17.076408,
+              15.084774,
               -0.1,
               6.222909
             ],
@@ -7056,7 +7058,7 @@
         "name": "New hedge_10",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "97": {
+      "92": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/New hedge.glb",
           "excludeFromNavigation": true,
@@ -7064,7 +7066,7 @@
           "name": "GLTFMeshComponent",
           "position": {
             "_": [
-              26.729973,
+              24.882656,
               -0.1,
               6.222909
             ],
@@ -7084,37 +7086,7 @@
         "name": "New hedge_11",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "98": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "uuid": "e057eceac5449879",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              32.261227,
-              -1.021093,
-              10.435163
-            ],
-            "$bc": "v3"
-          },
-          "scale": {
-            "_": [
-              10,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "215be52a8b418776",
-        "name": "Actor_431",
-        "$bc": "ENGINE.Actor"
-      },
-      "99": {
+      "93": {
         "rootComponent": {
           "children": [
             {
@@ -7569,6 +7541,30 @@
                 {
                   "uuid": "bd2cc129-429e-4521-9a53-566ea157de9d",
                   "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "596558c0-755a-4f30-831e-73ceef478d45",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "8dd37338-cabb-442e-948f-99e6a195a407",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "4c22122f-fbf1-461b-bf10-166d2b8eebfa",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "b43c6742-c4d5-4d9a-bef3-56976eeea705",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "cb3dddc6-c31b-474f-8706-45c4a0c478a4",
+                  "$bc": "THREE.Object3D"
+                },
+                {
+                  "uuid": "ba2001eb-766a-403c-b97d-494ec53f7134",
+                  "$bc": "THREE.Object3D"
                 }
               ],
               "color": {
@@ -7631,7 +7627,7 @@
         "name": "Lampost_03",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "100": {
+      "94": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -7661,7 +7657,7 @@
         "name": "Actor_432",
         "$bc": "ENGINE.Actor"
       },
-      "101": {
+      "95": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -7691,7 +7687,7 @@
         "name": "Actor_433",
         "$bc": "ENGINE.Actor"
       },
-      "102": {
+      "96": {
         "rootComponent": {
           "fogMode": "exponential",
           "fogColor": {
@@ -7709,11 +7705,14 @@
           "name": "FogComponent",
           "$bc": "ENGINE.FogComponent"
         },
+        "editorData": {
+          "hidden": true
+        },
         "uuid": "4ff3d0acc6ba0002",
         "name": "Actor",
         "$bc": "ENGINE.Actor"
       },
-      "103": {
+      "97": {
         "rootComponent": {
           "children": [
             {
@@ -8046,7 +8045,7 @@
             "_": [
               -61.969974,
               -0.880299,
-              18.422239
+              38.279376
             ],
             "$bc": "v3"
           },
@@ -8072,7 +8071,7 @@
         "name": "cinema",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "104": {
+      "98": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/lamp for chrcu.glb",
           "uuid": "772386af-9565-4a96-9f45-a21601c1a403",
@@ -8091,7 +8090,7 @@
         "name": "lamp for chrcu",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "105": {
+      "99": {
         "rootComponent": {
           "children": [
             {
@@ -8142,7 +8141,7 @@
         "name": "lamp for chrcu_02",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "106": {
+      "100": {
         "rootComponent": {
           "children": [
             {
@@ -8193,7 +8192,7 @@
         "name": "lamp for chrcu_03",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "107": {
+      "101": {
         "rootComponent": {
           "children": [
             {
@@ -8244,7 +8243,7 @@
         "name": "lamp for chrcu_04",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "108": {
+      "102": {
         "rootComponent": {
           "modelUrl": "@project/assets/models/tree 2.glb",
           "uuid": "a3df36ff60c25fc1",
@@ -8253,7 +8252,7 @@
             "_": [
               15.424274,
               2.538546,
-              12.87816
+              8.46657
             ],
             "$bc": "v3"
           },
@@ -8279,45 +8278,7 @@
         "name": "tree 6",
         "$bc": "ENGINE.GLTFMeshActor"
       },
-      "109": {
-        "rootComponent": {
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grassgravel.material.json",
-          "uuid": "cfad163873d65b6d",
-          "name": "MeshComponent",
-          "position": {
-            "_": [
-              5.505573,
-              -1.021093,
-              19.290379
-            ],
-            "$bc": "v3"
-          },
-          "rotation": {
-            "_": [
-              0,
-              1.570796,
-              0
-            ],
-            "$bc": "e"
-          },
-          "scale": {
-            "_": [
-              8.115062,
-              0.2,
-              10
-            ],
-            "$bc": "v3"
-          },
-          "$bc": "ENGINE.MeshComponent"
-        },
-        "uuid": "82d695487cc76295",
-        "name": "Actor_434",
-        "$bc": "ENGINE.Actor"
-      },
-      "110": {
+      "103": {
         "rootComponent": {
           "children": {
             "$length": 1
@@ -8327,7 +8288,7 @@
           "name": "MeshComponent",
           "position": {
             "_": [
-              15.246872,
+              15.468795,
               -1.021093,
               19.290379
             ],
@@ -8355,7 +8316,1862 @@
         "name": "Actor_435",
         "$bc": "ENGINE.Actor"
       },
-      "$length": 111
+      "104": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 36
+                }
+              ],
+              "color": {
+                "_": [
+                  0.011612,
+                  0.003677,
+                  0.287441
+                ],
+                "$bc": "c"
+              },
+              "intensity": 900,
+              "shadowMapSize": 256,
+              "shadowRadius": 7.7,
+              "bakeLightmaps": false,
+              "light": {
+                "$ref": 36
+              },
+              "uuid": "d7d9c18763ce069d",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  -0.15727,
+                  4.415689,
+                  0.165538
+                ],
+                "$bc": "v3"
+              },
+              "rotation": {
+                "_": [
+                  -0.32663,
+                  -0.580824,
+                  -0.357898
+                ],
+                "$bc": "e"
+              },
+              "scale": {
+                "_": [
+                  9,
+                  9,
+                  9
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/Meshy_AI_Hole_to_the_Underworl_0425041951_texture.glb",
+          "uuid": "995ccd06-ef3a-4b75-ba85-8ecdcaff4d00",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              11.709118,
+              -3.453692,
+              35.503912
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.099557,
+              0
+            ],
+            "$bc": "e"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "6d0f2934cdee4a2d",
+        "name": "Meshy_AI_Hole_to_the_Underworl_0425041951_texture",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "105": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 37
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  0,
+                  0
+                ],
+                "$bc": "c"
+              },
+              "intensity": 200,
+              "light": {
+                "$ref": 37
+              },
+              "uuid": "839f6f891b94f8d0",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  0.396401,
+                  10.164574,
+                  2.582922
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            },
+            {
+              "children": [
+                {
+                  "$ref": 38
+                }
+              ],
+              "color": {
+                "_": [
+                  0.001214,
+                  0,
+                  1
+                ],
+                "$bc": "c"
+              },
+              "intensity": 200,
+              "light": {
+                "$ref": 38
+              },
+              "uuid": "e23924af6b76b171",
+              "name": "Point Light_02",
+              "position": {
+                "_": [
+                  0.367234,
+                  10.30337,
+                  -1.960287
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/police.glb",
+          "uuid": "c49fc377-76c0-4ded-a500-060b351a5d30",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -60.493385,
+              -0.830797,
+              -6.149114
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              0.907571,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.25,
+              0.25,
+              0.25
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "b8ad7c890008d2d2",
+        "name": "police",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "106": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 39
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  0,
+                  0
+                ],
+                "$bc": "c"
+              },
+              "intensity": 200,
+              "light": {
+                "$ref": 39
+              },
+              "uuid": "f8fa7b9f517870bb",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  0.396401,
+                  10.164574,
+                  2.582922
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            },
+            {
+              "children": [
+                {
+                  "$ref": 40
+                }
+              ],
+              "color": {
+                "_": [
+                  0.001214,
+                  0,
+                  1
+                ],
+                "$bc": "c"
+              },
+              "intensity": 200,
+              "light": {
+                "$ref": 40
+              },
+              "uuid": "33eb3515c65ef20a",
+              "name": "Point Light_02",
+              "position": {
+                "_": [
+                  0.367234,
+                  10.30337,
+                  -1.960287
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/police.glb",
+          "uuid": "6b1ce7ce80b48e06",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -60.853609,
+              -0.830797,
+              0.352793
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              3.141592,
+              0.907571,
+              3.141592
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.25,
+              0.25,
+              0.25
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "31bdbacaf6632fd1",
+        "name": "police_02",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "107": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "039d268680300291",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -59.657655,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "c33e3e2b52211fc1",
+        "name": "Actor_546",
+        "$bc": "ENGINE.Actor"
+      },
+      "108": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "588911c8c90ded32",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -59.604458,
+              -1.005168,
+              -8.773503
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "4891e3f74f62f7be",
+        "name": "Actor_547",
+        "$bc": "ENGINE.Actor"
+      },
+      "109": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "db0492f0b8991d39",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -59.480747,
+              -1.035538,
+              4.001465
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "d4a4d5ecac2d86c4",
+        "name": "Actor_548",
+        "$bc": "ENGINE.Actor"
+      },
+      "110": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "b7095c7876e15f82",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -2.190523,
+              -0.95401,
+              -18.327595
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              16.386545,
+              0.2,
+              1.934967
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "55591c9fe021bc05",
+        "name": "Actor_549",
+        "$bc": "ENGINE.Actor"
+      },
+      "111": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 41
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.155926
+                ],
+                "$bc": "c"
+              },
+              "intensity": 6.5,
+              "light": {
+                "$ref": 41
+              },
+              "uuid": "ff8315acf6d3959c",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  0.28396,
+                  -0.064938,
+                  -0.051729
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
+          "uuid": "92a894fcbbcaa6fc",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              10.640325,
+              0.96506,
+              30.053111
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "42e8244cbe3fef4b",
+        "name": "lamp for chrcu_05",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "112": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "eef7e8deffd23594",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              6.256859,
+              -1.021973,
+              10.411368
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.553343,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "a38a8f54bba8812f",
+        "name": "Actor_439",
+        "$bc": "ENGINE.Actor"
+      },
+      "113": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "7e0258b32a57d5e4",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              15.342114,
+              -1.021973,
+              10.295288
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.553343,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "b4b50f597b30272c",
+        "name": "Actor_440",
+        "$bc": "ENGINE.Actor"
+      },
+      "114": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grassgravel.material.json",
+          "uuid": "b9366f158e00302a",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              25.31574,
+              -1.021093,
+              19.290379
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              8.115062,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "7bba4474cd7d328d",
+        "name": "Actor_436",
+        "$bc": "ENGINE.Actor"
+      },
+      "115": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "b8afd88e62569bac",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              32.4317,
+              -1.002052,
+              19.804924
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10.138393,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "5c4b25ec574779df",
+        "name": "Actor_550",
+        "$bc": "ENGINE.Actor"
+      },
+      "116": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "2ebfd357cc3f09b8",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              32.458462,
+              -1.013462,
+              9.789977
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10.138393,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "c6093274adfc18ea",
+        "name": "Actor_551",
+        "$bc": "ENGINE.Actor"
+      },
+      "117": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "f920303ea117a521",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              25.190532,
+              -1.021973,
+              10.295288
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.553343,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "9c11618007f9859e",
+        "name": "Actor_441",
+        "$bc": "ENGINE.Actor"
+      },
+      "118": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/tree 1.glb",
+          "uuid": "2b3a56770c0c988b",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              20.652714,
+              2.199437,
+              8.977188
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              0.488692,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              4,
+              4,
+              4
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "8f898bdbcf90eabf",
+        "name": "tree 7",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "119": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 42
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.155926
+                ],
+                "$bc": "c"
+              },
+              "intensity": 6.5,
+              "light": {
+                "$ref": 42
+              },
+              "uuid": "923a63dd2c90e82e",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  0.28396,
+                  -0.064938,
+                  -0.051729
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
+          "uuid": "4dd41bb37733410d",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              16.570469,
+              -0.006775,
+              21.059592
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "2e06cae780fa6445",
+        "name": "lamp for chrcu_06",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "120": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 43
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.155926
+                ],
+                "$bc": "c"
+              },
+              "intensity": 6.5,
+              "light": {
+                "$ref": 43
+              },
+              "uuid": "c45510d57f271a12",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  0.28396,
+                  -0.064938,
+                  -0.051729
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
+          "uuid": "a9c2f1c9a574c664",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              16.570469,
+              -0.006775,
+              17.696285
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "b21b2183d7cc394b",
+        "name": "lamp for chrcu_07",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "121": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/New hedge.glb",
+          "excludeFromNavigation": true,
+          "uuid": "d7dbbb002a9d0333",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              30.285678,
+              -0.1,
+              10.752051
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.19,
+              0.17,
+              0.153899
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "ad82e0e0429ff1f1",
+        "name": "New hedge_12",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "122": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/New hedge.glb",
+          "excludeFromNavigation": true,
+          "uuid": "5219e8800bc85526",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              30.285678,
+              -0.1,
+              26.368479
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.19,
+              0.17,
+              0.153899
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "87ba90f56a20c280",
+        "name": "New hedge_13",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "123": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 44
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.174647
+                ],
+                "$bc": "c"
+              },
+              "intensity": 14.1,
+              "light": {
+                "$ref": 44
+              },
+              "uuid": "85c391e71fa076c6",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  -1.179635,
+                  5.415329,
+                  3.350636
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/Stand.glb",
+          "uuid": "805d5c7f-fd44-4ccd-8ed6-eb46ee72e2f0",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              18.900454,
+              -1.028522,
+              26.402572
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.22173,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              0.4,
+              0.4,
+              0.4
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "d0695fabb7080f47",
+        "name": "Stand",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "124": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "80d013fd94ac0c8f",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              25.190532,
+              -1.021973,
+              28.30458
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "12cca85f125f5d43",
+        "name": "Actor_442",
+        "$bc": "ENGINE.Actor"
+      },
+      "125": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "4ee576462e425936",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              15.452195,
+              -1.021973,
+              28.30458
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "8a7980f2afb5e5c0",
+        "name": "Actor_443",
+        "$bc": "ENGINE.Actor"
+      },
+      "126": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grassgravel.material.json",
+          "uuid": "d46881ef80397256",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              5.707127,
+              -1.021093,
+              19.290379
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              8.115062,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "5d3ae8c754691cb5",
+        "name": "Actor_437",
+        "$bc": "ENGINE.Actor"
+      },
+      "127": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "ceca738e25bc46ae",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              5.473218,
+              -1.021973,
+              28.30458
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "4fb1eae52a465bef",
+        "name": "Actor_444",
+        "$bc": "ENGINE.Actor"
+      },
+      "128": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "9e5d5082aa4da5ae",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              32.4317,
+              -1.002052,
+              29.836545
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10.138393,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "d4c98e72df5af8ad",
+        "name": "Actor_552",
+        "$bc": "ENGINE.Actor"
+      },
+      "129": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Deadgrass.material.json",
+          "uuid": "505d7fbbeeba3640",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              25.190532,
+              -1.021973,
+              38.265555
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "0df5a1bafea12914",
+        "name": "Actor_445",
+        "$bc": "ENGINE.Actor"
+      },
+      "130": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Deadgrass.material.json",
+          "uuid": "26177c35e4fe8bd5",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              15.420962,
+              -1.021973,
+              38.265555
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "53c605717c4df8f7",
+        "name": "Actor_446",
+        "$bc": "ENGINE.Actor"
+      },
+      "131": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Deadgrass.material.json",
+          "uuid": "bdbdd4f866c6894c",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              5.576493,
+              -1.021973,
+              38.265555
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "55f1098dd194c443",
+        "name": "Actor_447",
+        "$bc": "ENGINE.Actor"
+      },
+      "132": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "cbcb1118c26cc743",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -3.606107,
+              -1.021973,
+              10.207247
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.553343,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "765255797f6d0a07",
+        "name": "Actor_448",
+        "$bc": "ENGINE.Actor"
+      },
+      "133": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "697934e5109d0815",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -13.063701,
+              -1.021973,
+              10.207247
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.553343,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "5a468a6ec793f8cf",
+        "name": "Actor_449",
+        "$bc": "ENGINE.Actor"
+      },
+      "134": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Halfgrass.material.json",
+          "uuid": "9c67356304f34c75",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -4.461975,
+              -1.021973,
+              28.30458
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "97b69c409ed9e674",
+        "name": "Actor_450",
+        "$bc": "ENGINE.Actor"
+      },
+      "135": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Deadgrass.material.json",
+          "uuid": "1251c300ed28486c",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -4.477138,
+              -1.036165,
+              38.265555
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.570796,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "10c1b6edec0ba9f3",
+        "name": "Actor_451",
+        "$bc": "ENGINE.Actor"
+      },
+      "136": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/tree 1.glb",
+          "uuid": "75db44a4015f9235",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              25.8785,
+              2.199437,
+              9.475547
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              -1.117011,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              4,
+              4,
+              4
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "b22da36f9be8125d",
+        "name": "tree 8",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "137": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Grass.material.json",
+          "uuid": "94aa6cae3a92b251",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -0.64253,
+              -1.025748,
+              -15.1
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "254bf4b2d09a5d90",
+        "name": "Actor_413",
+        "$bc": "ENGINE.Actor"
+      },
+      "138": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Police block.glb",
+          "uuid": "6a5cc05e-2fc8-4c69-baeb-fc0be24b4098",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -57.019223,
+              -0.208174,
+              -1.525912
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.361357,
+              0
+            ],
+            "$bc": "e"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "21f6ac7a236f5f28",
+        "name": "Police block",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "139": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Police block.glb",
+          "uuid": "b91f1fa8d847f914",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -57.019223,
+              -0.208174,
+              -5.636986
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              -3.141593,
+              1.37881,
+              -3.141593
+            ],
+            "$bc": "e"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "070596465b083370",
+        "name": "Police block_02",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "140": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/Police block.glb",
+          "uuid": "c2250523583c247f",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -57.019223,
+              -0.208174,
+              2.46474
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              -3.141593,
+              1.37881,
+              -3.141593
+            ],
+            "$bc": "e"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "17820e4df415faad",
+        "name": "Police block_03",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "141": {
+        "rootComponent": {
+          "children": [
+            {
+              "children": [
+                {
+                  "$ref": 45
+                }
+              ],
+              "color": {
+                "_": [
+                  1,
+                  1,
+                  0.074214
+                ],
+                "$bc": "c"
+              },
+              "intensity": 1000,
+              "light": {
+                "$ref": 45
+              },
+              "uuid": "68c5fac7658f46e3",
+              "name": "Point Light",
+              "position": {
+                "_": [
+                  0.00754,
+                  -0.077554,
+                  -0.425664
+                ],
+                "$bc": "v3"
+              },
+              "$bc": "ENGINE.PointLightComponent"
+            }
+          ],
+          "modelUrl": "@project/assets/models/tunnel.glb",
+          "uuid": "20e51da2-9daf-49d4-838e-708758645ae5",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -70.458813,
+              5.031317,
+              -1.294184
+            ],
+            "$bc": "v3"
+          },
+          "rotation": {
+            "_": [
+              0,
+              1.413717,
+              0
+            ],
+            "$bc": "e"
+          },
+          "scale": {
+            "_": [
+              22,
+              22,
+              22
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "b9bfd17d8804db23",
+        "name": "tunnel",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "142": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "7e9413c6a96ef925",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -69.470319,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "ddda7acd2e26bef5",
+        "name": "Actor_553",
+        "$bc": "ENGINE.Actor"
+      },
+      "143": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "936816d73ad93e21",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -68.475524,
+              -1.035538,
+              4.001465
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "56a11cc85c3e9717",
+        "name": "Actor_554",
+        "$bc": "ENGINE.Actor"
+      },
+      "144": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "6b9caa51fd4e2d4e",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -69.150057,
+              -1.005168,
+              -8.773503
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "a891f71406b18c32",
+        "name": "Actor_555",
+        "$bc": "ENGINE.Actor"
+      },
+      "145": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Road.material.json",
+          "uuid": "6c41670cd4fa91fb",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -78.015673,
+              -1.021093,
+              -2.38995
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              10,
+              0.2,
+              10
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "ae6b1fbd81035e3a",
+        "name": "Actor_556",
+        "$bc": "ENGINE.Actor"
+      },
+      "146": {
+        "rootComponent": {
+          "children": {
+            "$length": 1
+          },
+          "material": "@project/assets/textures/Sidewalk.material.json",
+          "uuid": "d8c3dc6dc4539881",
+          "name": "MeshComponent",
+          "position": {
+            "_": [
+              -78.599778,
+              -1.005168,
+              -8.773503
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              9.83272,
+              0.2,
+              2.804568
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.MeshComponent"
+        },
+        "uuid": "f573fd94046818c6",
+        "name": "Actor_557",
+        "$bc": "ENGINE.Actor"
+      },
+      "147": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/rocks no tunnel.glb",
+          "uuid": "1ecc6d62-f122-4ddf-8fd2-95b5909b9110",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -80.812737,
+              0.230113,
+              23.136893
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              22,
+              22,
+              22
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "0dc8773655a82f4e",
+        "name": "rocks no tunnel",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "148": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/rocks no tunnel.glb",
+          "uuid": "5ccd77a8550bdd6b",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -53.704735,
+              2.420343,
+              -45.172056
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              22,
+              22,
+              22
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "85d9e3b8bfb538f9",
+        "name": "rocks no tunnel_02",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "149": {
+        "rootComponent": {
+          "modelUrl": "@project/assets/models/rocks no tunnel.glb",
+          "uuid": "f652fb57528906f1",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "_": [
+              -53.704735,
+              11.54923,
+              -58.979567
+            ],
+            "$bc": "v3"
+          },
+          "scale": {
+            "_": [
+              22,
+              22,
+              22
+            ],
+            "$bc": "v3"
+          },
+          "$bc": "ENGINE.GLTFMeshComponent"
+        },
+        "uuid": "ec0f6ff7e2d74090",
+        "name": "rocks no tunnel_03",
+        "$bc": "ENGINE.GLTFMeshActor"
+      },
+      "$length": 150
     },
     "resources": null,
     "editorData": {
@@ -8515,11 +10331,27 @@
                     "nodeType": "actor"
                   },
                   {
+                    "id": "c6093274adfc18ea",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "5c4b25ec574779df",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "d4c98e72df5af8ad",
+                    "nodeType": "actor"
+                  },
+                  {
                     "id": "047020f4040ee99b",
                     "nodeType": "actor"
                   },
                   {
                     "id": "71593d0cb312dac8",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "55591c9fe021bc05",
                     "nodeType": "actor"
                   },
                   {
@@ -8563,6 +10395,14 @@
                     "nodeType": "actor"
                   },
                   {
+                    "id": "d4a4d5ecac2d86c4",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "56a11cc85c3e9717",
+                    "nodeType": "actor"
+                  },
+                  {
                     "id": "6818b171cb6d8007",
                     "nodeType": "actor"
                   },
@@ -8599,7 +10439,31 @@
                     "nodeType": "actor"
                   },
                   {
+                    "id": "4891e3f74f62f7be",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "a891f71406b18c32",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "f573fd94046818c6",
+                    "nodeType": "actor"
+                  },
+                  {
                     "id": "3c8ebe42e8c855a2",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "ddda7acd2e26bef5",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "ae6b1fbd81035e3a",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "c33e3e2b52211fc1",
                     "nodeType": "actor"
                   },
                   {
@@ -8631,23 +10495,55 @@
                     "nodeType": "actor"
                   },
                   {
-                    "id": "1117a3549952fae7",
+                    "id": "a38a8f54bba8812f",
                     "nodeType": "actor"
                   },
                   {
-                    "id": "7f762d02d6b7f54d",
+                    "id": "765255797f6d0a07",
                     "nodeType": "actor"
                   },
                   {
-                    "id": "afa732fe75c00a14",
+                    "id": "5a468a6ec793f8cf",
                     "nodeType": "actor"
                   },
                   {
-                    "id": "a9111179597f7e83",
+                    "id": "b4b50f597b30272c",
                     "nodeType": "actor"
                   },
                   {
-                    "id": "82d695487cc76295",
+                    "id": "9c11618007f9859e",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "12cca85f125f5d43",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "0df5a1bafea12914",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "53c605717c4df8f7",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "55f1098dd194c443",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "10c1b6edec0ba9f3",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "8a7980f2afb5e5c0",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "4fb1eae52a465bef",
+                    "nodeType": "actor"
+                  },
+                  {
+                    "id": "97b69c409ed9e674",
                     "nodeType": "actor"
                   },
                   {
@@ -8655,11 +10551,11 @@
                     "nodeType": "actor"
                   },
                   {
-                    "id": "215be52a8b418776",
+                    "id": "5d3ae8c754691cb5",
                     "nodeType": "actor"
                   },
                   {
-                    "id": "089bc62aebbc7969",
+                    "id": "7bba4474cd7d328d",
                     "nodeType": "actor"
                   },
                   {
@@ -8699,6 +10595,10 @@
                     "nodeType": "actor"
                   },
                   {
+                    "id": "254bf4b2d09a5d90",
+                    "nodeType": "actor"
+                  },
+                  {
                     "id": "1b06599aea8c7b88",
                     "nodeType": "actor"
                   },
@@ -8730,7 +10630,6 @@
             "id": "folder-45880722cb5f7258",
             "name": "Hedge",
             "nodeType": "folder",
-            "isExpanded": false,
             "children": [
               {
                 "id": "4c4bd6f575c25098",
@@ -8758,6 +10657,14 @@
               },
               {
                 "id": "6bef0872ea1451ef",
+                "nodeType": "actor"
+              },
+              {
+                "id": "ad82e0e0429ff1f1",
+                "nodeType": "actor"
+              },
+              {
+                "id": "87ba90f56a20c280",
                 "nodeType": "actor"
               },
               {
@@ -8791,6 +10698,14 @@
             "nodeType": "actor"
           },
           {
+            "id": "8f898bdbcf90eabf",
+            "nodeType": "actor"
+          },
+          {
+            "id": "b22da36f9be8125d",
+            "nodeType": "actor"
+          },
+          {
             "id": "4c7d7d7f6d9d1cb7",
             "nodeType": "actor"
           },
@@ -8819,7 +10734,63 @@
             "nodeType": "actor"
           },
           {
+            "id": "2e06cae780fa6445",
+            "nodeType": "actor"
+          },
+          {
+            "id": "b21b2183d7cc394b",
+            "nodeType": "actor"
+          },
+          {
+            "id": "42e8244cbe3fef4b",
+            "nodeType": "actor"
+          },
+          {
             "id": "1270cb72445c8015",
+            "nodeType": "actor"
+          },
+          {
+            "id": "6d0f2934cdee4a2d",
+            "nodeType": "actor"
+          },
+          {
+            "id": "b8ad7c890008d2d2",
+            "nodeType": "actor"
+          },
+          {
+            "id": "31bdbacaf6632fd1",
+            "nodeType": "actor"
+          },
+          {
+            "id": "d0695fabb7080f47",
+            "nodeType": "actor"
+          },
+          {
+            "id": "21f6ac7a236f5f28",
+            "nodeType": "actor"
+          },
+          {
+            "id": "070596465b083370",
+            "nodeType": "actor"
+          },
+          {
+            "id": "17820e4df415faad",
+            "nodeType": "actor"
+          },
+          {
+            "id": "b9bfd17d8804db23",
+            "nodeType": "actor"
+          },
+          {
+            "id": "0dc8773655a82f4e",
+            "nodeType": "actor"
+          },
+          {
+            "id": "85d9e3b8bfb538f9",
+            "nodeType": "actor"
+          },
+          {
+            "id": "ec0f6ff7e2d74090",
             "nodeType": "actor"
           }
         ]
@@ -9577,6 +11548,196 @@
             "$bc": "c"
           },
           6.5,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 36,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              0.011612,
+              0.003677,
+              0.287441
+            ],
+            "$bc": "c"
+          },
+          900,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 37,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              0,
+              0
+            ],
+            "$bc": "c"
+          },
+          200,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 38,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              0.001214,
+              0,
+              1
+            ],
+            "$bc": "c"
+          },
+          200,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 39,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              0,
+              0
+            ],
+            "$bc": "c"
+          },
+          200,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 40,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              0.001214,
+              0,
+              1
+            ],
+            "$bc": "c"
+          },
+          200,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 41,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.155926
+            ],
+            "$bc": "c"
+          },
+          6.5,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 42,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.155926
+            ],
+            "$bc": "c"
+          },
+          6.5,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 43,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.155926
+            ],
+            "$bc": "c"
+          },
+          6.5,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 44,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.174647
+            ],
+            "$bc": "c"
+          },
+          14.1,
+          0,
+          2
+        ]
+      },
+      "$bc": "THREE.PointLight"
+    },
+    {
+      "$id": 45,
+      "$value": {
+        "_": [
+          {
+            "_": [
+              1,
+              1,
+              0.074214
+            ],
+            "$bc": "c"
+          },
+          1000,
           0,
           2
         ]

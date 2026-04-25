@@ -1,0 +1,17 @@
+{
+  "$version": 2,
+  "$root": {
+    "uuid": "23201f8c-1cfb-4442-a11b-0421b8428f40",
+    "name": "Halfgrass",
+    "userData": {
+      "colorSpaceFixed": true
+    },
+    "map": {
+      "$uuid": "3d6cf172-9fd2-406c-bb31-f3f9b20588bf",
+      "url": "@project/assets/textures/half and half.png",
+      "$bc": "ENGINE.UrlTexture"
+    },
+    "flatShading": true,
+    "$bc": "THREE.MeshStandardMaterial"
+  }
+}

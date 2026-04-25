@@ -1,0 +1,16 @@
+{
+  "$version": 2,
+  "$root": {
+    "uuid": "c106c1ca-5fb8-4350-9727-09d1af928de8",
+    "name": "Deadgrass",
+    "userData": {
+      "colorSpaceFixed": true
+    },
+    "map": {
+      "$uuid": "628cede5-f851-43ea-8fe9-14ecc8328265",
+      "url": "@project/assets/textures/dead grass.png",
+      "$bc": "ENGINE.UrlTexture"
+    },
+    "$bc": "THREE.MeshStandardMaterial"
+  }
+}
