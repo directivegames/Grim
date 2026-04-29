@@ -122,7 +122,7 @@ export async function placeJsClassActor(args: {
       // Convert constructor parameters if they exist
       const convertedParams = constructorParams ? convertConstructorParams(constructorParams) : [];
 
-      const actor = ENGINE.ClassRegistry.constructObject(className, false, ...convertedParams);
+      const actor = ENGINE.ClassRegistry.constructObject(className, ...convertedParams);
       if (actorInfo) {
         const { name, ...rest } = actorInfo;
         if (name) actor.setName(name);
