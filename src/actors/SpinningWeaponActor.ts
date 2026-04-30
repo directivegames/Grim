@@ -25,7 +25,7 @@ const WEAPON_ACTOR_NAME = 'weapon';
 const ORBIT_RADIUS = 5.0;
 
 /** Angular speed of the orbit (radians per second). */
-const ORBIT_SPEED = 2.5;
+const ORBIT_SPEED = 5.0;
 
 /** Self-spin speed on the weapon's own Z axis (radians per second). */
 const SELF_SPIN_SPEED = 12;

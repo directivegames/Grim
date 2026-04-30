@@ -10,7 +10,7 @@
   "oneShotClips": [],
   "states": {
     "idle": {
-      "clip": "run_fast_8_inplace",
+      "clip": "Gunshot_Reaction",
       "transitions": [
         {
           "to": "walk",
@@ -120,8 +120,7 @@
       "loop": "LoopRepeat"
     },
     "Gunshot_Reaction": {
-      "loop": "LoopOnce",
-      "clampWhenFinished": true
+      "loop": "LoopRepeat"
     },
     "run_fast_10_inplace": {
       "loop": "LoopRepeat"
