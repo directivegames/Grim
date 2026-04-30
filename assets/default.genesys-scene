@@ -299,31 +299,33 @@
           {
             "$bc": "c",
             "_": [
-              0.234551,
-              0.665387,
-              0.03434
+              1,
+              1,
+              0.107023
             ]
           },
-          1,
+          12.1,
           0,
           2
         ]
       }
     },
     {
-      "$bc": "THREE.PointLight",
+      "$bc": "THREE.SpotLight",
       "$id": 17,
       "$value": {
         "_": [
           {
             "$bc": "c",
             "_": [
-              0.234551,
-              0.665387,
-              0.03434
+              1,
+              1,
+              0.031896
             ]
           },
-          1,
+          7.8,
+          0,
+          1.047198,
           0,
           2
         ]
@@ -339,17 +341,17 @@
             "_": [
               1,
               1,
-              0.107023
+              0.042311
             ]
           },
-          12.1,
+          8.8,
           0,
           2
         ]
       }
     },
     {
-      "$bc": "THREE.SpotLight",
+      "$bc": "THREE.PointLight",
       "$id": 19,
       "$value": {
         "_": [
@@ -358,12 +360,10 @@
             "_": [
               1,
               1,
-              0.031896
+              0.042311
             ]
           },
-          7.8,
-          0,
-          1.047198,
+          8.8,
           0,
           2
         ]
@@ -531,10 +531,10 @@
             "_": [
               1,
               1,
-              0.042311
+              1
             ]
           },
-          8.8,
+          22.4,
           0,
           2
         ]
@@ -550,10 +550,10 @@
             "_": [
               1,
               1,
-              0.042311
+              0.155926
             ]
           },
-          8.8,
+          6.5,
           0,
           2
         ]
@@ -569,10 +569,10 @@
             "_": [
               1,
               1,
-              1
+              0.155926
             ]
           },
-          22.4,
+          6.5,
           0,
           2
         ]
@@ -605,12 +605,12 @@
           {
             "$bc": "c",
             "_": [
-              1,
-              1,
-              0.155926
+              0.011612,
+              0.003677,
+              0.287441
             ]
           },
-          6.5,
+          900,
           0,
           2
         ]
@@ -625,11 +625,11 @@
             "$bc": "c",
             "_": [
               1,
-              1,
-              0.155926
+              0,
+              0
             ]
           },
-          6.5,
+          200,
           0,
           2
         ]
@@ -643,12 +643,12 @@
           {
             "$bc": "c",
             "_": [
-              0.011612,
-              0.003677,
-              0.287441
+              0.001214,
+              0,
+              1
             ]
           },
-          900,
+          200,
           0,
           2
         ]
@@ -701,11 +701,11 @@
             "$bc": "c",
             "_": [
               1,
-              0,
-              0
+              1,
+              0.155926
             ]
           },
-          200,
+          6.5,
           0,
           2
         ]
@@ -719,12 +719,12 @@
           {
             "$bc": "c",
             "_": [
-              0.001214,
-              0,
-              1
+              1,
+              1,
+              0.155926
             ]
           },
-          200,
+          6.5,
           0,
           2
         ]
@@ -759,44 +759,6 @@
             "_": [
               1,
               1,
-              0.155926
-            ]
-          },
-          6.5,
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "$bc": "THREE.PointLight",
-      "$id": 41,
-      "$value": {
-        "_": [
-          {
-            "$bc": "c",
-            "_": [
-              1,
-              1,
-              0.155926
-            ]
-          },
-          6.5,
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "$bc": "THREE.PointLight",
-      "$id": 42,
-      "$value": {
-        "_": [
-          {
-            "$bc": "c",
-            "_": [
-              1,
-              1,
               0.174647
             ]
           },
@@ -808,7 +770,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 43,
+      "$id": 41,
       "$value": {
         "_": [
           {
@@ -827,7 +789,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 44,
+      "$id": 42,
       "$value": {
         "_": [
           {
@@ -846,7 +808,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 45,
+      "$id": 43,
       "$value": {
         "_": [
           {
@@ -865,7 +827,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 46,
+      "$id": 44,
       "$value": {
         "_": [
           {
@@ -884,7 +846,7 @@
     },
     {
       "$bc": "THREE.SpotLight",
-      "$id": 47,
+      "$id": 45,
       "$value": {
         "_": [
           {
@@ -896,6 +858,48 @@
             ]
           },
           23,
+          0,
+          1.047198,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "$bc": "THREE.SpotLight",
+      "$id": 46,
+      "$value": {
+        "_": [
+          {
+            "$bc": "c",
+            "_": [
+              1,
+              1,
+              1
+            ]
+          },
+          23,
+          0,
+          1.047198,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "$bc": "THREE.SpotLight",
+      "$id": 47,
+      "$value": {
+        "_": [
+          {
+            "$bc": "c",
+            "_": [
+              1,
+              1,
+              0.031896
+            ]
+          },
+          7.8,
           0,
           1.047198,
           0,
@@ -934,48 +938,6 @@
             "_": [
               1,
               1,
-              0.031896
-            ]
-          },
-          7.8,
-          0,
-          1.047198,
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "$bc": "THREE.SpotLight",
-      "$id": 50,
-      "$value": {
-        "_": [
-          {
-            "$bc": "c",
-            "_": [
-              1,
-              1,
-              1
-            ]
-          },
-          23,
-          0,
-          1.047198,
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "$bc": "THREE.SpotLight",
-      "$id": 51,
-      "$value": {
-        "_": [
-          {
-            "$bc": "c",
-            "_": [
-              1,
-              1,
               1
             ]
           },
@@ -989,7 +951,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 52,
+      "$id": 50,
       "$value": {
         "_": [
           {
@@ -1008,7 +970,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 53,
+      "$id": 51,
       "$value": {
         "_": [
           {
@@ -1027,7 +989,7 @@
     },
     {
       "$bc": "THREE.PointLight",
-      "$id": 54,
+      "$id": 52,
       "$value": {
         "_": [
           {
@@ -1039,6 +1001,44 @@
             ]
           },
           200,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "$bc": "THREE.PointLight",
+      "$id": 53,
+      "$value": {
+        "_": [
+          {
+            "$bc": "c",
+            "_": [
+              1,
+              1,
+              0.155926
+            ]
+          },
+          6.5,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "$bc": "THREE.PointLight",
+      "$id": 54,
+      "$value": {
+        "_": [
+          {
+            "$bc": "c",
+            "_": [
+              1,
+              1,
+              0.155926
+            ]
+          },
+          6.5,
           0,
           2
         ]
@@ -1053,11 +1053,11 @@
             "$bc": "c",
             "_": [
               1,
-              1,
-              0.155926
+              0,
+              0
             ]
           },
-          6.5,
+          200,
           0,
           2
         ]
@@ -1071,50 +1071,220 @@
           {
             "$bc": "c",
             "_": [
-              1,
-              1,
-              0.155926
-            ]
-          },
-          6.5,
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "$bc": "THREE.PointLight",
-      "$id": 57,
-      "$value": {
-        "_": [
-          {
-            "$bc": "c",
-            "_": [
-              1,
-              0,
-              0
-            ]
-          },
-          200,
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "$bc": "THREE.PointLight",
-      "$id": 58,
-      "$value": {
-        "_": [
-          {
-            "$bc": "c",
-            "_": [
               0.001214,
               0,
               1
             ]
           },
           200,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "$bc": "GAME.IsometricMovementComponent",
+      "$id": 57,
+      "$value": {
+        "accelerationLambda": 30,
+        "decelerationLambda": 25,
+        "name": "IsometricMovementComponent",
+        "uuid": "0a862be6-18e4-49b7-a09d-40e0d206d4bd"
+      }
+    },
+    {
+      "$bc": "ENGINE.SceneComponent",
+      "$id": 58,
+      "$value": {
+        "children": [
+          {
+            "$ref": 59
+          }
+        ],
+        "name": "SceneComponent",
+        "rotation": {
+          "$bc": "e",
+          "_": [
+            -0.61548,
+            0.785398,
+            0
+          ]
+        },
+        "uuid": "1df7461c-27ae-4b45-baf6-c89eb4ddeeff"
+      }
+    },
+    {
+      "$bc": "ENGINE.SpringArmComponent",
+      "$id": 59,
+      "$value": {
+        "armLength": 15,
+        "children": [
+          {
+            "$ref": 60
+          }
+        ],
+        "collisionEnabled": false,
+        "name": "SpringArmComponent",
+        "uuid": "90261819-7978-4e09-9a55-c73309f377a7"
+      }
+    },
+    {
+      "$bc": "THREE.PerspectiveCamera",
+      "$id": 60,
+      "$value": {
+        "uuid": "9c26862b-195c-4779-99d2-4b1d4d43cdca"
+      }
+    },
+    {
+      "$bc": "ENGINE.GLTFMeshComponent",
+      "$id": 61,
+      "$value": {
+        "castShadow": true,
+        "children": [
+          {
+            "$bc": "ENGINE.PointLightComponent",
+            "bakeLightmaps": false,
+            "children": [
+              {
+                "$ref": 62
+              }
+            ],
+            "color": {
+              "$bc": "c",
+              "_": [
+                0.234551,
+                0.665387,
+                0.03434
+              ]
+            },
+            "intensity": 2.5,
+            "light": {
+              "$ref": 62
+            },
+            "name": "PointLightComponent",
+            "position": {
+              "$bc": "v3",
+              "_": [
+                -0.087567,
+                0.570423,
+                0.437998
+              ]
+            },
+            "scale": {
+              "$bc": "v3",
+              "_": [
+                1,
+                1,
+                0.184712
+              ]
+            },
+            "uuid": "344096b6-a7f1-46bd-95b4-a1b9e0790f0d"
+          },
+          {
+            "$bc": "ENGINE.PointLightComponent",
+            "bakeLightmaps": false,
+            "children": [
+              {
+                "$ref": 63
+              }
+            ],
+            "color": {
+              "$bc": "c",
+              "_": [
+                0.234551,
+                0.665387,
+                0.03434
+              ]
+            },
+            "intensity": 2.5,
+            "light": {
+              "$ref": 63
+            },
+            "name": "PointLightComponent_2",
+            "position": {
+              "$bc": "v3",
+              "_": [
+                0.062339,
+                0.570423,
+                0.437998
+              ]
+            },
+            "scale": {
+              "$bc": "v3",
+              "_": [
+                1,
+                1,
+                0.184712
+              ]
+            },
+            "uuid": "bf624f30-aeb8-4e31-84fe-d23e0e346e14"
+          }
+        ],
+        "modelUrl": "@project/assets/models/Grim.glb",
+        "name": "GLTFMeshComponent",
+        "physicsOptions": {
+          "enabled": false
+        },
+        "position": {
+          "$bc": "v3",
+          "_": [
+            0,
+            0.292,
+            0
+          ]
+        },
+        "rotation": {
+          "$bc": "e",
+          "_": [
+            0,
+            3.141593,
+            0
+          ]
+        },
+        "scale": {
+          "$bc": "v3",
+          "_": [
+            1.384186,
+            1.398043,
+            1
+          ]
+        },
+        "uuid": "8ce814bb-ff4d-4513-9289-6a875ae182c5"
+      }
+    },
+    {
+      "$bc": "THREE.PointLight",
+      "$id": 62,
+      "$value": {
+        "_": [
+          {
+            "$bc": "c",
+            "_": [
+              0.234551,
+              0.665387,
+              0.03434
+            ]
+          },
+          2.5,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "$bc": "THREE.PointLight",
+      "$id": 63,
+      "$value": {
+        "_": [
+          {
+            "$bc": "c",
+            "_": [
+              0.234551,
+              0.665387,
+              0.03434
+            ]
+          },
+          2.5,
           0,
           2
         ]
@@ -2924,6 +3094,54 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "a573ffa9-ae08-4c38-91df-5e5572f2e7d6"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "44999b46-d5ed-4e09-bc1f-f918ade4665e"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2ed72faa-63f0-4cc7-882f-d3e106b44318"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "15b19926-0545-4ca0-a736-a6a53b7a1de3"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "80b68e86-5a7b-44f2-91fb-10d5c3a120c4"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "eb39719d-85ce-4cba-89ad-55d867285f29"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3b65f81e-3bf6-4b5d-a91d-0616a454d649"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "5de62ace-bbb6-4dd4-9263-bbaf0f8f7253"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "aa46d75a-baad-4f25-8144-3babf7321302"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "ffd1c278-6e07-4eae-b731-51319c6d8d59"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "33303a2f-20c9-4973-9646-820eb82064fc"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "12945e74-54aa-46e4-b65e-534bba53eb41"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "e4d96bf6-8549-4dbd-be14-5d66feb50063"
                 }
               ],
               "intensity": 23,
@@ -4165,6 +4383,54 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "1fa3ae79-3808-4d9d-b8b8-47a084df1541"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "753a2967-6b05-4398-b43e-63964070d41c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "6f3d42e0-6a94-47da-a7b9-5eaec978994c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "ba8e4b75-499d-48ad-84b3-a14cde7792ce"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3d3a5186-e92b-4f3d-a5d4-5222be19fec4"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "e3dd64fa-5fa8-4664-aba2-6693e429bc3a"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "f8c7b43d-715e-42e8-bba5-9f60cbbf5b56"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "b2414c18-5362-4330-a111-c3086478c985"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2c2a0f40-710c-49de-846c-c8794063c1fd"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "5a0ab8ea-32b9-4a44-803d-9dfaca2ba5b7"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "901f0826-c3d4-458b-b7e2-3e19248fa23d"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3ed747cc-abe6-4a04-8417-c47e74b5b6d4"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "f570b52e-d2e9-4f15-beee-2266ca359b33"
                 }
               ],
               "intensity": 23,
@@ -5788,6 +6054,54 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "b62ee4e8-c817-4156-8b1b-58561d46540e"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "61591052-104f-4a66-a125-fa858273825d"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "67100264-46db-4976-b215-a34ce81b88c9"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "a70e2cee-5177-4fd9-9dc5-fe39388e6a3c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3721b16e-a5c0-455a-954e-c8360b193a73"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "eac21f74-fda9-427c-981f-437451a3a166"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "d2e7e273-3a77-40f7-a056-14f413d4c012"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "7b85b1f4-46c5-48b2-a710-531239d958b8"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "6fd58188-0fdf-4f4f-8664-1326443b5868"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "61fd77fa-b1d6-4883-8f7d-5e9196c3ef22"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "a75f7e53-3b8d-4277-b2fe-730ce00eef25"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "0859fa41-4313-4aa4-8f9c-24fa00921d56"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "52a13904-a371-4738-8fca-ce8c42d1c86c"
                 }
               ],
               "color": {
@@ -6949,6 +7263,54 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "6b599b0f-e361-4544-8098-92dbd9ed6b8a"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "0e9b2df2-4bee-4dd9-b5c6-84c4e956f3fb"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "d84ebe8f-2da3-402e-bedc-49205920be04"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "6e8557e1-eb67-4e5e-b3a7-5a8306d3d0a7"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "259d95fc-7559-4f87-a3c9-f9199a4b6ac0"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "567f78ac-83f3-4535-b97a-e3c401b37510"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3cb0d978-32ce-466f-abef-1c408f2a7509"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "12da34a4-3e05-4059-a144-5f66c772f260"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "d1da29d7-4feb-498c-9f7c-f344e70785cc"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3521dcc4-07a5-4d28-83f4-27a1a8f23f1c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "bc201cd2-f679-46c4-9eea-1e6289c7b0d8"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "ec6e7f08-2031-4ece-a412-a2b06593cfad"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2ccb1dad-356b-406b-97bc-592ac3bfa35d"
                 }
               ],
               "color": {
@@ -7728,109 +8090,6 @@
       },
       "56": {
         "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Grim",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "children": [
-            {
-              "$bc": "ENGINE.PointLightComponent",
-              "children": [
-                {
-                  "$ref": 16
-                }
-              ],
-              "color": {
-                "$bc": "c",
-                "_": [
-                  0.234551,
-                  0.665387,
-                  0.03434
-                ]
-              },
-              "light": {
-                "$ref": 16
-              },
-              "name": "Point Light",
-              "position": {
-                "$bc": "v3",
-                "_": [
-                  -0.087567,
-                  0.570423,
-                  0.437998
-                ]
-              },
-              "scale": {
-                "$bc": "v3",
-                "_": [
-                  1,
-                  1,
-                  0.184712
-                ]
-              },
-              "uuid": "5171545b8739dba6"
-            },
-            {
-              "$bc": "ENGINE.PointLightComponent",
-              "children": [
-                {
-                  "$ref": 17
-                }
-              ],
-              "color": {
-                "$bc": "c",
-                "_": [
-                  0.234551,
-                  0.665387,
-                  0.03434
-                ]
-              },
-              "light": {
-                "$ref": 17
-              },
-              "name": "Point Light_02",
-              "position": {
-                "$bc": "v3",
-                "_": [
-                  0.062339,
-                  0.570423,
-                  0.437998
-                ]
-              },
-              "scale": {
-                "$bc": "v3",
-                "_": [
-                  1,
-                  1,
-                  0.184712
-                ]
-              },
-              "uuid": "60397e7d2a0825bf"
-            }
-          ],
-          "modelUrl": "@project/assets/models/Grim.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              -18.936757,
-              0.292343,
-              -7.14743
-            ]
-          },
-          "scale": {
-            "$bc": "v3",
-            "_": [
-              1.384186,
-              1.398043,
-              1
-            ]
-          },
-          "uuid": "e5420077-506a-465e-950e-953c00e5a05d"
-        },
-        "uuid": "8c22bf6ad6ba2932"
-      },
-      "57": {
-        "$bc": "ENGINE.GLTFMeshActor",
         "name": "Zombie",
         "rootComponent": {
           "$bc": "ENGINE.GLTFMeshComponent",
@@ -7848,7 +8107,7 @@
         },
         "uuid": "a52a30211d8886c2"
       },
-      "58": {
+      "57": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_535",
         "rootComponent": {
@@ -7878,7 +8137,7 @@
         },
         "uuid": "db890c20a0da04c6"
       },
-      "59": {
+      "58": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_425",
         "rootComponent": {
@@ -7908,7 +8167,7 @@
         },
         "uuid": "ad8047f36e195e62"
       },
-      "60": {
+      "59": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_424",
         "rootComponent": {
@@ -7938,7 +8197,7 @@
         },
         "uuid": "5a0724c33fee5481"
       },
-      "61": {
+      "60": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_426",
         "rootComponent": {
@@ -7968,7 +8227,7 @@
         },
         "uuid": "5d6e4382053a8843"
       },
-      "62": {
+      "61": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_537",
         "rootComponent": {
@@ -8006,7 +8265,7 @@
         },
         "uuid": "71593d0cb312dac8"
       },
-      "63": {
+      "62": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_538",
         "rootComponent": {
@@ -8044,7 +8303,7 @@
         },
         "uuid": "711f58bd39bf3f2d"
       },
-      "64": {
+      "63": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_06",
         "rootComponent": {
@@ -8154,7 +8413,7 @@
         },
         "uuid": "126887a4a8a9c6a9"
       },
-      "65": {
+      "64": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_07",
         "rootComponent": {
@@ -8256,7 +8515,7 @@
         },
         "uuid": "56b0efb15736c41e"
       },
-      "66": {
+      "65": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_08",
         "rootComponent": {
@@ -8358,7 +8617,7 @@
         },
         "uuid": "a69cea5130df36c3"
       },
-      "67": {
+      "66": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_09",
         "rootComponent": {
@@ -8460,7 +8719,7 @@
         },
         "uuid": "481caf81ffd626e5"
       },
-      "68": {
+      "67": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_08",
         "rootComponent": {
@@ -8496,7 +8755,7 @@
         },
         "uuid": "35ddd5bd6a643606"
       },
-      "69": {
+      "68": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "church",
         "rootComponent": {
@@ -8506,7 +8765,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 18
+                  "$ref": 16
                 }
               ],
               "color": {
@@ -8519,7 +8778,7 @@
               },
               "intensity": 12.1,
               "light": {
-                "$ref": 18
+                "$ref": 16
               },
               "name": "Point Light",
               "position": {
@@ -8566,7 +8825,7 @@
         },
         "uuid": "ed617e6f417e4b49"
       },
-      "70": {
+      "69": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_536",
         "rootComponent": {
@@ -8596,7 +8855,7 @@
         },
         "uuid": "6818b171cb6d8007"
       },
-      "71": {
+      "70": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_521",
         "rootComponent": {
@@ -8626,7 +8885,7 @@
         },
         "uuid": "1ab955e25c384233"
       },
-      "72": {
+      "71": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_539",
         "rootComponent": {
@@ -8656,7 +8915,7 @@
         },
         "uuid": "18dd97b8b44f21b3"
       },
-      "73": {
+      "72": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_540",
         "rootComponent": {
@@ -8686,7 +8945,7 @@
         },
         "uuid": "6b64321307796e90"
       },
-      "74": {
+      "73": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_541",
         "rootComponent": {
@@ -8716,7 +8975,7 @@
         },
         "uuid": "6ef5beaa717564d5"
       },
-      "75": {
+      "74": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_542",
         "rootComponent": {
@@ -8746,7 +9005,7 @@
         },
         "uuid": "99252a7dafa505ff"
       },
-      "76": {
+      "75": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_543",
         "rootComponent": {
@@ -8776,7 +9035,7 @@
         },
         "uuid": "1329e188d9ffd025"
       },
-      "77": {
+      "76": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_544",
         "rootComponent": {
@@ -8806,7 +9065,7 @@
         },
         "uuid": "4643fe14eda655ea"
       },
-      "78": {
+      "77": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_545",
         "rootComponent": {
@@ -8836,7 +9095,7 @@
         },
         "uuid": "5c3b60b956ff245e"
       },
-      "79": {
+      "78": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_09",
         "rootComponent": {
@@ -8864,7 +9123,7 @@
         },
         "uuid": "80a7aee96f5342cc"
       },
-      "80": {
+      "79": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_10",
         "rootComponent": {
@@ -8892,7 +9151,7 @@
         },
         "uuid": "17ba7682a82ea370"
       },
-      "81": {
+      "80": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_11",
         "rootComponent": {
@@ -8920,7 +9179,7 @@
         },
         "uuid": "6bef0872ea1451ef"
       },
-      "82": {
+      "81": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Lampost_03",
         "rootComponent": {
@@ -8930,7 +9189,7 @@
               "$bc": "ENGINE.SpotLightComponent",
               "children": [
                 {
-                  "$ref": 19
+                  "$ref": 17
                 },
                 {
                   "$bc": "THREE.Object3D",
@@ -10023,6 +10282,54 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "72bdf71e-f123-4044-80fd-8ae4506c0bc7"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "aa1544c6-16ca-4618-8d44-8dbb7d6dfd65"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "ab439523-8dd2-41c6-99d8-e405a33b4f69"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "0ef54079-cd43-4482-b00b-ea4fa215081c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "921ce7e8-7d3f-4d10-b7b3-3c8d8001eabc"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "c6418393-5cae-4832-9aa1-695c4723eecd"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2770858d-ef29-4187-b475-2c6ef4f86fcd"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "7000481c-93f8-4e0f-89df-df4ecf0254b7"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "4bb990b8-1f46-40aa-b941-25eb0f107648"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "8ae237b4-7514-46dc-a9e4-5f7b393ef2bb"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "ae1ece61-cd3b-4559-82d0-bff97c041661"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "3b275e44-2659-4e7c-9f7e-3e299fadee5c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "467939db-5f2e-4006-a75f-d697d4475fd6"
                 }
               ],
               "color": {
@@ -10035,7 +10342,7 @@
               },
               "intensity": 7.8,
               "light": {
-                "$ref": 19
+                "$ref": 17
               },
               "name": "Spot Light",
               "position": {
@@ -10081,7 +10388,7 @@
         },
         "uuid": "cb4f61a769a47d46"
       },
-      "83": {
+      "82": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_433",
         "rootComponent": {
@@ -10111,12 +10418,72 @@
         },
         "uuid": "59c70e0570a30107"
       },
-      "84": {
+      "83": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "cinema",
         "rootComponent": {
           "$bc": "ENGINE.GLTFMeshComponent",
           "children": [
+            {
+              "$bc": "ENGINE.PointLightComponent",
+              "children": [
+                {
+                  "$ref": 18
+                }
+              ],
+              "color": {
+                "$bc": "c",
+                "_": [
+                  1,
+                  1,
+                  0.042311
+                ]
+              },
+              "intensity": 8.8,
+              "light": {
+                "$ref": 18
+              },
+              "name": "Point Light",
+              "position": {
+                "$bc": "v3",
+                "_": [
+                  -2.118613,
+                  5.384005,
+                  2.791764
+                ]
+              },
+              "uuid": "a8377ba76ddc1602"
+            },
+            {
+              "$bc": "ENGINE.PointLightComponent",
+              "children": [
+                {
+                  "$ref": 19
+                }
+              ],
+              "color": {
+                "$bc": "c",
+                "_": [
+                  1,
+                  1,
+                  0.042311
+                ]
+              },
+              "intensity": 8.8,
+              "light": {
+                "$ref": 19
+              },
+              "name": "Point Light_02",
+              "position": {
+                "$bc": "v3",
+                "_": [
+                  -1.382,
+                  5.384005,
+                  2.791764
+                ]
+              },
+              "uuid": "5130ffcf3b733604"
+            },
             {
               "$bc": "ENGINE.PointLightComponent",
               "children": [
@@ -10136,16 +10503,16 @@
               "light": {
                 "$ref": 20
               },
-              "name": "Point Light",
+              "name": "Point Light_03",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  -2.118613,
+                  -0.467002,
                   5.384005,
                   2.791764
                 ]
               },
-              "uuid": "a8377ba76ddc1602"
+              "uuid": "5e446bb49a04267d"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10166,16 +10533,16 @@
               "light": {
                 "$ref": 21
               },
-              "name": "Point Light_02",
+              "name": "Point Light_04",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  -1.382,
+                  0.392791,
                   5.384005,
                   2.791764
                 ]
               },
-              "uuid": "5130ffcf3b733604"
+              "uuid": "9ddcc9645b7407a8"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10196,16 +10563,16 @@
               "light": {
                 "$ref": 22
               },
-              "name": "Point Light_03",
+              "name": "Point Light_05",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  -0.467002,
+                  0.392791,
                   5.384005,
                   2.791764
                 ]
               },
-              "uuid": "5e446bb49a04267d"
+              "uuid": "decd50c58e229427"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10226,16 +10593,16 @@
               "light": {
                 "$ref": 23
               },
-              "name": "Point Light_04",
+              "name": "Point Light_06",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  0.392791,
+                  1.252593,
                   5.384005,
                   2.791764
                 ]
               },
-              "uuid": "9ddcc9645b7407a8"
+              "uuid": "c5f59b60e4f80626"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10256,16 +10623,16 @@
               "light": {
                 "$ref": 24
               },
-              "name": "Point Light_05",
+              "name": "Point Light_07",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  0.392791,
+                  2.218289,
                   5.384005,
                   2.791764
                 ]
               },
-              "uuid": "decd50c58e229427"
+              "uuid": "04d274d41b0da125"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10286,16 +10653,16 @@
               "light": {
                 "$ref": 25
               },
-              "name": "Point Light_06",
+              "name": "Point Light_08",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  1.252593,
+                  3.080053,
                   5.384005,
                   2.791764
                 ]
               },
-              "uuid": "c5f59b60e4f80626"
+              "uuid": "93e6866031e2c944"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10316,16 +10683,16 @@
               "light": {
                 "$ref": 26
               },
-              "name": "Point Light_07",
+              "name": "Point Light_09",
               "position": {
                 "$bc": "v3",
                 "_": [
-                  2.218289,
-                  5.384005,
+                  -1.549757,
+                  3.900733,
                   2.791764
                 ]
               },
-              "uuid": "04d274d41b0da125"
+              "uuid": "33475d48eea9a72f"
             },
             {
               "$bc": "ENGINE.PointLightComponent",
@@ -10346,66 +10713,6 @@
               "light": {
                 "$ref": 27
               },
-              "name": "Point Light_08",
-              "position": {
-                "$bc": "v3",
-                "_": [
-                  3.080053,
-                  5.384005,
-                  2.791764
-                ]
-              },
-              "uuid": "93e6866031e2c944"
-            },
-            {
-              "$bc": "ENGINE.PointLightComponent",
-              "children": [
-                {
-                  "$ref": 28
-                }
-              ],
-              "color": {
-                "$bc": "c",
-                "_": [
-                  1,
-                  1,
-                  0.042311
-                ]
-              },
-              "intensity": 8.8,
-              "light": {
-                "$ref": 28
-              },
-              "name": "Point Light_09",
-              "position": {
-                "$bc": "v3",
-                "_": [
-                  -1.549757,
-                  3.900733,
-                  2.791764
-                ]
-              },
-              "uuid": "33475d48eea9a72f"
-            },
-            {
-              "$bc": "ENGINE.PointLightComponent",
-              "children": [
-                {
-                  "$ref": 29
-                }
-              ],
-              "color": {
-                "$bc": "c",
-                "_": [
-                  1,
-                  1,
-                  0.042311
-                ]
-              },
-              "intensity": 8.8,
-              "light": {
-                "$ref": 29
-              },
               "name": "Point Light_10",
               "position": {
                 "$bc": "v3",
@@ -10421,12 +10728,12 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 30
+                  "$ref": 28
                 }
               ],
               "intensity": 22.4,
               "light": {
-                "$ref": 30
+                "$ref": 28
               },
               "name": "Point Light_11",
               "position": {
@@ -10471,7 +10778,7 @@
         },
         "uuid": "f1cfba9a8cb27382"
       },
-      "85": {
+      "84": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu",
         "rootComponent": {
@@ -10490,9 +10797,113 @@
         },
         "uuid": "23b15151fa498767"
       },
-      "86": {
+      "85": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu_02",
+        "rootComponent": {
+          "$bc": "ENGINE.GLTFMeshComponent",
+          "children": [
+            {
+              "$bc": "ENGINE.PointLightComponent",
+              "children": [
+                {
+                  "$ref": 29
+                }
+              ],
+              "color": {
+                "$bc": "c",
+                "_": [
+                  1,
+                  1,
+                  0.155926
+                ]
+              },
+              "intensity": 6.5,
+              "light": {
+                "$ref": 29
+              },
+              "name": "Point Light",
+              "position": {
+                "$bc": "v3",
+                "_": [
+                  0.28396,
+                  -0.064938,
+                  -0.051729
+                ]
+              },
+              "uuid": "15e79502c9b4ad41"
+            }
+          ],
+          "excludeFromNavigation": true,
+          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "$bc": "v3",
+            "_": [
+              0.655338,
+              -0.006775,
+              21.034677
+            ]
+          },
+          "uuid": "13abdfe704b864ad"
+        },
+        "uuid": "9dc887d7e49c9c3c"
+      },
+      "86": {
+        "$bc": "ENGINE.GLTFMeshActor",
+        "name": "lamp for chrcu_03",
+        "rootComponent": {
+          "$bc": "ENGINE.GLTFMeshComponent",
+          "children": [
+            {
+              "$bc": "ENGINE.PointLightComponent",
+              "children": [
+                {
+                  "$ref": 30
+                }
+              ],
+              "color": {
+                "$bc": "c",
+                "_": [
+                  1,
+                  1,
+                  0.155926
+                ]
+              },
+              "intensity": 6.5,
+              "light": {
+                "$ref": 30
+              },
+              "name": "Point Light",
+              "position": {
+                "$bc": "v3",
+                "_": [
+                  0.28396,
+                  -0.064938,
+                  -0.051729
+                ]
+              },
+              "uuid": "088aed2b6c8d278f"
+            }
+          ],
+          "excludeFromNavigation": true,
+          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
+          "name": "GLTFMeshComponent",
+          "position": {
+            "$bc": "v3",
+            "_": [
+              7.453482,
+              -0.006775,
+              21.059592
+            ]
+          },
+          "uuid": "74b766f47ca18eb9"
+        },
+        "uuid": "500b3a46b965cf3c"
+      },
+      "87": {
+        "$bc": "ENGINE.GLTFMeshActor",
+        "name": "lamp for chrcu_04",
         "rootComponent": {
           "$bc": "ENGINE.GLTFMeshComponent",
           "children": [
@@ -10524,110 +10935,6 @@
                   -0.051729
                 ]
               },
-              "uuid": "15e79502c9b4ad41"
-            }
-          ],
-          "excludeFromNavigation": true,
-          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              0.655338,
-              -0.006775,
-              21.034677
-            ]
-          },
-          "uuid": "13abdfe704b864ad"
-        },
-        "uuid": "9dc887d7e49c9c3c"
-      },
-      "87": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "lamp for chrcu_03",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "children": [
-            {
-              "$bc": "ENGINE.PointLightComponent",
-              "children": [
-                {
-                  "$ref": 32
-                }
-              ],
-              "color": {
-                "$bc": "c",
-                "_": [
-                  1,
-                  1,
-                  0.155926
-                ]
-              },
-              "intensity": 6.5,
-              "light": {
-                "$ref": 32
-              },
-              "name": "Point Light",
-              "position": {
-                "$bc": "v3",
-                "_": [
-                  0.28396,
-                  -0.064938,
-                  -0.051729
-                ]
-              },
-              "uuid": "088aed2b6c8d278f"
-            }
-          ],
-          "excludeFromNavigation": true,
-          "modelUrl": "@project/assets/models/lamp for chrcu.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              7.453482,
-              -0.006775,
-              21.059592
-            ]
-          },
-          "uuid": "74b766f47ca18eb9"
-        },
-        "uuid": "500b3a46b965cf3c"
-      },
-      "88": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "lamp for chrcu_04",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "children": [
-            {
-              "$bc": "ENGINE.PointLightComponent",
-              "children": [
-                {
-                  "$ref": 33
-                }
-              ],
-              "color": {
-                "$bc": "c",
-                "_": [
-                  1,
-                  1,
-                  0.155926
-                ]
-              },
-              "intensity": 6.5,
-              "light": {
-                "$ref": 33
-              },
-              "name": "Point Light",
-              "position": {
-                "$bc": "v3",
-                "_": [
-                  0.28396,
-                  -0.064938,
-                  -0.051729
-                ]
-              },
               "uuid": "f5266765cf01aca0"
             }
           ],
@@ -10646,7 +10953,7 @@
         },
         "uuid": "1270cb72445c8015"
       },
-      "89": {
+      "88": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_435",
         "rootComponent": {
@@ -10684,7 +10991,7 @@
         },
         "uuid": "37badbf97637a054"
       },
-      "90": {
+      "89": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Meshy_AI_Hole_to_the_Underworl_0425041951_texture",
         "rootComponent": {
@@ -10695,7 +11002,7 @@
               "bakeLightmaps": false,
               "children": [
                 {
-                  "$ref": 34
+                  "$ref": 32
                 }
               ],
               "color": {
@@ -10708,7 +11015,7 @@
               },
               "intensity": 900,
               "light": {
-                "$ref": 34
+                "$ref": 32
               },
               "name": "Point Light",
               "position": {
@@ -10763,7 +11070,7 @@
         },
         "uuid": "6d0f2934cdee4a2d"
       },
-      "91": {
+      "90": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "police",
         "rootComponent": {
@@ -10773,7 +11080,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 35
+                  "$ref": 33
                 }
               ],
               "color": {
@@ -10786,7 +11093,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 35
+                "$ref": 33
               },
               "name": "Point Light",
               "position": {
@@ -10803,7 +11110,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 36
+                  "$ref": 34
                 }
               ],
               "color": {
@@ -10816,7 +11123,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 36
+                "$ref": 34
               },
               "name": "Point Light_02",
               "position": {
@@ -10861,7 +11168,7 @@
         },
         "uuid": "b8ad7c890008d2d2"
       },
-      "92": {
+      "91": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "police_02",
         "rootComponent": {
@@ -10871,7 +11178,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 37
+                  "$ref": 35
                 }
               ],
               "color": {
@@ -10884,7 +11191,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 37
+                "$ref": 35
               },
               "name": "Point Light",
               "position": {
@@ -10901,7 +11208,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 38
+                  "$ref": 36
                 }
               ],
               "color": {
@@ -10914,7 +11221,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 38
+                "$ref": 36
               },
               "name": "Point Light_02",
               "position": {
@@ -10959,7 +11266,7 @@
         },
         "uuid": "31bdbacaf6632fd1"
       },
-      "93": {
+      "92": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_546",
         "rootComponent": {
@@ -10989,7 +11296,7 @@
         },
         "uuid": "c33e3e2b52211fc1"
       },
-      "94": {
+      "93": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_547",
         "rootComponent": {
@@ -11019,7 +11326,7 @@
         },
         "uuid": "4891e3f74f62f7be"
       },
-      "95": {
+      "94": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_548",
         "rootComponent": {
@@ -11049,7 +11356,7 @@
         },
         "uuid": "d4a4d5ecac2d86c4"
       },
-      "96": {
+      "95": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_549",
         "rootComponent": {
@@ -11087,7 +11394,7 @@
         },
         "uuid": "55591c9fe021bc05"
       },
-      "97": {
+      "96": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu_05",
         "rootComponent": {
@@ -11097,7 +11404,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 39
+                  "$ref": 37
                 }
               ],
               "color": {
@@ -11110,7 +11417,7 @@
               },
               "intensity": 6.5,
               "light": {
-                "$ref": 39
+                "$ref": 37
               },
               "name": "Point Light",
               "position": {
@@ -11139,7 +11446,7 @@
         },
         "uuid": "42e8244cbe3fef4b"
       },
-      "98": {
+      "97": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_439",
         "rootComponent": {
@@ -11177,7 +11484,7 @@
         },
         "uuid": "a38a8f54bba8812f"
       },
-      "99": {
+      "98": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_440",
         "rootComponent": {
@@ -11215,7 +11522,7 @@
         },
         "uuid": "b4b50f597b30272c"
       },
-      "100": {
+      "99": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_436",
         "rootComponent": {
@@ -11253,7 +11560,7 @@
         },
         "uuid": "7bba4474cd7d328d"
       },
-      "101": {
+      "100": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_550",
         "rootComponent": {
@@ -11291,7 +11598,7 @@
         },
         "uuid": "5c4b25ec574779df"
       },
-      "102": {
+      "101": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_551",
         "rootComponent": {
@@ -11329,7 +11636,7 @@
         },
         "uuid": "c6093274adfc18ea"
       },
-      "103": {
+      "102": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_441",
         "rootComponent": {
@@ -11367,7 +11674,7 @@
         },
         "uuid": "9c11618007f9859e"
       },
-      "104": {
+      "103": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu_06",
         "rootComponent": {
@@ -11377,7 +11684,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 40
+                  "$ref": 38
                 }
               ],
               "color": {
@@ -11390,7 +11697,7 @@
               },
               "intensity": 6.5,
               "light": {
-                "$ref": 40
+                "$ref": 38
               },
               "name": "Point Light",
               "position": {
@@ -11419,7 +11726,7 @@
         },
         "uuid": "2e06cae780fa6445"
       },
-      "105": {
+      "104": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu_07",
         "rootComponent": {
@@ -11429,7 +11736,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 41
+                  "$ref": 39
                 }
               ],
               "color": {
@@ -11442,7 +11749,7 @@
               },
               "intensity": 6.5,
               "light": {
-                "$ref": 41
+                "$ref": 39
               },
               "name": "Point Light",
               "position": {
@@ -11471,7 +11778,7 @@
         },
         "uuid": "b21b2183d7cc394b"
       },
-      "106": {
+      "105": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_12",
         "rootComponent": {
@@ -11507,7 +11814,7 @@
         },
         "uuid": "ad82e0e0429ff1f1"
       },
-      "107": {
+      "106": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_13",
         "rootComponent": {
@@ -11543,7 +11850,7 @@
         },
         "uuid": "87ba90f56a20c280"
       },
-      "108": {
+      "107": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Stand",
         "rootComponent": {
@@ -11553,7 +11860,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 42
+                  "$ref": 40
                 }
               ],
               "color": {
@@ -11566,7 +11873,7 @@
               },
               "intensity": 14.1,
               "light": {
-                "$ref": 42
+                "$ref": 40
               },
               "name": "Point Light",
               "position": {
@@ -11610,7 +11917,7 @@
         },
         "uuid": "d0695fabb7080f47"
       },
-      "109": {
+      "108": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_442",
         "rootComponent": {
@@ -11648,7 +11955,7 @@
         },
         "uuid": "12cca85f125f5d43"
       },
-      "110": {
+      "109": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_443",
         "rootComponent": {
@@ -11686,7 +11993,7 @@
         },
         "uuid": "8a7980f2afb5e5c0"
       },
-      "111": {
+      "110": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_437",
         "rootComponent": {
@@ -11724,7 +12031,7 @@
         },
         "uuid": "5d3ae8c754691cb5"
       },
-      "112": {
+      "111": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_444",
         "rootComponent": {
@@ -11762,7 +12069,7 @@
         },
         "uuid": "4fb1eae52a465bef"
       },
-      "113": {
+      "112": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_552",
         "rootComponent": {
@@ -11800,7 +12107,7 @@
         },
         "uuid": "d4c98e72df5af8ad"
       },
-      "114": {
+      "113": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_445",
         "rootComponent": {
@@ -11838,7 +12145,7 @@
         },
         "uuid": "0df5a1bafea12914"
       },
-      "115": {
+      "114": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_446",
         "rootComponent": {
@@ -11876,7 +12183,7 @@
         },
         "uuid": "53c605717c4df8f7"
       },
-      "116": {
+      "115": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_447",
         "rootComponent": {
@@ -11914,7 +12221,7 @@
         },
         "uuid": "55f1098dd194c443"
       },
-      "117": {
+      "116": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_448",
         "rootComponent": {
@@ -11952,7 +12259,7 @@
         },
         "uuid": "765255797f6d0a07"
       },
-      "118": {
+      "117": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_449",
         "rootComponent": {
@@ -11990,7 +12297,7 @@
         },
         "uuid": "5a468a6ec793f8cf"
       },
-      "119": {
+      "118": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_450",
         "rootComponent": {
@@ -12028,7 +12335,7 @@
         },
         "uuid": "97b69c409ed9e674"
       },
-      "120": {
+      "119": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_451",
         "rootComponent": {
@@ -12066,7 +12373,7 @@
         },
         "uuid": "10c1b6edec0ba9f3"
       },
-      "121": {
+      "120": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_413",
         "rootComponent": {
@@ -12096,7 +12403,7 @@
         },
         "uuid": "254bf4b2d09a5d90"
       },
-      "122": {
+      "121": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block",
         "rootComponent": {
@@ -12124,7 +12431,7 @@
         },
         "uuid": "21f6ac7a236f5f28"
       },
-      "123": {
+      "122": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block_02",
         "rootComponent": {
@@ -12152,7 +12459,7 @@
         },
         "uuid": "070596465b083370"
       },
-      "124": {
+      "123": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block_03",
         "rootComponent": {
@@ -12180,7 +12487,7 @@
         },
         "uuid": "17820e4df415faad"
       },
-      "125": {
+      "124": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tunnel",
         "rootComponent": {
@@ -12190,7 +12497,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 43
+                  "$ref": 41
                 }
               ],
               "color": {
@@ -12203,7 +12510,7 @@
               },
               "intensity": 1000,
               "light": {
-                "$ref": 43
+                "$ref": 41
               },
               "name": "Point Light",
               "position": {
@@ -12248,7 +12555,7 @@
         },
         "uuid": "b9bfd17d8804db23"
       },
-      "126": {
+      "125": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_553",
         "rootComponent": {
@@ -12278,7 +12585,7 @@
         },
         "uuid": "ddda7acd2e26bef5"
       },
-      "127": {
+      "126": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_554",
         "rootComponent": {
@@ -12308,7 +12615,7 @@
         },
         "uuid": "56a11cc85c3e9717"
       },
-      "128": {
+      "127": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_555",
         "rootComponent": {
@@ -12338,7 +12645,7 @@
         },
         "uuid": "a891f71406b18c32"
       },
-      "129": {
+      "128": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_556",
         "rootComponent": {
@@ -12368,7 +12675,7 @@
         },
         "uuid": "ae6b1fbd81035e3a"
       },
-      "130": {
+      "129": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_557",
         "rootComponent": {
@@ -12398,7 +12705,7 @@
         },
         "uuid": "f573fd94046818c6"
       },
-      "131": {
+      "130": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel",
         "rootComponent": {
@@ -12426,7 +12733,7 @@
         },
         "uuid": "0dc8773655a82f4e"
       },
-      "132": {
+      "131": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel_02",
         "rootComponent": {
@@ -12454,7 +12761,7 @@
         },
         "uuid": "85d9e3b8bfb538f9"
       },
-      "133": {
+      "132": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel_03",
         "rootComponent": {
@@ -12482,7 +12789,7 @@
         },
         "uuid": "ec0f6ff7e2d74090"
       },
-      "134": {
+      "133": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel_04",
         "rootComponent": {
@@ -12510,7 +12817,7 @@
         },
         "uuid": "b5dfe98293c94b61"
       },
-      "135": {
+      "134": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_559",
         "rootComponent": {
@@ -12540,7 +12847,7 @@
         },
         "uuid": "78c027fbc9bd6303"
       },
-      "136": {
+      "135": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_558",
         "rootComponent": {
@@ -12570,7 +12877,7 @@
         },
         "uuid": "d7302c54952a3a36"
       },
-      "137": {
+      "136": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_560",
         "rootComponent": {
@@ -12608,7 +12915,7 @@
         },
         "uuid": "9109612befcaf1f2"
       },
-      "138": {
+      "137": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_561",
         "rootComponent": {
@@ -12638,7 +12945,7 @@
         },
         "uuid": "69a84a40fd2841ba"
       },
-      "139": {
+      "138": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_562",
         "rootComponent": {
@@ -12676,7 +12983,7 @@
         },
         "uuid": "9d2110c0eb6b4495"
       },
-      "140": {
+      "139": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_563",
         "rootComponent": {
@@ -12714,7 +13021,7 @@
         },
         "uuid": "cef2062048ab78e0"
       },
-      "141": {
+      "140": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_427",
         "rootComponent": {
@@ -12744,7 +13051,7 @@
         },
         "uuid": "1c9c733a2b7ee64e"
       },
-      "142": {
+      "141": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_428",
         "rootComponent": {
@@ -12774,7 +13081,7 @@
         },
         "uuid": "dbfdaaf330f548cc"
       },
-      "143": {
+      "142": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_14",
         "rootComponent": {
@@ -12810,7 +13117,7 @@
         },
         "uuid": "a8909d941969315e"
       },
-      "144": {
+      "143": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_15",
         "rootComponent": {
@@ -12846,7 +13153,7 @@
         },
         "uuid": "ba2b196806bb598a"
       },
-      "145": {
+      "144": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_564",
         "rootComponent": {
@@ -12884,7 +13191,7 @@
         },
         "uuid": "ab31d4ea63508513"
       },
-      "146": {
+      "145": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_565",
         "rootComponent": {
@@ -12922,7 +13229,7 @@
         },
         "uuid": "5a39cc00d9164ab8"
       },
-      "147": {
+      "146": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_566",
         "rootComponent": {
@@ -12960,7 +13267,7 @@
         },
         "uuid": "da684fd97e8609f6"
       },
-      "148": {
+      "147": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_567",
         "rootComponent": {
@@ -12990,7 +13297,7 @@
         },
         "uuid": "d4b5dbe2f37ecfcb"
       },
-      "149": {
+      "148": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_568",
         "rootComponent": {
@@ -13028,7 +13335,7 @@
         },
         "uuid": "9944820b9818f4d7"
       },
-      "150": {
+      "149": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_569",
         "rootComponent": {
@@ -13066,7 +13373,7 @@
         },
         "uuid": "36b50d5268ca8520"
       },
-      "151": {
+      "150": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_570",
         "rootComponent": {
@@ -13096,7 +13403,7 @@
         },
         "uuid": "83bcb135abf42550"
       },
-      "152": {
+      "151": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "police_03",
         "rootComponent": {
@@ -13106,7 +13413,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 44
+                  "$ref": 42
                 }
               ],
               "color": {
@@ -13119,7 +13426,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 44
+                "$ref": 42
               },
               "name": "Point Light",
               "position": {
@@ -13136,7 +13443,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 45
+                  "$ref": 43
                 }
               ],
               "color": {
@@ -13149,7 +13456,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 45
+                "$ref": 43
               },
               "name": "Point Light_02",
               "position": {
@@ -13194,7 +13501,7 @@
         },
         "uuid": "ed2639f3b796803f"
       },
-      "153": {
+      "152": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block_04",
         "rootComponent": {
@@ -13222,7 +13529,7 @@
         },
         "uuid": "1c9adbe13331cae3"
       },
-      "154": {
+      "153": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block_05",
         "rootComponent": {
@@ -13250,7 +13557,7 @@
         },
         "uuid": "0b43c5d909ef2a5d"
       },
-      "155": {
+      "154": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block_06",
         "rootComponent": {
@@ -13278,7 +13585,7 @@
         },
         "uuid": "2865d6a5a8512957"
       },
-      "156": {
+      "155": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_429",
         "rootComponent": {
@@ -13308,7 +13615,7 @@
         },
         "uuid": "f52a30bbd8cec5df"
       },
-      "157": {
+      "156": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_430",
         "rootComponent": {
@@ -13338,7 +13645,7 @@
         },
         "uuid": "0bbfd8d60fb22fe9"
       },
-      "158": {
+      "157": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_431",
         "rootComponent": {
@@ -13368,7 +13675,7 @@
         },
         "uuid": "5fc6ef330442e183"
       },
-      "159": {
+      "158": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Car type 3",
         "rootComponent": {
@@ -13407,7 +13714,7 @@
         },
         "uuid": "83e5af8e56be95df"
       },
-      "160": {
+      "159": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel_05",
         "rootComponent": {
@@ -13435,7 +13742,7 @@
         },
         "uuid": "68ab02d2d522a172"
       },
-      "161": {
+      "160": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel_06",
         "rootComponent": {
@@ -13463,7 +13770,7 @@
         },
         "uuid": "733d167afafbec08"
       },
-      "162": {
+      "161": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tunnel_02",
         "rootComponent": {
@@ -13473,7 +13780,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 46
+                  "$ref": 44
                 }
               ],
               "color": {
@@ -13486,7 +13793,7 @@
               },
               "intensity": 1000,
               "light": {
-                "$ref": 46
+                "$ref": 44
               },
               "name": "Point Light",
               "position": {
@@ -13531,7 +13838,7 @@
         },
         "uuid": "d2b45faf0e6eb8d3"
       },
-      "163": {
+      "162": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_571",
         "rootComponent": {
@@ -13569,7 +13876,7 @@
         },
         "uuid": "922c81375bae2e4b"
       },
-      "164": {
+      "163": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_572",
         "rootComponent": {
@@ -13607,7 +13914,7 @@
         },
         "uuid": "595e24ea5567074e"
       },
-      "165": {
+      "164": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_573",
         "rootComponent": {
@@ -13645,7 +13952,7 @@
         },
         "uuid": "b1279c0c5996af61"
       },
-      "166": {
+      "165": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_574",
         "rootComponent": {
@@ -13683,7 +13990,7 @@
         },
         "uuid": "fec1024ee40dfb3a"
       },
-      "167": {
+      "166": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_575",
         "rootComponent": {
@@ -13721,7 +14028,7 @@
         },
         "uuid": "4414a45c6b1ffeb9"
       },
-      "168": {
+      "167": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_576",
         "rootComponent": {
@@ -13759,7 +14066,7 @@
         },
         "uuid": "f94103f561fb9363"
       },
-      "169": {
+      "168": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_577",
         "rootComponent": {
@@ -13797,7 +14104,7 @@
         },
         "uuid": "d776bd51befd1cbe"
       },
-      "170": {
+      "169": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_578",
         "rootComponent": {
@@ -13835,7 +14142,7 @@
         },
         "uuid": "fa8e0f55b83cc412"
       },
-      "171": {
+      "170": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel_07",
         "rootComponent": {
@@ -13863,7 +14170,7 @@
         },
         "uuid": "6bb7e8fa548f337b"
       },
-      "172": {
+      "171": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_579",
         "rootComponent": {
@@ -13893,7 +14200,7 @@
         },
         "uuid": "63067baeb515743b"
       },
-      "173": {
+      "172": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_580",
         "rootComponent": {
@@ -13923,7 +14230,7 @@
         },
         "uuid": "d2a13b4ca82d38d9"
       },
-      "174": {
+      "173": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_581",
         "rootComponent": {
@@ -13953,7 +14260,7 @@
         },
         "uuid": "5c8504b1b5e78fd4"
       },
-      "175": {
+      "174": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_582",
         "rootComponent": {
@@ -13983,7 +14290,7 @@
         },
         "uuid": "01506f721f385277"
       },
-      "176": {
+      "175": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_583",
         "rootComponent": {
@@ -14013,7 +14320,7 @@
         },
         "uuid": "f41132fd0a47f2fe"
       },
-      "177": {
+      "176": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_584",
         "rootComponent": {
@@ -14043,7 +14350,7 @@
         },
         "uuid": "9d0225425defa0e3"
       },
-      "178": {
+      "177": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_585",
         "rootComponent": {
@@ -14073,7 +14380,7 @@
         },
         "uuid": "87fa57fff05955ee"
       },
-      "179": {
+      "178": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_434",
         "rootComponent": {
@@ -14103,7 +14410,7 @@
         },
         "uuid": "73da60faeb936ce6"
       },
-      "180": {
+      "179": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_438",
         "rootComponent": {
@@ -14133,7 +14440,7 @@
         },
         "uuid": "dfef4a5ecb92fdb9"
       },
-      "181": {
+      "180": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_452",
         "rootComponent": {
@@ -14163,7 +14470,7 @@
         },
         "uuid": "241367ce66eeab27"
       },
-      "182": {
+      "181": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_453",
         "rootComponent": {
@@ -14193,7 +14500,7 @@
         },
         "uuid": "92867cff19888cfb"
       },
-      "183": {
+      "182": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_458",
         "rootComponent": {
@@ -14223,7 +14530,7 @@
         },
         "uuid": "d28194b783498756"
       },
-      "184": {
+      "183": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_459",
         "rootComponent": {
@@ -14253,7 +14560,7 @@
         },
         "uuid": "41f2d35ad616e56f"
       },
-      "185": {
+      "184": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_460",
         "rootComponent": {
@@ -14283,7 +14590,7 @@
         },
         "uuid": "f771ef78753cc894"
       },
-      "186": {
+      "185": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_462",
         "rootComponent": {
@@ -14313,7 +14620,7 @@
         },
         "uuid": "4e3f37375ba9875c"
       },
-      "187": {
+      "186": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_16",
         "rootComponent": {
@@ -14349,7 +14656,7 @@
         },
         "uuid": "6eab83de32acf9ad"
       },
-      "188": {
+      "187": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_17",
         "rootComponent": {
@@ -14385,7 +14692,7 @@
         },
         "uuid": "86f8c9f5f652cee5"
       },
-      "189": {
+      "188": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_463",
         "rootComponent": {
@@ -14415,7 +14722,7 @@
         },
         "uuid": "b0714a8f21346f78"
       },
-      "190": {
+      "189": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_18",
         "rootComponent": {
@@ -14451,7 +14758,7 @@
         },
         "uuid": "d1f1d0f14d73a512"
       },
-      "191": {
+      "190": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_19",
         "rootComponent": {
@@ -14487,7 +14794,7 @@
         },
         "uuid": "33e8e26e82e1ec6c"
       },
-      "192": {
+      "191": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_602",
         "rootComponent": {
@@ -14525,7 +14832,7 @@
         },
         "uuid": "44c6b214e6579109"
       },
-      "193": {
+      "192": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_603",
         "rootComponent": {
@@ -14563,7 +14870,7 @@
         },
         "uuid": "259a5ea9d03717b3"
       },
-      "194": {
+      "193": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_604",
         "rootComponent": {
@@ -14601,7 +14908,7 @@
         },
         "uuid": "e597205d190af77d"
       },
-      "195": {
+      "194": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_605",
         "rootComponent": {
@@ -14639,7 +14946,7 @@
         },
         "uuid": "4302f98d92b06faa"
       },
-      "196": {
+      "195": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_606",
         "rootComponent": {
@@ -14677,7 +14984,7 @@
         },
         "uuid": "4961b6414ecae64c"
       },
-      "197": {
+      "196": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_607",
         "rootComponent": {
@@ -14707,7 +15014,7 @@
         },
         "uuid": "08fe94701896813e"
       },
-      "198": {
+      "197": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_608",
         "rootComponent": {
@@ -14737,7 +15044,7 @@
         },
         "uuid": "705a495c2f8fb29e"
       },
-      "199": {
+      "198": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_609",
         "rootComponent": {
@@ -14767,7 +15074,7 @@
         },
         "uuid": "8efa24828fce318c"
       },
-      "200": {
+      "199": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_610",
         "rootComponent": {
@@ -14797,7 +15104,7 @@
         },
         "uuid": "5bc122b9942da367"
       },
-      "201": {
+      "200": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_611",
         "rootComponent": {
@@ -14827,7 +15134,7 @@
         },
         "uuid": "5663804ba47e3cd7"
       },
-      "202": {
+      "201": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_612",
         "rootComponent": {
@@ -14857,7 +15164,7 @@
         },
         "uuid": "43ef53623d7f3819"
       },
-      "203": {
+      "202": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_613",
         "rootComponent": {
@@ -14887,7 +15194,7 @@
         },
         "uuid": "3fc448d79b0a7629"
       },
-      "204": {
+      "203": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_614",
         "rootComponent": {
@@ -14917,7 +15224,7 @@
         },
         "uuid": "26c3eeb741d78e4e"
       },
-      "205": {
+      "204": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_615",
         "rootComponent": {
@@ -14947,7 +15254,7 @@
         },
         "uuid": "a5ba07820335e705"
       },
-      "206": {
+      "205": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_616",
         "rootComponent": {
@@ -14977,7 +15284,7 @@
         },
         "uuid": "f6196ba299b17ec3"
       },
-      "207": {
+      "206": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_617",
         "rootComponent": {
@@ -15015,7 +15322,7 @@
         },
         "uuid": "1b1a2815a4c0b762"
       },
-      "208": {
+      "207": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_618",
         "rootComponent": {
@@ -15053,7 +15360,7 @@
         },
         "uuid": "5371d16659a0ea8c"
       },
-      "209": {
+      "208": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_619",
         "rootComponent": {
@@ -15091,7 +15398,7 @@
         },
         "uuid": "b76453089d12aadb"
       },
-      "210": {
+      "209": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_620",
         "rootComponent": {
@@ -15129,7 +15436,7 @@
         },
         "uuid": "65e4a5e5d05e8a2d"
       },
-      "211": {
+      "210": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_621",
         "rootComponent": {
@@ -15167,7 +15474,7 @@
         },
         "uuid": "ecc993d8defd6790"
       },
-      "212": {
+      "211": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_622",
         "rootComponent": {
@@ -15197,7 +15504,7 @@
         },
         "uuid": "0dfed4b424083c5b"
       },
-      "213": {
+      "212": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_623",
         "rootComponent": {
@@ -15235,7 +15542,7 @@
         },
         "uuid": "9ebd078769788a24"
       },
-      "214": {
+      "213": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_20",
         "rootComponent": {
@@ -15271,7 +15578,7 @@
         },
         "uuid": "5d9791430ae28c77"
       },
-      "215": {
+      "214": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_624",
         "rootComponent": {
@@ -15309,7 +15616,7 @@
         },
         "uuid": "e43007ccd09e2f94"
       },
-      "216": {
+      "215": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_633",
         "rootComponent": {
@@ -15339,7 +15646,7 @@
         },
         "uuid": "b44bd16cd7d7cbab"
       },
-      "217": {
+      "216": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_635",
         "rootComponent": {
@@ -15369,7 +15676,7 @@
         },
         "uuid": "711a1990c54a2ca6"
       },
-      "218": {
+      "217": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_634",
         "rootComponent": {
@@ -15399,7 +15706,7 @@
         },
         "uuid": "01dc75e0aa03a46c"
       },
-      "219": {
+      "218": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_636",
         "rootComponent": {
@@ -15429,7 +15736,7 @@
         },
         "uuid": "910ad2a4f4729ebc"
       },
-      "220": {
+      "219": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_637",
         "rootComponent": {
@@ -15459,7 +15766,7 @@
         },
         "uuid": "9715a583b4b52316"
       },
-      "221": {
+      "220": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_587",
         "rootComponent": {
@@ -15497,7 +15804,7 @@
         },
         "uuid": "94460665097b6307"
       },
-      "222": {
+      "221": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_588",
         "rootComponent": {
@@ -15535,7 +15842,7 @@
         },
         "uuid": "5f0d658e82233597"
       },
-      "223": {
+      "222": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_589",
         "rootComponent": {
@@ -15573,7 +15880,7 @@
         },
         "uuid": "18e159f7dd44aae0"
       },
-      "224": {
+      "223": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_590",
         "rootComponent": {
@@ -15611,7 +15918,7 @@
         },
         "uuid": "f8afa30d27f2a2ef"
       },
-      "225": {
+      "224": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_638",
         "rootComponent": {
@@ -15641,7 +15948,7 @@
         },
         "uuid": "6b504f38663a68c8"
       },
-      "226": {
+      "225": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_454",
         "rootComponent": {
@@ -15679,7 +15986,7 @@
         },
         "uuid": "8add4dc76b0412d5"
       },
-      "227": {
+      "226": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_455",
         "rootComponent": {
@@ -15717,7 +16024,7 @@
         },
         "uuid": "3456d35e202f37d2"
       },
-      "228": {
+      "227": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_456",
         "rootComponent": {
@@ -15755,7 +16062,7 @@
         },
         "uuid": "50aa80f9f3b841e4"
       },
-      "229": {
+      "228": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_21",
         "rootComponent": {
@@ -15783,7 +16090,7 @@
         },
         "uuid": "e0236e27f9c37e4b"
       },
-      "230": {
+      "229": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_22",
         "rootComponent": {
@@ -15811,7 +16118,7 @@
         },
         "uuid": "9168b7db244d3ff6"
       },
-      "231": {
+      "230": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Car type A_02",
         "rootComponent": {
@@ -15821,7 +16128,7 @@
               "$bc": "ENGINE.SpotLightComponent",
               "children": [
                 {
-                  "$ref": 47
+                  "$ref": 45
                 },
                 {
                   "$bc": "THREE.Object3D",
@@ -17030,11 +17337,59 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "8d24416e-fe48-4cee-9c20-eaf15d251930"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "c14749d9-ba22-4e2e-9fc9-084519d9eca5"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "b259196e-9306-4ce7-acd0-b4f2c68ad95e"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "99cbc3a7-57e3-4cfb-8cf1-0679e7d00ded"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "de4d29e6-bb19-4fdb-95a6-9230e0ed6785"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "de889ca1-da6e-48fc-b9f3-bf67fb1ac86a"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "f55246d6-939f-47ad-a70c-2662ee4b1382"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "eae4088c-ae89-42b7-b4e4-7ca12ba2a68f"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2046d79e-1b0d-46c0-8ac4-4257c3cb36f3"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "4d0bc9c8-2314-4e00-b24d-d65c8510d41f"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "ba70d8e9-9e63-4fbf-81e0-cd14231afc66"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "99ef18d8-4360-4194-b803-a4d87788a389"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "b48601bf-0889-4b37-9d0f-ad471227b6a5"
                 }
               ],
               "intensity": 23,
               "light": {
-                "$ref": 47
+                "$ref": 45
               },
               "name": "SpotLightComponent",
               "position": {
@@ -17062,7 +17417,7 @@
               "$bc": "ENGINE.SpotLightComponent",
               "children": [
                 {
-                  "$ref": 48
+                  "$ref": 46
                 },
                 {
                   "$bc": "THREE.Object3D",
@@ -18275,11 +18630,59 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "6e3e7752-c838-49a4-a64d-9b66f7903056"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "6ddd7ab3-fa9d-4576-a748-e6767f071741"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "8c9425a2-d17f-4c29-bd2e-8f08246f78eb"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "02451752-9a50-4d3a-84f3-3a64d2435018"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "781d7709-b278-4142-b150-0072af059357"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "8d339ff0-47ac-4643-abb1-8e7854c708ac"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "80d8033a-3a35-4953-bd0a-40847d5faa7a"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "dac74e09-3df8-41c9-864a-6eff78bb2b82"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "45a5dbbc-8b97-4ceb-9b17-fba09e7d63e5"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "36aac209-db52-4382-abf9-35be4459a316"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "d6c12c54-c7f9-4be3-831b-4a47499b822f"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "d93b9af7-0d0e-4c98-a8c4-6fcc44bd2c51"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2f366497-4ca4-4028-afdb-239334df7305"
                 }
               ],
               "intensity": 23,
               "light": {
-                "$ref": 48
+                "$ref": 46
               },
               "name": "SpotLightComponent_02",
               "position": {
@@ -18338,7 +18741,7 @@
         },
         "uuid": "bfff3cedaad1a452"
       },
-      "232": {
+      "231": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Car type A_03",
         "rootComponent": {
@@ -18377,7 +18780,7 @@
         },
         "uuid": "609e54c2efae6a39"
       },
-      "233": {
+      "232": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Car type A_04",
         "rootComponent": {
@@ -18416,7 +18819,7 @@
         },
         "uuid": "285584264583b88e"
       },
-      "234": {
+      "233": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_461",
         "rootComponent": {
@@ -18446,7 +18849,7 @@
         },
         "uuid": "d2efca75e0ea227a"
       },
-      "235": {
+      "234": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_464",
         "rootComponent": {
@@ -18476,7 +18879,7 @@
         },
         "uuid": "7a392bff97c64557"
       },
-      "236": {
+      "235": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Lampost_04",
         "rootComponent": {
@@ -18486,7 +18889,7 @@
               "$bc": "ENGINE.SpotLightComponent",
               "children": [
                 {
-                  "$ref": 49
+                  "$ref": 47
                 },
                 {
                   "$bc": "THREE.Object3D",
@@ -19579,6 +19982,54 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "ebdd9ff3-fdb9-4f14-bcbf-4002c1ee1651"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "decc8f3a-59f2-4f5b-bd41-026208013282"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "f15124e1-7b4b-428e-94fa-d24727b8e3c4"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "c32afad0-6bce-4b83-a525-5bdeabd69b70"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2a6296ab-19c7-4608-9e19-a18eb93ff8a0"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "faf1e29f-ba7a-452b-8c37-5862deba4d87"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "c471166e-4d4c-4911-b86f-275f6e034654"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "fdb339fa-304f-4d79-b5f3-6877413b571c"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "f9117ee7-bdc3-4d71-8094-288aa05aa267"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "8354b13e-be46-4a7b-99dc-88cebad0bfb4"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "0c6b140f-2ab0-4356-b3a8-a119b429b4ad"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "83548ca0-8ad3-41cb-bec5-62ca58bd7363"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "5f1d8c38-7a7b-4d40-a894-25546627d0ba"
                 }
               ],
               "color": {
@@ -19591,7 +20042,7 @@
               },
               "intensity": 7.8,
               "light": {
-                "$ref": 49
+                "$ref": 47
               },
               "name": "Spot Light",
               "position": {
@@ -19637,7 +20088,7 @@
         },
         "uuid": "1551dcb0c5f38cc4"
       },
-      "237": {
+      "236": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Low poly house",
         "rootComponent": {
@@ -19664,7 +20115,7 @@
         },
         "uuid": "c394185c511d453f"
       },
-      "238": {
+      "237": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Low poly house_02",
         "rootComponent": {
@@ -19691,7 +20142,7 @@
         },
         "uuid": "26b84cf41e0b1614"
       },
-      "239": {
+      "238": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Low poly house_03",
         "rootComponent": {
@@ -19718,7 +20169,7 @@
         },
         "uuid": "e331b3453d2a8c12"
       },
-      "240": {
+      "239": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge_23",
         "rootComponent": {
@@ -19754,7 +20205,7 @@
         },
         "uuid": "a45791a2b584e478"
       },
-      "241": {
+      "240": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_457",
         "rootComponent": {
@@ -19792,7 +20243,7 @@
         },
         "uuid": "fca23664888a877a"
       },
-      "242": {
+      "241": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_10",
         "rootComponent": {
@@ -19902,7 +20353,7 @@
         },
         "uuid": "bb4ce33b2b37d635"
       },
-      "243": {
+      "242": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_11",
         "rootComponent": {
@@ -20004,7 +20455,7 @@
         },
         "uuid": "1530b9ab937513b8"
       },
-      "244": {
+      "243": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_12",
         "rootComponent": {
@@ -20106,7 +20557,7 @@
         },
         "uuid": "32b27801591dd438"
       },
-      "245": {
+      "244": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_13",
         "rootComponent": {
@@ -20208,7 +20659,7 @@
         },
         "uuid": "a117f9df7d321397"
       },
-      "246": {
+      "245": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie_16",
         "rootComponent": {
@@ -20310,7 +20761,7 @@
         },
         "uuid": "4cca37e5d787423b"
       },
-      "247": {
+      "246": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Sign post",
         "rootComponent": {
@@ -20345,7 +20796,7 @@
         },
         "uuid": "509422cc3a807b62"
       },
-      "248": {
+      "247": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "pinic bench",
         "rootComponent": {
@@ -20380,7 +20831,7 @@
         },
         "uuid": "ccaf22a9123e9c4e"
       },
-      "249": {
+      "248": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 468",
         "rootComponent": {
@@ -20410,7 +20861,7 @@
         },
         "uuid": "9287c64d843de8f0"
       },
-      "250": {
+      "249": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 469",
         "rootComponent": {
@@ -20440,7 +20891,7 @@
         },
         "uuid": "e06a0bb2ccdcb1e1"
       },
-      "251": {
+      "250": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 470",
         "rootComponent": {
@@ -20470,7 +20921,7 @@
         },
         "uuid": "d71a11473e1f353b"
       },
-      "252": {
+      "251": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 471",
         "rootComponent": {
@@ -20500,7 +20951,7 @@
         },
         "uuid": "2763488adb207a00"
       },
-      "253": {
+      "252": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 472",
         "rootComponent": {
@@ -20530,7 +20981,7 @@
         },
         "uuid": "bacb2b649e976347"
       },
-      "254": {
+      "253": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "pinic bench 02",
         "rootComponent": {
@@ -20565,7 +21016,7 @@
         },
         "uuid": "e9f8d193d72f484a"
       },
-      "255": {
+      "254": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Mailbox",
         "rootComponent": {
@@ -20600,7 +21051,7 @@
         },
         "uuid": "b71b108e8b51d87d"
       },
-      "256": {
+      "255": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Mailbox 02",
         "rootComponent": {
@@ -20635,7 +21086,7 @@
         },
         "uuid": "d6aedbb137159a43"
       },
-      "257": {
+      "256": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "shopping cart",
         "rootComponent": {
@@ -20662,7 +21113,7 @@
         },
         "uuid": "b532978a06071226"
       },
-      "258": {
+      "257": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 468",
         "rootComponent": {
@@ -20700,7 +21151,7 @@
         },
         "uuid": "e37a0c1993da4bc3"
       },
-      "259": {
+      "258": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 591",
         "rootComponent": {
@@ -20738,7 +21189,7 @@
         },
         "uuid": "ccf40b76a590abeb"
       },
-      "260": {
+      "259": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 592",
         "rootComponent": {
@@ -20776,7 +21227,7 @@
         },
         "uuid": "8b6b95901c01cc03"
       },
-      "261": {
+      "260": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 593",
         "rootComponent": {
@@ -20814,7 +21265,7 @@
         },
         "uuid": "f336d8365030b287"
       },
-      "262": {
+      "261": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 473",
         "rootComponent": {
@@ -20852,7 +21303,7 @@
         },
         "uuid": "35fc0c1778909deb"
       },
-      "263": {
+      "262": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge 24",
         "rootComponent": {
@@ -20880,7 +21331,7 @@
         },
         "uuid": "8fbc5759cf7a30c7"
       },
-      "264": {
+      "263": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 465",
         "rootComponent": {
@@ -20918,7 +21369,7 @@
         },
         "uuid": "555c1daf3c0231e7"
       },
-      "265": {
+      "264": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 594",
         "rootComponent": {
@@ -20956,7 +21407,7 @@
         },
         "uuid": "80f1499f517339f3"
       },
-      "266": {
+      "265": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 595",
         "rootComponent": {
@@ -20994,7 +21445,7 @@
         },
         "uuid": "2be3fa90d6f86f21"
       },
-      "267": {
+      "266": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Car type A 05",
         "rootComponent": {
@@ -21004,7 +21455,7 @@
               "$bc": "ENGINE.SpotLightComponent",
               "children": [
                 {
-                  "$ref": 50
+                  "$ref": 48
                 },
                 {
                   "$bc": "THREE.Object3D",
@@ -22213,11 +22664,59 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "f749b94c-68db-4de9-a1d1-23e816035143"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "2ce0ad75-825f-4d45-9950-af6c012152a6"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "9cc3f4db-bbe8-4fa5-bda6-ae487400f1e7"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "b117830c-9eb1-47a1-8650-83b0abf05a39"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "75f28602-79b1-4ce9-8122-01aa3003b937"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "237fae8e-e00b-4b03-bf52-9ef4dd3f9522"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "f0f9fba5-8e40-4bdb-a64b-1df908a39393"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "28274d29-c15e-4bea-87bb-e8a48fb5aa81"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "a270383e-9a7f-43c0-b490-c5403280e2e6"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "c9314e4f-23d3-4aba-9c99-411b3dbb42bf"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "7440a271-5b69-4660-94da-b6c3f99ea0de"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "4b1dd7a4-e0e4-4a14-9108-d0687b3b2d1a"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "11fc1a85-cbd3-48bd-b125-0841ef58ff0b"
                 }
               ],
               "intensity": 23,
               "light": {
-                "$ref": 50
+                "$ref": 48
               },
               "name": "SpotLightComponent",
               "position": {
@@ -22245,7 +22744,7 @@
               "$bc": "ENGINE.SpotLightComponent",
               "children": [
                 {
-                  "$ref": 51
+                  "$ref": 49
                 },
                 {
                   "$bc": "THREE.Object3D",
@@ -23458,11 +23957,59 @@
                 {
                   "$bc": "THREE.Object3D",
                   "uuid": "80829347-9c61-49a9-a2f4-737bba0714f4"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "34ef677e-cc8b-4cb9-adad-05e451100f11"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "8ab962c7-8059-482d-94be-ea4f29a6d4cd"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "e5b16473-a17f-4149-9b55-7e3b410ee112"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "a184cfe8-5e30-4593-856e-f88c1aa20807"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "17b986ad-29f1-4ac3-ae9d-caae1fbeba3a"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "fa9cb980-116f-49d7-af29-47aee2d7e9c5"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "058a6650-690d-415f-81ee-c20ee2b55c20"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "5da79bcd-1d05-49ab-aa82-c870403bb524"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "aed25d70-94ea-43dd-8a28-486b5b868248"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "bc3c682f-5844-4b4b-8c16-2719ad5925c5"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "41a04523-0a47-4e2a-99b1-d7125cb96115"
+                },
+                {
+                  "$bc": "THREE.Object3D",
+                  "uuid": "9f0d3231-64e3-427f-9d5c-4dff8f965d37"
                 }
               ],
               "intensity": 23,
               "light": {
-                "$ref": 51
+                "$ref": 49
               },
               "name": "SpotLightComponent_02",
               "position": {
@@ -23513,7 +24060,7 @@
         },
         "uuid": "c33aa54a88e2bc2d"
       },
-      "268": {
+      "267": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 625",
         "rootComponent": {
@@ -23543,7 +24090,7 @@
         },
         "uuid": "82de13fbddfd5220"
       },
-      "269": {
+      "268": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 626",
         "rootComponent": {
@@ -23573,7 +24120,7 @@
         },
         "uuid": "983af7e973ddc872"
       },
-      "270": {
+      "269": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 627",
         "rootComponent": {
@@ -23603,7 +24150,7 @@
         },
         "uuid": "cc34b2105eb92119"
       },
-      "271": {
+      "270": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tunnel 03",
         "rootComponent": {
@@ -23613,7 +24160,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 52
+                  "$ref": 50
                 }
               ],
               "color": {
@@ -23626,7 +24173,7 @@
               },
               "intensity": 1000,
               "light": {
-                "$ref": 52
+                "$ref": 50
               },
               "name": "Point Light",
               "position": {
@@ -23671,7 +24218,7 @@
         },
         "uuid": "e97478a4d4622111"
       },
-      "272": {
+      "271": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 628",
         "rootComponent": {
@@ -23701,7 +24248,7 @@
         },
         "uuid": "69f8bc2ba1a676f2"
       },
-      "273": {
+      "272": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 629",
         "rootComponent": {
@@ -23731,7 +24278,7 @@
         },
         "uuid": "9ac17c72a5e8c011"
       },
-      "274": {
+      "273": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "police 05",
         "rootComponent": {
@@ -23741,7 +24288,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 53
+                  "$ref": 51
                 }
               ],
               "color": {
@@ -23754,7 +24301,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 53
+                "$ref": 51
               },
               "name": "Point Light",
               "position": {
@@ -23771,7 +24318,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 54
+                  "$ref": 52
                 }
               ],
               "color": {
@@ -23784,7 +24331,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 54
+                "$ref": 52
               },
               "name": "Point Light_02",
               "position": {
@@ -23829,7 +24376,7 @@
         },
         "uuid": "d3c8bcffc7dcc6b5"
       },
-      "275": {
+      "274": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block 07",
         "rootComponent": {
@@ -23857,7 +24404,7 @@
         },
         "uuid": "0fc96e23772ddc88"
       },
-      "276": {
+      "275": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block 08",
         "rootComponent": {
@@ -23885,7 +24432,7 @@
         },
         "uuid": "8c7428f5e53e7d89"
       },
-      "277": {
+      "276": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block 09",
         "rootComponent": {
@@ -23913,7 +24460,7 @@
         },
         "uuid": "6076245a97b27081"
       },
-      "278": {
+      "277": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 17",
         "rootComponent": {
@@ -24015,7 +24562,7 @@
         },
         "uuid": "b8ea6753998d8bf6"
       },
-      "279": {
+      "278": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 18",
         "rootComponent": {
@@ -24117,7 +24664,7 @@
         },
         "uuid": "b6120b40441945c8"
       },
-      "280": {
+      "279": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 19",
         "rootComponent": {
@@ -24219,7 +24766,7 @@
         },
         "uuid": "51915518fd8d007d"
       },
-      "281": {
+      "280": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 20",
         "rootComponent": {
@@ -24321,7 +24868,7 @@
         },
         "uuid": "a3c3a0e159412cb3"
       },
-      "282": {
+      "281": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 21",
         "rootComponent": {
@@ -24423,7 +24970,7 @@
         },
         "uuid": "fc546d0516771ba8"
       },
-      "283": {
+      "282": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 22",
         "rootComponent": {
@@ -24525,7 +25072,7 @@
         },
         "uuid": "a5f1d35636c59a28"
       },
-      "284": {
+      "283": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 23",
         "rootComponent": {
@@ -24627,7 +25174,7 @@
         },
         "uuid": "249095b820f38bbb"
       },
-      "285": {
+      "284": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 24",
         "rootComponent": {
@@ -24729,7 +25276,7 @@
         },
         "uuid": "c2108b8ab3612046"
       },
-      "286": {
+      "285": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 25",
         "rootComponent": {
@@ -24831,7 +25378,7 @@
         },
         "uuid": "6b110f24e9d5fad6"
       },
-      "287": {
+      "286": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 26",
         "rootComponent": {
@@ -24933,7 +25480,7 @@
         },
         "uuid": "dc9d10672db8bd4a"
       },
-      "288": {
+      "287": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 27",
         "rootComponent": {
@@ -25035,7 +25582,7 @@
         },
         "uuid": "baf25db7c91f0739"
       },
-      "289": {
+      "288": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 591",
         "rootComponent": {
@@ -25073,7 +25620,7 @@
         },
         "uuid": "13a3f5ddbb1c346e"
       },
-      "290": {
+      "289": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "broken sign",
         "rootComponent": {
@@ -25108,7 +25655,7 @@
         },
         "uuid": "6befae44ed5f05e1"
       },
-      "291": {
+      "290": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 33",
         "rootComponent": {
@@ -25209,7 +25756,7 @@
         },
         "uuid": "f597d515659ce91f"
       },
-      "292": {
+      "291": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 34",
         "rootComponent": {
@@ -25310,7 +25857,7 @@
         },
         "uuid": "b5b41ee1f87149ce"
       },
-      "293": {
+      "292": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 35",
         "rootComponent": {
@@ -25411,7 +25958,7 @@
         },
         "uuid": "a02dec4621ea1b9a"
       },
-      "294": {
+      "293": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 36",
         "rootComponent": {
@@ -25512,7 +26059,7 @@
         },
         "uuid": "dd6819b458590e36"
       },
-      "295": {
+      "294": {
         "$bc": "GAME.ZombieActor",
         "name": "Zombie 37",
         "rootComponent": {
@@ -25613,7 +26160,7 @@
         },
         "uuid": "b1c3bf16da15dd80"
       },
-      "296": {
+      "295": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 516",
         "rootComponent": {
@@ -25643,7 +26190,7 @@
         },
         "uuid": "1935ccb322f77c83"
       },
-      "297": {
+      "296": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 591",
         "rootComponent": {
@@ -25673,7 +26220,7 @@
         },
         "uuid": "fe04d1ad950192fe"
       },
-      "298": {
+      "297": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 596",
         "rootComponent": {
@@ -25703,7 +26250,7 @@
         },
         "uuid": "a7ab852e7ddb7f8e"
       },
-      "299": {
+      "298": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 597",
         "rootComponent": {
@@ -25733,7 +26280,7 @@
         },
         "uuid": "110daf75ee8c9eee"
       },
-      "300": {
+      "299": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 598",
         "rootComponent": {
@@ -25763,7 +26310,7 @@
         },
         "uuid": "6117fc48c45ac42a"
       },
-      "301": {
+      "300": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 599",
         "rootComponent": {
@@ -25793,7 +26340,7 @@
         },
         "uuid": "770afa350d912482"
       },
-      "302": {
+      "301": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 465",
         "rootComponent": {
@@ -25831,7 +26378,7 @@
         },
         "uuid": "fa48fa8d1c48ec96"
       },
-      "303": {
+      "302": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 466",
         "rootComponent": {
@@ -25869,7 +26416,7 @@
         },
         "uuid": "b1fdbeb05a49b733"
       },
-      "304": {
+      "303": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 465",
         "rootComponent": {
@@ -25907,7 +26454,7 @@
         },
         "uuid": "3b109e46e7a71f6c"
       },
-      "305": {
+      "304": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 625",
         "rootComponent": {
@@ -25937,7 +26484,7 @@
         },
         "uuid": "16155e149e4a4a19"
       },
-      "306": {
+      "305": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 630",
         "rootComponent": {
@@ -25967,7 +26514,7 @@
         },
         "uuid": "695271285ffd62e0"
       },
-      "307": {
+      "306": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 631",
         "rootComponent": {
@@ -25997,7 +26544,7 @@
         },
         "uuid": "59bcd89cb2fed367"
       },
-      "308": {
+      "307": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 632",
         "rootComponent": {
@@ -26027,7 +26574,7 @@
         },
         "uuid": "8ced7a6f7c15b1d7"
       },
-      "309": {
+      "308": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 633",
         "rootComponent": {
@@ -26057,7 +26604,7 @@
         },
         "uuid": "e533b1552a199abe"
       },
-      "310": {
+      "309": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 634",
         "rootComponent": {
@@ -26087,7 +26634,7 @@
         },
         "uuid": "b726dca7ebdc107d"
       },
-      "311": {
+      "310": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 635",
         "rootComponent": {
@@ -26117,7 +26664,7 @@
         },
         "uuid": "64dc42309f9e6ce9"
       },
-      "312": {
+      "311": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "pinic bench 03",
         "rootComponent": {
@@ -26152,7 +26699,7 @@
         },
         "uuid": "7a465acd1e8f7a77"
       },
-      "313": {
+      "312": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 474",
         "rootComponent": {
@@ -26190,7 +26737,7 @@
         },
         "uuid": "55a1e243919c4c25"
       },
-      "314": {
+      "313": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 475",
         "rootComponent": {
@@ -26228,7 +26775,7 @@
         },
         "uuid": "05344d0b894069c0"
       },
-      "315": {
+      "314": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 476",
         "rootComponent": {
@@ -26266,7 +26813,7 @@
         },
         "uuid": "e3464bbe83302a87"
       },
-      "316": {
+      "315": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 477",
         "rootComponent": {
@@ -26304,7 +26851,7 @@
         },
         "uuid": "0451baf57718eab6"
       },
-      "317": {
+      "316": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 478",
         "rootComponent": {
@@ -26342,7 +26889,7 @@
         },
         "uuid": "66fc972fb47567d6"
       },
-      "318": {
+      "317": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 479",
         "rootComponent": {
@@ -26380,7 +26927,7 @@
         },
         "uuid": "9161b8b12cf1d02f"
       },
-      "319": {
+      "318": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge 24",
         "rootComponent": {
@@ -26416,7 +26963,7 @@
         },
         "uuid": "812725626d8c0bb6"
       },
-      "320": {
+      "319": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tree 14",
         "rootComponent": {
@@ -26451,7 +26998,7 @@
         },
         "uuid": "d910d44b2e55b407"
       },
-      "321": {
+      "320": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 480",
         "rootComponent": {
@@ -26481,7 +27028,7 @@
         },
         "uuid": "fe8b259eee5b5e26"
       },
-      "322": {
+      "321": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 481",
         "rootComponent": {
@@ -26511,7 +27058,7 @@
         },
         "uuid": "546490c9592318aa"
       },
-      "323": {
+      "322": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 482",
         "rootComponent": {
@@ -26541,7 +27088,7 @@
         },
         "uuid": "066015fe1773bd14"
       },
-      "324": {
+      "323": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 483",
         "rootComponent": {
@@ -26571,7 +27118,7 @@
         },
         "uuid": "bdb4022e3a94daa4"
       },
-      "325": {
+      "324": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 484",
         "rootComponent": {
@@ -26601,7 +27148,7 @@
         },
         "uuid": "af3bed110c799eee"
       },
-      "326": {
+      "325": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 485",
         "rootComponent": {
@@ -26631,7 +27178,7 @@
         },
         "uuid": "f2fc745d961b87a9"
       },
-      "327": {
+      "326": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 486",
         "rootComponent": {
@@ -26661,7 +27208,7 @@
         },
         "uuid": "07c75303f25fa0ca"
       },
-      "328": {
+      "327": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 487",
         "rootComponent": {
@@ -26691,142 +27238,7 @@
         },
         "uuid": "e5b242dcb400bfd1"
       },
-      "329": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 04",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              64.877927,
-              -1.378071,
-              -4.169593
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -0.000001,
-              -1.570796,
-              0
-            ]
-          },
-          "uuid": "6d2227d0f0a9c8e5"
-        },
-        "uuid": "5b3910efd175f397"
-      },
-      "330": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 05",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              64.877927,
-              -1.378071,
-              16.762251
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -0.000001,
-              -1.570796,
-              0
-            ]
-          },
-          "uuid": "ac8e9118f8e0e972"
-        },
-        "uuid": "5e73032966e1f640"
-      },
-      "331": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 06",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              64.877927,
-              -1.378071,
-              55.887042
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -0.000001,
-              -1.570796,
-              0
-            ]
-          },
-          "uuid": "2d634cddfe291318"
-        },
-        "uuid": "25d683deb7bd43af"
-      },
-      "332": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 07",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              64.877927,
-              -1.378071,
-              34.417906
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -0.000001,
-              -1.570796,
-              0
-            ]
-          },
-          "uuid": "a55cf7ade3a42bfe"
-        },
-        "uuid": "2d9f2fb2bf676c5d"
-      },
-      "333": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 08",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              64.877927,
-              -1.378071,
-              -33.505019
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -0.000001,
-              -1.570796,
-              0
-            ]
-          },
-          "uuid": "d5559408acc2c50f"
-        },
-        "uuid": "105eb876c517052c"
-      },
-      "334": {
+      "328": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 488",
         "rootComponent": {
@@ -26856,7 +27268,7 @@
         },
         "uuid": "64e35057e281585d"
       },
-      "335": {
+      "329": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 489",
         "rootComponent": {
@@ -26886,7 +27298,7 @@
         },
         "uuid": "c3d7034a5233a7bc"
       },
-      "336": {
+      "330": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 490",
         "rootComponent": {
@@ -26916,7 +27328,7 @@
         },
         "uuid": "3b4d26f2d4e21e76"
       },
-      "337": {
+      "331": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 491",
         "rootComponent": {
@@ -26946,7 +27358,7 @@
         },
         "uuid": "22a147b020b2cd93"
       },
-      "338": {
+      "332": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 492",
         "rootComponent": {
@@ -26976,7 +27388,7 @@
         },
         "uuid": "f32a1098c444de5a"
       },
-      "339": {
+      "333": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 586",
         "rootComponent": {
@@ -27014,7 +27426,7 @@
         },
         "uuid": "de125e7c02dd2af3"
       },
-      "340": {
+      "334": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 587",
         "rootComponent": {
@@ -27052,7 +27464,7 @@
         },
         "uuid": "2104fe1640217ba8"
       },
-      "341": {
+      "335": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 588",
         "rootComponent": {
@@ -27090,7 +27502,7 @@
         },
         "uuid": "0228fda76f9ec2cd"
       },
-      "342": {
+      "336": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 589",
         "rootComponent": {
@@ -27128,7 +27540,7 @@
         },
         "uuid": "6e4231919bcf9766"
       },
-      "343": {
+      "337": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 590",
         "rootComponent": {
@@ -27166,7 +27578,7 @@
         },
         "uuid": "fc4a047e568d1e66"
       },
-      "344": {
+      "338": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 600",
         "rootComponent": {
@@ -27204,7 +27616,7 @@
         },
         "uuid": "4f62cc68e3f477d8"
       },
-      "345": {
+      "339": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 601",
         "rootComponent": {
@@ -27242,7 +27654,7 @@
         },
         "uuid": "a8a949175cef2435"
       },
-      "346": {
+      "340": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 602",
         "rootComponent": {
@@ -27280,7 +27692,7 @@
         },
         "uuid": "615e91e21d146bea"
       },
-      "347": {
+      "341": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 603",
         "rootComponent": {
@@ -27318,7 +27730,7 @@
         },
         "uuid": "356bc25f0199f0ca"
       },
-      "348": {
+      "342": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 604",
         "rootComponent": {
@@ -27356,7 +27768,7 @@
         },
         "uuid": "d6ee3e761570efec"
       },
-      "349": {
+      "343": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 605",
         "rootComponent": {
@@ -27394,7 +27806,7 @@
         },
         "uuid": "3a8c7b82ed8e8f12"
       },
-      "350": {
+      "344": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 606",
         "rootComponent": {
@@ -27432,7 +27844,7 @@
         },
         "uuid": "e5dfbbc7617d3655"
       },
-      "351": {
+      "345": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 607",
         "rootComponent": {
@@ -27470,7 +27882,7 @@
         },
         "uuid": "2a29fc1a9e263352"
       },
-      "352": {
+      "346": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 625",
         "rootComponent": {
@@ -27508,7 +27920,7 @@
         },
         "uuid": "dd05c516a46dd36e"
       },
-      "353": {
+      "347": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 493",
         "rootComponent": {
@@ -27538,67 +27950,7 @@
         },
         "uuid": "602e0d2604b6002a"
       },
-      "354": {
-        "$bc": "ENGINE.Actor",
-        "name": "Actor 494",
-        "rootComponent": {
-          "$bc": "ENGINE.MeshComponent",
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "name": "MeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              82.852415,
-              -1.046201,
-              14.65656
-            ]
-          },
-          "scale": {
-            "$bc": "v3",
-            "_": [
-              34.205997,
-              0.2,
-              115.411114
-            ]
-          },
-          "uuid": "29865504d619e62d"
-        },
-        "uuid": "93f7e6619a6abbcb"
-      },
-      "355": {
-        "$bc": "ENGINE.Actor",
-        "name": "Actor 495",
-        "rootComponent": {
-          "$bc": "ENGINE.MeshComponent",
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "name": "MeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              82.852415,
-              -1.046201,
-              14.65656
-            ]
-          },
-          "scale": {
-            "$bc": "v3",
-            "_": [
-              34.205997,
-              0.2,
-              115.411114
-            ]
-          },
-          "uuid": "7754f8f482ad83f9"
-        },
-        "uuid": "689a0f43603a07df"
-      },
-      "356": {
+      "348": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel 08",
         "rootComponent": {
@@ -27626,7 +27978,7 @@
         },
         "uuid": "950bd6a6f24a597d"
       },
-      "357": {
+      "349": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel 09",
         "rootComponent": {
@@ -27654,7 +28006,7 @@
         },
         "uuid": "11c23ee1895c0065"
       },
-      "358": {
+      "350": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 636",
         "rootComponent": {
@@ -27684,7 +28036,7 @@
         },
         "uuid": "f97656c4624f31f8"
       },
-      "359": {
+      "351": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 637",
         "rootComponent": {
@@ -27714,7 +28066,7 @@
         },
         "uuid": "e887a156a5534d4c"
       },
-      "360": {
+      "352": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 638",
         "rootComponent": {
@@ -27744,7 +28096,7 @@
         },
         "uuid": "2b04378bbfc08871"
       },
-      "361": {
+      "353": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 639",
         "rootComponent": {
@@ -27774,7 +28126,7 @@
         },
         "uuid": "659b716f1e197121"
       },
-      "362": {
+      "354": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 640",
         "rootComponent": {
@@ -27804,7 +28156,7 @@
         },
         "uuid": "b97fed8128c8a1df"
       },
-      "363": {
+      "355": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 641",
         "rootComponent": {
@@ -27834,7 +28186,7 @@
         },
         "uuid": "e0b8cd285d864a45"
       },
-      "364": {
+      "356": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 642",
         "rootComponent": {
@@ -27864,7 +28216,7 @@
         },
         "uuid": "0aa78b46933d78cb"
       },
-      "365": {
+      "357": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 643",
         "rootComponent": {
@@ -27894,7 +28246,7 @@
         },
         "uuid": "95a70b8e7b1dca5c"
       },
-      "366": {
+      "358": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 644",
         "rootComponent": {
@@ -27924,7 +28276,7 @@
         },
         "uuid": "d8e2b0db3e3b2a95"
       },
-      "367": {
+      "359": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 645",
         "rootComponent": {
@@ -27954,7 +28306,7 @@
         },
         "uuid": "6a3327c2132d3db7"
       },
-      "368": {
+      "360": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 646",
         "rootComponent": {
@@ -27984,7 +28336,7 @@
         },
         "uuid": "4cf770d20757c4c8"
       },
-      "369": {
+      "361": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 647",
         "rootComponent": {
@@ -28014,7 +28366,7 @@
         },
         "uuid": "dc41a9074b9b0e88"
       },
-      "370": {
+      "362": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 648",
         "rootComponent": {
@@ -28044,7 +28396,7 @@
         },
         "uuid": "4b75b43b60483d28"
       },
-      "371": {
+      "363": {
         "$bc": "ENGINE.Actor",
         "name": "Actor_002",
         "rootComponent": {
@@ -28093,7 +28445,7 @@
         },
         "uuid": "efd96866387d018b"
       },
-      "372": {
+      "364": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 003",
         "rootComponent": {
@@ -28150,7 +28502,7 @@
         },
         "uuid": "855567868c788733"
       },
-      "373": {
+      "365": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 004",
         "rootComponent": {
@@ -28207,7 +28559,7 @@
         },
         "uuid": "9efecc83f3ee3800"
       },
-      "374": {
+      "366": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 005",
         "rootComponent": {
@@ -28264,7 +28616,7 @@
         },
         "uuid": "4159999ee3556769"
       },
-      "375": {
+      "367": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 006",
         "rootComponent": {
@@ -28321,7 +28673,7 @@
         },
         "uuid": "33f3a314b098b0d8"
       },
-      "376": {
+      "368": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave",
         "rootComponent": {
@@ -28356,7 +28708,7 @@
         },
         "uuid": "c4ebfce25dd74f70"
       },
-      "377": {
+      "369": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 02",
         "rootComponent": {
@@ -28391,7 +28743,7 @@
         },
         "uuid": "509535d4b4c705bd"
       },
-      "378": {
+      "370": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 03",
         "rootComponent": {
@@ -28426,7 +28778,7 @@
         },
         "uuid": "dce820afee147a10"
       },
-      "379": {
+      "371": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 04",
         "rootComponent": {
@@ -28461,7 +28813,7 @@
         },
         "uuid": "7aa8ba5c3b0d092a"
       },
-      "380": {
+      "372": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 02",
         "rootComponent": {
@@ -28496,7 +28848,7 @@
         },
         "uuid": "7715409a8b6d86d7"
       },
-      "381": {
+      "373": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 05",
         "rootComponent": {
@@ -28531,7 +28883,7 @@
         },
         "uuid": "5037faecb7fcfc16"
       },
-      "382": {
+      "374": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 06",
         "rootComponent": {
@@ -28566,7 +28918,7 @@
         },
         "uuid": "1a1cc7051efd6e45"
       },
-      "383": {
+      "375": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 02",
         "rootComponent": {
@@ -28601,7 +28953,7 @@
         },
         "uuid": "3ec2bab80fb832cc"
       },
-      "384": {
+      "376": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 07",
         "rootComponent": {
@@ -28636,7 +28988,7 @@
         },
         "uuid": "91de0b654b231519"
       },
-      "385": {
+      "377": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 08",
         "rootComponent": {
@@ -28671,7 +29023,7 @@
         },
         "uuid": "1a5681b1a6f846d1"
       },
-      "386": {
+      "378": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 09",
         "rootComponent": {
@@ -28706,7 +29058,7 @@
         },
         "uuid": "57a28f8bb7bc3bdf"
       },
-      "387": {
+      "379": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 10",
         "rootComponent": {
@@ -28741,7 +29093,7 @@
         },
         "uuid": "fa46340552131b21"
       },
-      "388": {
+      "380": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 11",
         "rootComponent": {
@@ -28776,7 +29128,7 @@
         },
         "uuid": "697d720cae300c58"
       },
-      "389": {
+      "381": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 465",
         "rootComponent": {
@@ -28814,7 +29166,7 @@
         },
         "uuid": "b17ea71514e6ea81"
       },
-      "390": {
+      "382": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 467",
         "rootComponent": {
@@ -28852,7 +29204,7 @@
         },
         "uuid": "815ac14f9ffaf87f"
       },
-      "391": {
+      "383": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 497",
         "rootComponent": {
@@ -28890,7 +29242,7 @@
         },
         "uuid": "470d25cb3e5224d9"
       },
-      "392": {
+      "384": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 496",
         "rootComponent": {
@@ -28928,7 +29280,7 @@
         },
         "uuid": "cfda9d48f55fa3c5"
       },
-      "393": {
+      "385": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge 24",
         "rootComponent": {
@@ -28964,7 +29316,7 @@
         },
         "uuid": "55df25784115ab8b"
       },
-      "394": {
+      "386": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu 08",
         "rootComponent": {
@@ -28974,7 +29326,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 55
+                  "$ref": 53
                 }
               ],
               "color": {
@@ -28987,7 +29339,7 @@
               },
               "intensity": 6.5,
               "light": {
-                "$ref": 55
+                "$ref": 53
               },
               "name": "Point Light",
               "position": {
@@ -29016,7 +29368,7 @@
         },
         "uuid": "a78c93402a9f6f71"
       },
-      "395": {
+      "387": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "New hedge 25",
         "rootComponent": {
@@ -29052,7 +29404,7 @@
         },
         "uuid": "0bcf32f23bebfc8c"
       },
-      "396": {
+      "388": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 12",
         "rootComponent": {
@@ -29087,7 +29439,7 @@
         },
         "uuid": "d2f2923673476461"
       },
-      "397": {
+      "389": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 13",
         "rootComponent": {
@@ -29122,7 +29474,7 @@
         },
         "uuid": "0bd61c8521b434b5"
       },
-      "398": {
+      "390": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 14",
         "rootComponent": {
@@ -29157,7 +29509,7 @@
         },
         "uuid": "a0790e04b35f9042"
       },
-      "399": {
+      "391": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 15",
         "rootComponent": {
@@ -29192,7 +29544,7 @@
         },
         "uuid": "ad52c97c8fcced85"
       },
-      "400": {
+      "392": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Grave 16",
         "rootComponent": {
@@ -29227,7 +29579,7 @@
         },
         "uuid": "a28bf6c4f4a08ad3"
       },
-      "401": {
+      "393": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tombs",
         "rootComponent": {
@@ -29254,7 +29606,7 @@
         },
         "uuid": "af23e556920da57c"
       },
-      "402": {
+      "394": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tombs 02",
         "rootComponent": {
@@ -29281,7 +29633,7 @@
         },
         "uuid": "236e308ba778b74b"
       },
-      "403": {
+      "395": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tombs 03",
         "rootComponent": {
@@ -29308,7 +29660,7 @@
         },
         "uuid": "2d122b6c13878758"
       },
-      "404": {
+      "396": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tombs 04",
         "rootComponent": {
@@ -29335,7 +29687,7 @@
         },
         "uuid": "3a30ba1af9e570b4"
       },
-      "405": {
+      "397": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tombs 05",
         "rootComponent": {
@@ -29362,7 +29714,7 @@
         },
         "uuid": "68afea78cc80e19f"
       },
-      "406": {
+      "398": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "lamp for chrcu 09",
         "rootComponent": {
@@ -29372,7 +29724,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 56
+                  "$ref": 54
                 }
               ],
               "color": {
@@ -29385,7 +29737,7 @@
               },
               "intensity": 6.5,
               "light": {
-                "$ref": 56
+                "$ref": 54
               },
               "name": "Point Light",
               "position": {
@@ -29414,34 +29766,7 @@
         },
         "uuid": "dafcc45cf94ad775"
       },
-      "407": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 09",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              22.508758,
-              -1.736015,
-              79.399427
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -3.141593,
-              0,
-              -3.141592
-            ]
-          },
-          "uuid": "8080adec2f179a46"
-        },
-        "uuid": "b9f31f04915270f5"
-      },
-      "408": {
+      "399": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 649",
         "rootComponent": {
@@ -29479,7 +29804,7 @@
         },
         "uuid": "6143340fc359dc1f"
       },
-      "409": {
+      "400": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 650",
         "rootComponent": {
@@ -29517,7 +29842,7 @@
         },
         "uuid": "b509ea8c39df5cf2"
       },
-      "410": {
+      "401": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "police 05",
         "rootComponent": {
@@ -29527,7 +29852,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 57
+                  "$ref": 55
                 }
               ],
               "color": {
@@ -29540,7 +29865,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 57
+                "$ref": 55
               },
               "name": "Point Light",
               "position": {
@@ -29557,7 +29882,7 @@
               "$bc": "ENGINE.PointLightComponent",
               "children": [
                 {
-                  "$ref": 58
+                  "$ref": 56
                 }
               ],
               "color": {
@@ -29570,7 +29895,7 @@
               },
               "intensity": 200,
               "light": {
-                "$ref": 58
+                "$ref": 56
               },
               "name": "Point Light_02",
               "position": {
@@ -29615,153 +29940,7 @@
         },
         "uuid": "3a2843d5c684526d"
       },
-      "411": {
-        "$bc": "ENGINE.Actor",
-        "name": "Actor 498",
-        "rootComponent": {
-          "$bc": "ENGINE.MeshComponent",
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "name": "MeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              -13.136619,
-              -1.132368,
-              81.688295
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              0,
-              -1.570796,
-              0
-            ]
-          },
-          "scale": {
-            "$bc": "v3",
-            "_": [
-              34.205997,
-              0.2,
-              115.411114
-            ]
-          },
-          "uuid": "6b4ad4de52e211b4"
-        },
-        "uuid": "c440dbb2eacd3ed1"
-      },
-      "412": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 10",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              0.727938,
-              -1.378071,
-              79.399427
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -3.141593,
-              0,
-              -3.141592
-            ]
-          },
-          "uuid": "285b3e5ed877cdc8"
-        },
-        "uuid": "28bdc070ba731e79"
-      },
-      "413": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 11",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              -20.298935,
-              -1.378071,
-              79.399427
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -3.141593,
-              0,
-              -3.141592
-            ]
-          },
-          "uuid": "1e8921e708906166"
-        },
-        "uuid": "c2aa1af49522e199"
-      },
-      "414": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 12",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              -41.090658,
-              -1.378071,
-              79.399427
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -3.141593,
-              0,
-              -3.141592
-            ]
-          },
-          "uuid": "f08388b8bb4ec7ad"
-        },
-        "uuid": "77ecfc30118a7a31"
-      },
-      "415": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "name": "Low poly house 13",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/Low poly house.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              -60.544467,
-              -1.378071,
-              79.399427
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              -3.141593,
-              0,
-              -3.141592
-            ]
-          },
-          "uuid": "15b916480a5ae588"
-        },
-        "uuid": "215a00e75db70a96"
-      },
-      "416": {
+      "402": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 608",
         "rootComponent": {
@@ -29799,7 +29978,7 @@
         },
         "uuid": "5028b1c0dae7bac2"
       },
-      "417": {
+      "403": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 609",
         "rootComponent": {
@@ -29837,7 +30016,7 @@
         },
         "uuid": "0ed5e6f17cdafa0e"
       },
-      "418": {
+      "404": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 610",
         "rootComponent": {
@@ -29875,7 +30054,7 @@
         },
         "uuid": "e3afd44271285f96"
       },
-      "419": {
+      "405": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 611",
         "rootComponent": {
@@ -29913,7 +30092,7 @@
         },
         "uuid": "6a5f568d1849aff0"
       },
-      "420": {
+      "406": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 612",
         "rootComponent": {
@@ -29951,7 +30130,7 @@
         },
         "uuid": "ae4d530bcc82af91"
       },
-      "421": {
+      "407": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 651",
         "rootComponent": {
@@ -29989,75 +30168,7 @@
         },
         "uuid": "7bc24d9bf3ca44f0"
       },
-      "422": {
-        "$bc": "ENGINE.Actor",
-        "name": "Actor 499",
-        "rootComponent": {
-          "$bc": "ENGINE.MeshComponent",
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "name": "MeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              83.166077,
-              -1.046201,
-              128.493945
-            ]
-          },
-          "scale": {
-            "$bc": "v3",
-            "_": [
-              53.00923,
-              0.2,
-              115.411114
-            ]
-          },
-          "uuid": "d7b8ab48216932c9"
-        },
-        "uuid": "f224c55b971a6048"
-      },
-      "423": {
-        "$bc": "ENGINE.Actor",
-        "name": "Actor 500",
-        "rootComponent": {
-          "$bc": "ENGINE.MeshComponent",
-          "children": {
-            "$length": 1
-          },
-          "material": "@project/assets/textures/Grass.material.json",
-          "name": "MeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              -17.021183,
-              -1.046201,
-              124.918977
-            ]
-          },
-          "rotation": {
-            "$bc": "e",
-            "_": [
-              0,
-              -1.570796,
-              0
-            ]
-          },
-          "scale": {
-            "$bc": "v3",
-            "_": [
-              53.00923,
-              0.2,
-              115.411114
-            ]
-          },
-          "uuid": "adf575e4f2475f4f"
-        },
-        "uuid": "3742267cecb82b7b"
-      },
-      "424": {
+      "408": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "tree 15",
         "rootComponent": {
@@ -30092,7 +30203,7 @@
         },
         "uuid": "169f75d066460575"
       },
-      "425": {
+      "409": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "rocks no tunnel 08",
         "rootComponent": {
@@ -30120,7 +30231,7 @@
         },
         "uuid": "166129fca2d32dbb"
       },
-      "426": {
+      "410": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block 07",
         "rootComponent": {
@@ -30139,16 +30250,16 @@
           "rotation": {
             "$bc": "e",
             "_": [
-              -3.141593,
+              3.141592,
               0.034906,
-              -3.141593
+              3.141592
             ]
           },
           "uuid": "0a64be8d7fffbe03"
         },
         "uuid": "53fef5358266281c"
       },
-      "427": {
+      "411": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block 07",
         "rootComponent": {
@@ -30167,16 +30278,16 @@
           "rotation": {
             "$bc": "e",
             "_": [
-              -3.141593,
+              3.141592,
               0.034906,
-              -3.141593
+              3.141592
             ]
           },
           "uuid": "4fe117bc43b03243"
         },
         "uuid": "af0f9b9e544fcb8e"
       },
-      "428": {
+      "412": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "Police block 07",
         "rootComponent": {
@@ -30195,16 +30306,16 @@
           "rotation": {
             "$bc": "e",
             "_": [
-              -3.141593,
+              3.141592,
               0.034906,
-              -3.141593
+              3.141592
             ]
           },
           "uuid": "f0afaae671592525"
         },
         "uuid": "361d49e45f3dcf38"
       },
-      "429": {
+      "413": {
         "$bc": "ENGINE.GLTFMeshActor",
         "name": "weapon",
         "rootComponent": {
@@ -30239,7 +30350,7 @@
         },
         "uuid": "99c1b23c0198918a"
       },
-      "430": {
+      "414": {
         "$bc": "ENGINE.GLTFMeshActor",
         "$initOptions": {
           "modelUrl": "@project/assets/models/New tree.glb",
@@ -30277,7 +30388,7 @@
         },
         "uuid": "767ede9ce2dcdb27"
       },
-      "431": {
+      "415": {
         "$bc": "ENGINE.GLTFMeshActor",
         "$initOptions": {
           "modelUrl": "@project/assets/models/New tree.glb",
@@ -30315,7 +30426,7 @@
         },
         "uuid": "aabb4bbed05ea92a"
       },
-      "432": {
+      "416": {
         "$bc": "ENGINE.GLTFMeshActor",
         "$initOptions": {
           "modelUrl": "@project/assets/models/New tree.glb",
@@ -30353,7 +30464,7 @@
         },
         "uuid": "88ab4185ec097e7d"
       },
-      "433": {
+      "417": {
         "$bc": "ENGINE.Actor",
         "name": "Actor 465",
         "rootComponent": {
@@ -30383,7 +30494,7 @@
         },
         "uuid": "575f407cf6186f70"
       },
-      "434": {
+      "418": {
         "$bc": "ENGINE.GLTFMeshActor",
         "$initOptions": {
           "modelUrl": "@project/assets/models/New tree.glb",
@@ -30421,7 +30532,7 @@
         },
         "uuid": "5b8b7742ca99309b"
       },
-      "435": {
+      "419": {
         "$bc": "ENGINE.GLTFMeshActor",
         "$initOptions": {
           "modelUrl": "@project/assets/models/New tree.glb",
@@ -30459,37 +30570,7 @@
         },
         "uuid": "32149ccf40e931e2"
       },
-      "436": {
-        "$bc": "ENGINE.GLTFMeshActor",
-        "$initOptions": {
-          "modelUrl": "@project/assets/models/new zombie/Meshy_AI_Stylized_undead_subur_biped/Meshy_AI_Stylized_undead_subur_biped_Meshy_AI_Meshy_Merged_Animations.glb",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              13.15969,
-              -0.425748,
-              -5.422128
-            ]
-          }
-        },
-        "name": "Meshy_AI_Stylized_undead_subur_biped_Meshy_AI_Meshy_Merged_Animations",
-        "rootComponent": {
-          "$bc": "ENGINE.GLTFMeshComponent",
-          "modelUrl": "@project/assets/models/new zombie/Meshy_AI_Stylized_undead_subur_biped/Newzombie2.glb",
-          "name": "GLTFMeshComponent",
-          "position": {
-            "$bc": "v3",
-            "_": [
-              10.508679,
-              -0.891467,
-              -5.437251
-            ]
-          },
-          "uuid": "efa735b8-6056-4db9-b792-497d3e334e23"
-        },
-        "uuid": "4e3d339c280c2cca"
-      },
-      "437": {
+      "420": {
         "$bc": "GAME.NewZombieActor",
         "$initOptions": {},
         "name": "NewZombieActor_1",
@@ -30573,16 +30654,118 @@
           "position": {
             "$bc": "v3",
             "_": [
-              -11.038,
+              -8.367455,
               0.9,
-              0
+              -1.006597
+            ]
+          },
+          "rotation": {
+            "$bc": "e",
+            "_": [
+              3.141593,
+              -0.523599,
+              3.141593
             ]
           },
           "uuid": "2dd3f1cd-ff4b-4741-bbb4-fe915b4c0f7e"
         },
         "uuid": "5906050b866afb8c"
       },
-      "$length": 438
+      "421": {
+        "$bc": "GAME.BackgroundMusicActor",
+        "$initOptions": {},
+        "name": "BackgroundMusicActor_1",
+        "rootComponent": {
+          "$bc": "ENGINE.SceneComponent",
+          "name": "SceneComponent",
+          "position": {
+            "$bc": "v3",
+            "_": [
+              0,
+              6.97187,
+              0
+            ]
+          },
+          "uuid": "4a1623de-6962-4f92-a464-d1e0bb9067b0"
+        },
+        "uuid": "b40e9ecadc99cfab"
+      },
+      "422": {
+        "$bc": "GAME.IsometricPlayerPawn",
+        "$initOptions": {},
+        "camera": {
+          "$ref": 60
+        },
+        "cameraDistance": 22,
+        "cameraMaxDistance": 4.9,
+        "cameraPivot": {
+          "$ref": 58
+        },
+        "movementComponent": {
+          "$ref": 57
+        },
+        "name": "IsometricPlayerPawn_1",
+        "replicated": true,
+        "rootComponent": {
+          "$bc": "ENGINE.MeshComponent",
+          "children": {
+            "1": {
+              "$bc": "ENGINE.CharacterStatsComponent",
+              "attackDamage": 0,
+              "healthRegen": 0,
+              "maxHealth": 1000000,
+              "name": "CharacterStatsComponent",
+              "uuid": "3c5456e5-8d81-4374-b8f4-3ef092988951"
+            },
+            "2": {
+              "$ref": 57
+            },
+            "3": {
+              "$ref": 58
+            },
+            "4": {
+              "$ref": 61
+            },
+            "$length": 5
+          },
+          "geometry": {
+            "$bc": "THREE.CapsuleGeometry",
+            "_": [
+              0.45,
+              0.9,
+              4,
+              8
+            ]
+          },
+          "material": {
+            "$bc": "THREE.MeshStandardMaterial",
+            "color": {
+              "$bc": "c",
+              "_": [
+                1,
+                1,
+                0
+              ]
+            },
+            "uuid": "1a1ba2e3-e718-49a7-8abc-ccbea1d184c9",
+            "visible": false
+          },
+          "name": "MeshComponent",
+          "physicsOptions": {
+            "collisionProfile": "Character",
+            "motionType": "kinematicVelocityBased"
+          },
+          "uuid": "32d4d4e0-d051-4a70-8ed7-8aa827243a03"
+        },
+        "springArm": {
+          "$ref": 59
+        },
+        "uuid": "d594877e5e63a3ec",
+        "visualComponent": {
+          "$ref": 61
+        }
+      },
+      "$length": 423
     },
     "editorData": {
       "sceneTree": {
@@ -30725,11 +30908,6 @@
           },
           {
             "id": "234c95274d7441f3",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "8c22bf6ad6ba2932",
             "isExpanded": false,
             "nodeType": "actor"
           },
@@ -31968,31 +32146,6 @@
                     "nodeType": "actor"
                   },
                   {
-                    "id": "93f7e6619a6abbcb",
-                    "isExpanded": false,
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "f224c55b971a6048",
-                    "isExpanded": false,
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "3742267cecb82b7b",
-                    "isExpanded": false,
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "c440dbb2eacd3ed1",
-                    "isExpanded": false,
-                    "nodeType": "actor"
-                  },
-                  {
-                    "id": "689a0f43603a07df",
-                    "isExpanded": false,
-                    "nodeType": "actor"
-                  },
-                  {
                     "id": "e5b242dcb400bfd1",
                     "isExpanded": false,
                     "nodeType": "actor"
@@ -32331,7 +32484,6 @@
               }
             ],
             "id": "folder-faf99cb55414deb2",
-            "isExpanded": false,
             "name": "lamp for church",
             "nodeType": "folder"
           },
@@ -32506,56 +32658,6 @@
           },
           {
             "id": "c394185c511d453f",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "5b3910efd175f397",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "105eb876c517052c",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "5e73032966e1f640",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "25d683deb7bd43af",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "b9f31f04915270f5",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "28bdc070ba731e79",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "c2aa1af49522e199",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "77ecfc30118a7a31",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "215a00e75db70a96",
-            "isExpanded": false,
-            "nodeType": "actor"
-          },
-          {
-            "id": "2d9f2fb2bf676c5d",
             "isExpanded": false,
             "nodeType": "actor"
           },
@@ -32815,12 +32917,17 @@
             "nodeType": "actor"
           },
           {
-            "id": "4e3d339c280c2cca",
+            "id": "5906050b866afb8c",
             "isExpanded": false,
             "nodeType": "actor"
           },
           {
-            "id": "5906050b866afb8c",
+            "id": "b40e9ecadc99cfab",
+            "isExpanded": false,
+            "nodeType": "actor"
+          },
+          {
+            "id": "d594877e5e63a3ec",
             "isExpanded": false,
             "nodeType": "actor"
           }
@@ -32861,30 +32968,30 @@
         },
         {
           "enabled": true,
-          "ignoreBackground": true,
+          "ignoreBackground": false,
           "levels": 8,
           "mipmapBlur": true,
           "radius": 0.57,
           "selectiveEmissive": false,
-          "smoothing": 0.25,
-          "strength": 0.4,
+          "smoothing": 0.39,
+          "strength": 0.1,
           "threshold": 2,
           "type": "bloom"
         },
         {
-          "bias": 0.201,
+          "bias": 0.115,
           "color": null,
           "depthAwareUpsampling": true,
           "distanceExponent": 1,
           "distanceFallOff": 1,
           "enabled": false,
           "fade": 0.01,
-          "gtaoRadius": 0.25,
-          "gtaoSamples": 16,
-          "gtaoStrength": 1,
+          "gtaoRadius": 0.28,
+          "gtaoSamples": 18,
+          "gtaoStrength": 2,
           "luminanceInfluence": 0.7,
           "minRadiusScale": 0.33,
-          "resolutionScale": 0.5,
+          "resolutionScale": 0.75,
           "ssaoRadius": 0.1,
           "ssaoSamples": 9,
           "ssaoStrength": 1.33,
@@ -32907,6 +33014,28 @@
           "skipNonToneMappedMaterials": false,
           "type": "toneMapping",
           "whitePoint": 1
+        },
+        {
+          "contrast": 1,
+          "enabled": false,
+          "exposure": 1,
+          "gain": 1,
+          "gainTint": 16777215,
+          "gamma": 1,
+          "gammaTint": 16777215,
+          "highlightsStrength": 0,
+          "highlightsTint": 16777215,
+          "hueShift": 0,
+          "lift": 0,
+          "liftTint": 16777215,
+          "midtonesStrength": 0,
+          "midtonesTint": 16777215,
+          "saturation": 1,
+          "shadowsStrength": 0,
+          "shadowsTint": 16777215,
+          "temperature": 0,
+          "tint": 0,
+          "type": "colorGrading"
         }
       ]
     },

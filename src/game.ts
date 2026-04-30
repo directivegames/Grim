@@ -14,8 +14,8 @@ import { BackgroundMusicActor } from './actors/BackgroundMusicActor.js';
 import { IsometricPlayerPawn } from './actors/IsometricPlayerPawn.js';
 import { SpinningWeaponActor } from './actors/SpinningWeaponActor.js';
 
-/** Spring-arm length (world units). ~15% further than prior 35. */
-const ISO_CAMERA_DISTANCE = 35 * 1.15;
+/** Spring-arm length (world units). */
+const ISO_CAMERA_DISTANCE = 20;
 
 @ENGINE.GameClass()
 class MyGameMode extends ENGINE.GameMode {

@@ -55,7 +55,7 @@ export class IsometricPlayerPawn extends ENGINE.CharacterPawn {
    * after scene view-target cameras are turned off in `game.ts`).
    */
   @ENGINE.property({ type: 'number', min: 5, max: 80, step: 1, category: 'Camera' })
-  public cameraDistance: number = 27;
+  public cameraDistance: number = 15;
 
   /**
    * Direct local Y of the Grim mesh relative to the capsule root.
